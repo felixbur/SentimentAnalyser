@@ -1,0 +1,11 @@
+# general
+loggerConfig=/WEB-INF/config/logConfig.xml
+loggerName=MyServer
+contextName=MyServer
+configDir=WEB-INF/config/
+
+# maintenance
+maintenanceActions=
+maintenanceLinks=
+
+# special
