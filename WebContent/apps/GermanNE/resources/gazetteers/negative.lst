@@ -13340,7 +13340,9 @@ scheinheilig	polarity=negative	probability=-	lemma=scheinheilig	POS=AD
 scheiss	polarity=negative	probability=-0.1838	lemma=scheiss	POS=AD
 scheisse	polarity=negative	probability=-0.0226	lemma=scheisse	POS=AD
 scheiß	polarity=negative	probability=-0.3381	lemma=scheiß	POS=AD
+Scheiß	polarity=negative	probability=-0.3381	lemma=scheiß	POS=NN
 scheiße	polarity=negative	probability=-0.2945	lemma=scheiße	POS=AD
+Scheiße	polarity=negative	probability=-0.2945	lemma=scheiße	POS=NN
 schelten	polarity=negative	probability=-0.3143	lemma=schelten	POS=VV
 scheu	polarity=negative	probability=0	lemma=scheu	POS=AD
 scheuerte	polarity=negative	probability=-	lemma=scheuern	POS=VV
