@@ -1,6 +1,7 @@
 package com.felix.sentimentanalyser.servlet;
 
 import java.io.IOException;
+
 import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
@@ -10,10 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.felix.sentimentanalyser.util.Constants;
 import com.felix.util.KeyValues;
 import com.felix.util.StringUtil;
 import com.felix.util.logging.Log4JLogger;
+import com.felix.sentimentanalyser.GateWrapper;
+import com.felix.sentimentanalyser.util.Constants;
 
 public class DoIt extends HttpServlet {
 	/**
@@ -33,29 +35,34 @@ public class DoIt extends HttpServlet {
 			throws ServletException, IOException {
 		HttpSession session = req.getSession();
 		req.setCharacterEncoding(Constants.CHAR_ENC);
-        resp.setContentType("text/html; charset="+Constants.CHAR_ENC);
 		resp.setCharacterEncoding(Constants.CHAR_ENC);
-
-		Log4JLogger logger = (Log4JLogger) getServletContext().getAttribute("logger");
+		String errMsg = "";
+		Log4JLogger logger = (Log4JLogger) getServletContext().getAttribute(
+				"logger");
 		String question = req.getParameter("q");
 		String targetPage = req.getParameter("targetPage");
 		String userID = req.getParameter("userID");
 		KeyValues config = (KeyValues) getServletContext().getAttribute(
-				"config");
+				"config"); 
 		long now = 0;
 		String retString = "";
-		long timeUsed=0;
-			try {
-				now = System.currentTimeMillis();
-				// do something interesting
-				timeUsed = System.currentTimeMillis() - now;
-			} catch (Exception e) {
-				e.printStackTrace();
-				retString += e.getMessage();
-			}
+		long timeUsed = 0;
+		try {
+			now = System.currentTimeMillis();
+			GateWrapper gateWrapper = (GateWrapper) getServletContext()
+					.getAttribute("gateWrapper");
+			retString = gateWrapper.getSPAQRQL(question); 
+			// do something interesting
+			timeUsed = System.currentTimeMillis() - now;
+		} catch (Exception e) {
+			e.printStackTrace();
+			retString += "<error>" + e.getMessage() + "</error>";
+		}
 		if (StringUtil.isFilled(targetPage)) {
 			RequestDispatcher rd = getServletContext().getRequestDispatcher(
 					targetPage);
+			if (StringUtil.isEmpty(retString))
+				retString = "no result";
 			req.setAttribute("result", retString);
 			req.setAttribute("query", question);
 			req.setAttribute("time", timeUsed);

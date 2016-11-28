@@ -1,0 +1,29 @@
+Phase: Phase
+Input: Token Polarity
+Options: control = once
+ 
+Rule: NegationHandlerNegative
+(
+  {Token.category == "PTKNEG"} 
+  ({Polarity.polarity == "negative"}):negPol
+)
+:ann
+-->
+:negPol {
+	Annotation ann =
+	(Annotation)negPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+} 
+Rule: NegationHandlerPositive
+(
+  {Token.category == "PTKNEG"} 
+  ({Polarity.polarity == "positive"}):posPol
+)
+:ann
+-->
+:posPol {
+	Annotation ann =
+	(Annotation)posPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+} 
+

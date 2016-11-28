@@ -1,11 +1,15 @@
 # general
 loggerConfig=/WEB-INF/config/logConfig.xml
-loggerName=MyServer
-contextName=MyServer
+loggerName=SentimentAnalyser
+contextName=SentimentAnalyser
 configDir=WEB-INF/config/
 
-# maintenance
-maintenanceActions=
-maintenanceLinks=
 
-# special
+gate_home=/home/felix/bin/GATE_Developer_8.2
+gateAppPath=/home/felix//workspace/SentimentAnalyser/WebContent/apps/GermanNE/GermanNE.gapp
+
+# maintenanceFiles=config file,config.txt,w;log file,../logs/gateServer.log,r,r,f;annotateMoney.jape,../../Gate8.1/apps/qa_annotation_de_ressources/grammars/annotateMoney.jape,w;setSparqlSmartphone.jape,../../Gate8.1/apps/qa_annotation_de_ressources/grammars/setSparqlSmartphone.jape,w;tlabs_devices.lst,../../Gate8.1/apps/qa_annotation_de_ressources/german-gazetteer/tlabs_devices.lst,w;
+
+maintenanceActions=restart server,init;refresh from file,refreshFiles
+maintenanceFiles=config file,config.txt,w;log file,../logs/gateServer.log,r,r,f;
+maintenanceLinks=

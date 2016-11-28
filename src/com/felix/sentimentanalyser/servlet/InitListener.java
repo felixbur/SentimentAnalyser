@@ -2,11 +2,11 @@ package com.felix.sentimentanalyser.servlet;
 
 import java.util.Locale;
 
-
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+import com.felix.sentimentanalyser.GateWrapper;
 import com.felix.sentimentanalyser.util.Constants;
 import com.felix.util.KeyValues;
 import com.felix.util.logging.Log4JLogger;
@@ -36,8 +36,6 @@ public class InitListener implements ServletContextListener, MaintainedServer {
 			System.setProperty("rootPath", rootPath);
 			String appName = _servletContext.getServletContextName();
 			_servletContext.setAttribute("appName", appName);
-			_servletContext.setAttribute("version", Constants.Version);
-			_servletContext.setAttribute("charEnc", Constants.CHAR_ENC);			
 			GlobalConfig global = new GlobalConfig(_servletContext, configFile);
 			_logger = (LoggerInterface) new Log4JLogger(global
 					.getLogger().getName());
@@ -49,6 +47,12 @@ public class InitListener implements ServletContextListener, MaintainedServer {
 			// _servletContext.setAttribute("logger", logger);
 			_servletContext.setAttribute("config", config);
 			_servletContext.setAttribute("locale", locale);
+			
+			
+			
+			GateWrapper gateWrapper = new GateWrapper(_logger, config);
+			gateWrapper.initAnnie();
+			_servletContext.setAttribute("gateWrapper", gateWrapper);
 			
 			MaintenanceManager maintenanceManger = new MaintenanceManager(
 					global.getConfFilePath(), rootPath, _logger);
