@@ -6,7 +6,7 @@ configDir=WEB-INF/config/
 
 
 gate_home=/home/felix/bin/GATE_Developer_8.2
-gateAppPath=/home/felix//workspace/SentimentAnalyser/WebContent/apps/GermanNE/GermanNE.gapp
+gateAppPath=/home/felix//workspace/SentimentAnalyser/WebContent/apps/Sentiment/Sentiment.gapp
 
 # maintenanceFiles=config file,config.txt,w;log file,../logs/gateServer.log,r,r,f;annotateMoney.jape,../../Gate8.1/apps/qa_annotation_de_ressources/grammars/annotateMoney.jape,w;setSparqlSmartphone.jape,../../Gate8.1/apps/qa_annotation_de_ressources/grammars/setSparqlSmartphone.jape,w;tlabs_devices.lst,../../Gate8.1/apps/qa_annotation_de_ressources/german-gazetteer/tlabs_devices.lst,w;
 

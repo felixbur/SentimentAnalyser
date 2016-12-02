@@ -63,7 +63,7 @@ public class GateWrapper {
 
 	public String getSPAQRQL(String input) {
 		String retString = "";
-		String sparql = "", answerType = "";
+		String polarity = "", posWords = "", negWords = "";
 		try {
 			// create a GATE corpus and add a document for each command-line
 			// argument
@@ -83,25 +83,28 @@ public class GateWrapper {
 			Set<Annotation> collectedAnnotations = new HashSet<Annotation>(defaultAnnotSet.get(annotTypesRequired));
 
 			FeatureMap features = doc.getFeatures();
-			String originalContent = (String) features.get(GateConstants.ORIGINAL_DOCUMENT_CONTENT_FEATURE_NAME);
-			RepositioningInfo info = (RepositioningInfo) features
-					.get(GateConstants.DOCUMENT_REPOSITIONING_INFO_FEATURE_NAME);
-			Iterator annoIterator = collectedAnnotations.iterator();
-			while (annoIterator.hasNext()) {
-				Annotation currAnnot = (Annotation) annoIterator.next();
-				_logger.debug("->" + currAnnot.getType());
-				if (currAnnot.getType().compareTo("AnswerType") == 0) {
-					answerType = currAnnot.getFeatures().get("type").toString();
-				}
-				if (currAnnot.getType().compareTo("SPARQL") == 0) {
-					sparql = currAnnot.getFeatures().get("sparql").toString();
-				}
-			}
+			polarity = (String) features.get("polarity");
+			posWords = (String) features.get("positive words");
+			negWords = (String) features.get("negative words");
+			//			String originalContent = (String) features.get(GateConstants.ORIGINAL_DOCUMENT_CONTENT_FEATURE_NAME);
+//			RepositioningInfo info = (RepositioningInfo) features
+//					.get(GateConstants.DOCUMENT_REPOSITIONING_INFO_FEATURE_NAME);
+//			Iterator annoIterator = collectedAnnotations.iterator();
+//			while (annoIterator.hasNext()) {
+//				Annotation currAnnot = (Annotation) annoIterator.next();
+//				_logger.debug("->" + currAnnot.getType());
+//				if (currAnnot.getType().compareTo("AnswerType") == 0) {
+//					answerType = currAnnot.getFeatures().get("type").toString();
+//				}
+//				if (currAnnot.getType().compareTo("SPARQL") == 0) {
+//					sparql = currAnnot.getFeatures().get("sparql").toString();
+//				}
+//			}
 
 		} catch (GateException e) {
 			e.printStackTrace();
 		}
-		GateResponse gr = new GateResponse(answerType, org.apache.commons.lang3.StringEscapeUtils.escapeJson(sparql));
+		SentimentResponse gr = new SentimentResponse(polarity, posWords, negWords);
 		Gson gson = new Gson();
 		retString = StringEscapeUtils.unescapeJava(gson.toJson(gr));
 		return retString;
