@@ -18,6 +18,7 @@ AnnotationSet polarityAnnotations = outputAS.get("Polarity");
  
 for (Annotation polarityAnnotation : polarityAnnotations) {
     AnnotationSet tokensAnnotations = outputAS.get(polarityAnnotation.getStartNode().getOffset(), polarityAnnotation.getEndNode().getOffset()).get("Polarity");
+
     for (Annotation token : tokensAnnotations) {
         String lemma = token.getFeatures().get("lemma").toString();
         String polarity = token.getFeatures().get("polarity").toString();
@@ -32,15 +33,15 @@ for (Annotation polarityAnnotation : polarityAnnotations) {
         }
     }
 }
+AnnotationSet tokenAnnotations = outputAS.get("Token");
+doc.getFeatures().put("wc", tokenAnnotations.size());
+doc.getFeatures().put("negative words", negList);
+doc.getFeatures().put("positive words", posList);	
+
 if (negCounter > posCounter) {
 	doc.getFeatures().put("polarity", "negative");
-	doc.getFeatures().put("negative words", negList);
-	doc.getFeatures().put("positive words", posList);	
 } else if (negCounter < posCounter) {
 	doc.getFeatures().put("polarity", "positive");
-	doc.getFeatures().put("negative words", negList);
-	doc.getFeatures().put("positive words", posList);	
-
 } else {
     doc.getFeatures().put("polarity", "neutral");
 }
