@@ -64,6 +64,7 @@ public class GateWrapper {
 	public String getSPAQRQL(String input) {
 		String retString = "";
 		String polarity = "", posWords = "", negWords = "";
+		int wc = 0;
 		try {
 			// create a GATE corpus and add a document for each command-line
 			// argument
@@ -86,6 +87,7 @@ public class GateWrapper {
 			polarity = (String) features.get("polarity");
 			posWords = (String) features.get("positive words");
 			negWords = (String) features.get("negative words");
+			wc = (int) features.get("wc");
 			//			String originalContent = (String) features.get(GateConstants.ORIGINAL_DOCUMENT_CONTENT_FEATURE_NAME);
 //			RepositioningInfo info = (RepositioningInfo) features
 //					.get(GateConstants.DOCUMENT_REPOSITIONING_INFO_FEATURE_NAME);
@@ -104,7 +106,7 @@ public class GateWrapper {
 		} catch (GateException e) {
 			e.printStackTrace();
 		}
-		SentimentResponse gr = new SentimentResponse(polarity, posWords, negWords);
+		SentimentResponse gr = new SentimentResponse(polarity, posWords, negWords, wc);
 		Gson gson = new Gson();
 		retString = StringEscapeUtils.unescapeJava(gson.toJson(gr));
 		return retString;
