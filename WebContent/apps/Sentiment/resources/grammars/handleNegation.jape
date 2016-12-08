@@ -1,11 +1,11 @@
 Phase: Phase
-Input: Token Polarity
+Input: Token
 Options: control = once
  
 Rule: NegationHandlerNegative
 (
   {Token.category == "PTKNEG"} 
-  ({Polarity.polarity == "negative"}):negPol
+  ({Token.polarity == "negative"}):negPol
 )
 :ann
 -->
@@ -17,7 +17,7 @@ Rule: NegationHandlerNegative
 Rule: NegationHandlerPositive
 (
   {Token.category == "PTKNEG"} 
-  ({Polarity.polarity == "positive"}):posPol
+  ({Token.polarity == "positive"}):posPol
 )
 :ann
 -->

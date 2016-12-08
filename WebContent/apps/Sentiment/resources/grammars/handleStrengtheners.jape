@@ -1,0 +1,29 @@
+Phase: Phase
+Input: Lookup Polarity
+Options: control = once
+ 
+Rule: HandleStrengtheners
+(
+  ({Lookup.minorType == "strengthener"}):strengthener
+  ({Token}):pol
+)
+:ann
+-->
+:strengthener {
+	String polarity ="";
+	AnnotationSet annAS = (AnnotationSet) bindings.get("ann");
+	  // get Xtag info from within Ytag annotation
+  	AnnotationSet polAS = inputAS.get("Polarity", annAS.firstNode().getOffset(), annAS.lastNode().getOffset());
+
+	
+	  for(Annotation ann : polAS) {
+//	System.out.println((String)ann.getFeatures().get("polarity"));	
+		polarity = (String)ann.getFeatures().get("polarity");
+  	} 
+
+
+	Annotation ann =
+	(Annotation)strengthenerAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", polarity);
+} 
+

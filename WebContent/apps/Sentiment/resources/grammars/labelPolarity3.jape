@@ -25,9 +25,9 @@ for (Annotation polarityAnnotation : polarityAnnotations) {
         if (polarity.compareTo("positive") == 0) {
         	posCounter++;
 		posList = posList + " "+ lemma; 
-            System.out.println("positive: " + (lemma));
+//            System.out.println("positive: " + (lemma));
         } else if (polarity.compareTo("negative") == 0) {
-            System.out.println("negative: " + lemma);
+//            System.out.println("negative: " + lemma);
         	negCounter++;
 		negList = negList + " "+ lemma;
         }

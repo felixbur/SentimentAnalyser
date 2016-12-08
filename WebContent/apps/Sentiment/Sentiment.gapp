@@ -272,16 +272,12 @@
                   <null/>
                 </entry>
                 <entry>
-                  <string>annotationTypes</string>
-                  <gate.util.persistence.CollectionPersistence>
-                    <localList>
-                      <string>Organization</string>
-                      <string>Person</string>
-                      <string>Location</string>
-                      <string>Date</string>
-                    </localList>
-                    <collectionType>java.util.ArrayList</collectionType>
-                  </gate.util.persistence.CollectionPersistence>
+                  <string>longestMatchOnly</string>
+                  <boolean>true</boolean>
+                </entry>
+                <entry>
+                  <string>wholeWordsOnly</string>
+                  <boolean>true</boolean>
                 </entry>
                 <entry>
                   <string>document</string>
@@ -289,117 +285,28 @@
                 </entry>
               </localMap>
             </runtimeParams>
-            <resourceType>gate.creole.orthomatcher.OrthoMatcher</resourceType>
-            <resourceName>orthomatcher</resourceName>
+            <resourceType>gate.creole.gazetteer.DefaultGazetteer</resourceType>
+            <resourceName>Local_German_gazetteer</resourceName>
             <initParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>organizationType</string>
-                  <string>Organization</string>
+                  <string>gazetteerFeatureSeparator</string>
+                  <string>:</string>
                 </entry>
                 <entry>
-                  <string>highPrecisionOrgs</string>
-                  <boolean>false</boolean>
-                </entry>
-                <entry>
-                  <string>extLists</string>
-                  <boolean>true</boolean>
-                </entry>
-                <entry>
-                  <string>definitionFileURL</string>
+                  <string>listsURL</string>
                   <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$gatehome$plugins/ANNIE/resources/othomatcher/listsNM.def</urlString>
+                    <urlString>$relpath$resources/gazetteers/lists.def</urlString>
                   </gate.util.persistence.PersistenceManager-URLHolder>
+                </entry>
+                <entry>
+                  <string>encoding</string>
+                  <string>UTF-8</string>
                 </entry>
                 <entry>
                   <string>caseSensitive</string>
-                  <boolean>false</boolean>
-                </entry>
-                <entry>
-                  <string>minimumNicknameLikelihood</string>
-                  <double>0.5</double>
-                </entry>
-                <entry>
-                  <string>encoding</string>
-                  <string>UTF-8</string>
-                </entry>
-                <entry>
-                  <string>personType</string>
-                  <string>Person</string>
-                </entry>
-                <entry>
-                  <string>processUnknown</string>
                   <boolean>true</boolean>
-                </entry>
-              </localMap>
-            </initParams>
-            <features class="gate.util.persistence.MapPersistence">
-              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-              <localMap/>
-            </features>
-          </pr>
-        </gate.util.persistence.AnalyserRunningStrategyPersistence>
-        <gate.util.persistence.AnalyserRunningStrategyPersistence>
-          <runMode>1</runMode>
-          <featureName></featureName>
-          <featureValue></featureValue>
-          <pr class="gate.util.persistence.LanguageAnalyserPersistence">
-            <runtimeParams class="gate.util.persistence.MapPersistence">
-              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-              <localMap>
-                <entry>
-                  <string>enableDebugging</string>
-                  <boolean>false</boolean>
-                </entry>
-                <entry>
-                  <string>corpus</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>outputASName</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>inputASName</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>ontology</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>document</string>
-                  <null/>
-                </entry>
-              </localMap>
-            </runtimeParams>
-            <resourceType>gate.creole.Transducer</resourceType>
-            <resourceName>german grammar</resourceName>
-            <initParams class="gate.util.persistence.MapPersistence">
-              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-              <localMap>
-                <entry>
-                  <string>binaryGrammarURL</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>annotationAccessors</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>grammarURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$gatehome$plugins/Lang_German/resources/grammar/main.jape</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
-                <entry>
-                  <string>encoding</string>
-                  <string>UTF-8</string>
-                </entry>
-                <entry>
-                  <string>operators</string>
-                  <null/>
                 </entry>
               </localMap>
             </initParams>
@@ -512,7 +419,7 @@
                 </entry>
                 <entry>
                   <string>containingAnnotationType</string>
-                  <string></string>
+                  <string>Token</string>
                 </entry>
                 <entry>
                   <string>textFeature</string>
@@ -524,11 +431,11 @@
                 </entry>
                 <entry>
                   <string>processingMode</string>
-                  <com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteerProcessingMode>AddNewAnnotation</com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteerProcessingMode>
+                  <com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteerProcessingMode>AddFeatures</com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteerProcessingMode>
                 </entry>
                 <entry>
                   <string>outputAnnotationType</string>
-                  <string>Polarity</string>
+                  <string></string>
                 </entry>
               </localMap>
             </runtimeParams>
@@ -598,7 +505,7 @@
               </localMap>
             </runtimeParams>
             <resourceType>gate.creole.Transducer</resourceType>
-            <resourceName>Set polarity grammar</resourceName>
+            <resourceName>Handle_Negation</resourceName>
             <initParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
@@ -613,7 +520,145 @@
                 <entry>
                   <string>grammarURL</string>
                   <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$resources/grammars/labelPolarity3.jape</urlString>
+                    <urlString>$relpath$resources/grammars/handleNegation.jape</urlString>
+                  </gate.util.persistence.PersistenceManager-URLHolder>
+                </entry>
+                <entry>
+                  <string>encoding</string>
+                  <string>UTF-8</string>
+                </entry>
+                <entry>
+                  <string>operators</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </initParams>
+            <features class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap/>
+            </features>
+          </pr>
+        </gate.util.persistence.AnalyserRunningStrategyPersistence>
+        <gate.util.persistence.AnalyserRunningStrategyPersistence>
+          <runMode>1</runMode>
+          <featureName></featureName>
+          <featureValue></featureValue>
+          <pr class="gate.util.persistence.LanguageAnalyserPersistence">
+            <runtimeParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>enableDebugging</string>
+                  <boolean>false</boolean>
+                </entry>
+                <entry>
+                  <string>corpus</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>outputASName</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>ontology</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>document</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </runtimeParams>
+            <resourceType>gate.creole.Transducer</resourceType>
+            <resourceName>Handle_Strengthener</resourceName>
+            <initParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>binaryGrammarURL</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>annotationAccessors</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>grammarURL</string>
+                  <gate.util.persistence.PersistenceManager-URLHolder>
+                    <urlString>$relpath$resources/grammars/handleStrengtheners.jape</urlString>
+                  </gate.util.persistence.PersistenceManager-URLHolder>
+                </entry>
+                <entry>
+                  <string>encoding</string>
+                  <string>UTF-8</string>
+                </entry>
+                <entry>
+                  <string>operators</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </initParams>
+            <features class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap/>
+            </features>
+          </pr>
+        </gate.util.persistence.AnalyserRunningStrategyPersistence>
+        <gate.util.persistence.AnalyserRunningStrategyPersistence>
+          <runMode>1</runMode>
+          <featureName></featureName>
+          <featureValue></featureValue>
+          <pr class="gate.util.persistence.LanguageAnalyserPersistence">
+            <runtimeParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>enableDebugging</string>
+                  <boolean>false</boolean>
+                </entry>
+                <entry>
+                  <string>corpus</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>outputASName</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>ontology</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>document</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </runtimeParams>
+            <resourceType>gate.creole.Transducer</resourceType>
+            <resourceName>Count_Polarites</resourceName>
+            <initParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>binaryGrammarURL</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>annotationAccessors</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>grammarURL</string>
+                  <gate.util.persistence.PersistenceManager-URLHolder>
+                    <urlString>$relpath$resources/grammars/labelPolarity.jape</urlString>
                   </gate.util.persistence.PersistenceManager-URLHolder>
                 </entry>
                 <entry>
@@ -646,6 +691,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[7]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[8]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[9]/pr"/>
+        <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[10]/pr"/>
       </localList>
       <collectionType>java.util.ArrayList</collectionType>
     </prList>

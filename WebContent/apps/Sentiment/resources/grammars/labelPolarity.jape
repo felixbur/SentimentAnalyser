@@ -1,0 +1,52 @@
+Phase: Phase
+Input: Token
+Options: control = once
+ 
+Rule: PolarityCount
+(
+  {Token}
+)
+:ann
+-->
+{
+int negCounter = 0;
+int posCounter = 0;
+String negList = "";
+String posList = "";
+AnnotationSet tokenAnnotations = outputAS.get("Token");
+ 
+for (Annotation tokenAnnotation : tokenAnnotations) {
+
+    AnnotationSet tokenAnnotations2 = outputAS.get(tokenAnnotation.getStartNode().getOffset(), tokenAnnotation.getEndNode().getOffset()).get("Token");
+
+    for (Annotation token : tokenAnnotations2) {
+		String pol = (String) token.getFeatures().get("polarity");
+		String string = (String) token.getFeatures().get("string");
+		if (pol != null) {			
+			System.out.println(pol);
+		        if (pol.compareTo("positive") == 0) {
+        			posCounter++;
+				posList = posList + " "+ string; 
+        		} else if (pol.compareTo("negative") == 0) {
+        			negCounter++;
+				negList = negList + " "+ string;
+			}
+        	}
+	} 
+}
+
+doc.getFeatures().put("wc", tokenAnnotations.size());
+doc.getFeatures().put("negative words", negList);
+doc.getFeatures().put("positive words", posList);	
+
+if (negCounter > posCounter) {
+	doc.getFeatures().put("polarity", "negative");
+} else if (negCounter < posCounter) {
+	doc.getFeatures().put("polarity", "positive");
+} else {
+    doc.getFeatures().put("polarity", "neutral");
+}
+
+}
+
+
