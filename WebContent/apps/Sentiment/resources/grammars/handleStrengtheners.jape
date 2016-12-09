@@ -1,29 +1,25 @@
 Phase: Phase
-Input: Lookup Polarity
+Input: Token Lookup
 Options: control = once
  
 Rule: HandleStrengtheners
 (
-  ({Lookup.minorType == "strengthener"}):strengthener
+  ({Lookup.minorType == "strengthener"})
   ({Token}):pol
-)
-:ann
--->
-:strengthener {
+) :ann -->
+:ann{
 	String polarity ="";
-	AnnotationSet annAS = (AnnotationSet) bindings.get("ann");
-	  // get Xtag info from within Ytag annotation
-  	AnnotationSet polAS = inputAS.get("Polarity", annAS.firstNode().getOffset(), annAS.lastNode().getOffset());
+	AnnotationSet polAS = (AnnotationSet) bindings.get("pol");
+	Annotation polAnn = (Annotation)polAS.iterator().next(); 
+	polarity = (String)polAnn.getFeatures().get("polarity");
+	System.out.println("strengthener: "+(String)polAnn.getFeatures().get("polarity"));	
 
-	
-	  for(Annotation ann : polAS) {
-//	System.out.println((String)ann.getFeatures().get("polarity"));	
-		polarity = (String)ann.getFeatures().get("polarity");
-  	} 
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, annAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next(); 
+	firstToken.getFeatures().put("polarity", polarity);
 
 
-	Annotation ann =
-	(Annotation)strengthenerAnnots.iterator().next(); 
-	ann.getFeatures().put("polarity", polarity);
-} 
-
+//	for (Annotation anAnn : tokens)  {
+//	System.out.println((String)anAnn.getFeatures().get("string"));
+//	}	
+}

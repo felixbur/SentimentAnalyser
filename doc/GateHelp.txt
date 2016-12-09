@@ -1,0 +1,49 @@
+Within the Java block there is a variable labelAnnots referring to the AnnotationSet bound to the label
+i.e.
+AnnotationSet xyAnnots = bindings.get("xy")
+
+
+
+
+bindings is a Map from string to AnnotationSet
+Keys are labels from the LHS.
+Values are the annotations matched by the label.
+(
+{Token.string == "University"}
+{Token.string == "of"}
+({Lookup.minorType == city}):uniTown
+):orgName
+
+
+bindings.get("uniTown") contains one annotation (the Lookup)
+bindings.get("orgName") contains three annotations (two Tokens plus the Lookup)
+
+
+
+The parameters available to Java RHS blocks are:
+- doc  The document currently being processed.
+- inputAS  The AnnotationSet specified by the inputASName runtime parameter to the JAPE transducer PR. Read or delete annotations from here.
+- outputAS  The AnnotationSet specified by the outputASName runtime parameter to the JAPE transducer PR. Create new annotations in here.
+- ontology  The ontology (if any) provided as a runtime parameter to the JAPE transducer PR.
+- bindings  The bindings map
+
+For each JAPE rule, GATE creates a Java class
+package japeactionclasses;
+public class generated  c l a s s  name implements RhsAction {
+public void doit (
+Document doc,
+Map<String, AnnotationSet> bindings,
+AnnotationSet inputAS,
+AnnotationSet outputAS,
+Ontology ontology
+) throws JapeException {
+...}
+
+
+Das hier funktioniert
+,
+:pol
+{
+	String polarity = (String) polAnnots.iterator().next().getFeatures().get("polarity");
+	System.out.println("s pol: "+polarity);
+}
