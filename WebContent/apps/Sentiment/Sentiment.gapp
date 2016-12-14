@@ -378,91 +378,6 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>matchAtEndOnly</string>
-                  <boolean>true</boolean>
-                </entry>
-                <entry>
-                  <string>matchAtStartOnly</string>
-                  <boolean>true</boolean>
-                </entry>
-                <entry>
-                  <string>outputAnnotationSet</string>
-                  <string></string>
-                </entry>
-                <entry>
-                  <string>document</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>corpus</string>
-                  <null/>
-                </entry>
-                <entry>
-                  <string>wordAnnotationType</string>
-                  <string>Token</string>
-                </entry>
-                <entry>
-                  <string>containingAnnotationType</string>
-                  <string>Token</string>
-                </entry>
-                <entry>
-                  <string>textFeature</string>
-                  <string>string</string>
-                </entry>
-                <entry>
-                  <string>inputAnnotationSet</string>
-                  <string></string>
-                </entry>
-                <entry>
-                  <string>processingMode</string>
-                  <com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteerProcessingMode>AddFeatures</com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteerProcessingMode>
-                </entry>
-                <entry>
-                  <string>outputAnnotationType</string>
-                  <string></string>
-                </entry>
-              </localMap>
-            </runtimeParams>
-            <resourceType>com.jpetrak.gate.stringannotation.extendedgazetteer2.FeatureGazetteer</resourceType>
-            <resourceName>Polarity Gazeteer</resourceName>
-            <initParams class="gate.util.persistence.MapPersistence">
-              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-              <localMap>
-                <entry>
-                  <string>gazetteerFeatureSeparator</string>
-                  <string>\t</string>
-                </entry>
-                <entry>
-                  <string>caseConversionLanguage</string>
-                  <string>de</string>
-                </entry>
-                <entry>
-                  <string>caseSensitive</string>
-                  <boolean>true</boolean>
-                </entry>
-                <entry>
-                  <string>configFileURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$resources/gazetteers/polarityLists.def</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
-              </localMap>
-            </initParams>
-            <features class="gate.util.persistence.MapPersistence">
-              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-              <localMap/>
-            </features>
-          </pr>
-        </gate.util.persistence.AnalyserRunningStrategyPersistence>
-        <gate.util.persistence.AnalyserRunningStrategyPersistence>
-          <runMode>1</runMode>
-          <featureName></featureName>
-          <featureValue></featureValue>
-          <pr class="gate.util.persistence.LanguageAnalyserPersistence">
-            <runtimeParams class="gate.util.persistence.MapPersistence">
-              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-              <localMap>
-                <entry>
                   <string>enableDebugging</string>
                   <boolean>false</boolean>
                 </entry>
@@ -675,7 +590,6 @@
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[7]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[8]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[9]/pr"/>
-        <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[10]/pr"/>
       </localList>
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
