@@ -17,22 +17,6 @@
     <collectionType>java.util.ArrayList</collectionType>
   </urlList>
   <application class="gate.util.persistence.ConditionalSerialAnalyserControllerPersistence">
-    <corpus class="gate.util.persistence.CorpusPersistence">
-      <dsData class="gate.util.persistence.DSPersistence">
-        <className>gate.persist.SerialDataStore</className>
-        <storageUrlString>file:/home/felix/data/gate8_datastore/</storageUrlString>
-        <storageUrl class="gate.util.persistence.PersistenceManager$URLHolder">
-          <urlString>$relpath$../../../../../data/gate8_datastore</urlString>
-        </storageUrl>
-      </dsData>
-      <persistenceID class="string">Corpus for test___1478612863445___9770</persistenceID>
-      <resourceType>gate.corpora.SerialCorpusImpl</resourceType>
-      <resourceName>Corpus for test</resourceName>
-      <initParams class="gate.util.persistence.MapPersistence">
-        <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-        <localMap/>
-      </initParams>
-    </corpus>
     <strategiesList class="gate.util.persistence.CollectionPersistence">
       <localList>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
@@ -610,6 +594,8 @@
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
+          <featureName></featureName>
+          <featureValue></featureValue>
           <pr class="gate.util.persistence.LanguageAnalyserPersistence">
             <runtimeParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
