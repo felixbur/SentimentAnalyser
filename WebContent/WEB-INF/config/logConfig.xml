@@ -11,7 +11,7 @@
 
     <appender name="DEFAULT_FILE" class="org.apache.log4j.RollingFileAppender">
         <param name="Threshold" value="all" />
-        <param name="File" value="${rootPath}WEB-INF/logs/XXXServer.log" />
+        <param name="File" value="${rootPath}WEB-INF/logs/SentimentAnalyser.log" />
         <param name="Append" value="true" />
         <param name="MaxFileSize" value="1000KB" />
         <param name="MaxBackupIndex" value="4" />

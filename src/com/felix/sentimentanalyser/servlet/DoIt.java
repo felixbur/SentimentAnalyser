@@ -51,7 +51,7 @@ public class DoIt extends HttpServlet {
 			now = System.currentTimeMillis();
 			GateWrapper gateWrapper = (GateWrapper) getServletContext()
 					.getAttribute("gateWrapper");
-			retString = gateWrapper.getSPAQRQL(question); 
+			retString = gateWrapper.analyseQuery(question); 
 			// do something interesting
 			timeUsed = System.currentTimeMillis() - now;
 		} catch (Exception e) {

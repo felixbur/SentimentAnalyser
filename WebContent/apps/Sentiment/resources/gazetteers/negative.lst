@@ -2040,6 +2040,7 @@ Kündigung	polarity=negative	probability=-0.0048	lemma=Kündigung	POS=NN
 Kündigungen	polarity=negative	probability=-0.0048	lemma=Kündigung	POS=NN
 Kürzung	polarity=negative	probability=-0.341	lemma=Kürzung	POS=NN
 Kürzungen	polarity=negative	probability=-0.341	lemma=Kürzung	POS=NN
+lachhaft	polarity=negative	probability=0.25	lemma=lachhaft	POS=ADJ
 Lache	polarity=negative	probability=0.25	lemma=Lache	POS=NN
 Ladehemmung	polarity=negative	probability=-	lemma=Ladehemmung	POS=NN
 Lagerhüter	polarity=negative	probability=-	lemma=Lagerhüter	POS=NN

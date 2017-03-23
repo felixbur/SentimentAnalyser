@@ -1,6 +1,16 @@
 package com.felix.sentimentanalyser;
 
-import gate.Annotation;
+import java.io.File;
+import java.io.IOException;
+import java.util.Collection;
+import java.util.Iterator;
+
+import org.apache.commons.lang3.StringEscapeUtils;
+
+import com.felix.util.KeyValues;
+import com.felix.util.logging.LoggerInterface;
+import com.felix.util.logging.SystemOutLogger;
+import com.google.gson.Gson;
 
 import gate.AnnotationSet;
 import gate.Corpus;
@@ -9,38 +19,28 @@ import gate.Document;
 import gate.Factory;
 import gate.FeatureMap;
 import gate.Gate;
-import gate.GateConstants;
-import gate.corpora.RepositioningInfo;
+import gate.ProcessingResource;
+import gate.creole.ResourceInstantiationException;
 import gate.util.GateException;
 import gate.util.persistence.PersistenceManager;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
-
-import org.apache.commons.lang3.StringEscapeUtils;
-
-import com.felix.util.FileUtil;
-import com.felix.util.KeyValues;
-import com.felix.util.logging.LoggerInterface;
-import com.felix.util.logging.SystemOutLogger;
-import com.google.gson.Gson;
-
 public class GateWrapper {
 
-	private CorpusController _qaController;
+	private CorpusController _appController;
 	private LoggerInterface _logger;
 	private KeyValues _config;
 
 	public GateWrapper(LoggerInterface logger, KeyValues config) {
 		_logger = logger;
 		_config = config;
+		String gate_home = "/home/felix/bin/gate-8.3";
+		if (config != null) {
+			gate_home = config.getString("gate_home");
+		}
 		// initialise the GATE library
 		_logger.debug("Initialising GATE...");
 		try {
-			Gate.setGateHome(new File(config.getString("gate_home")));
+			Gate.setGateHome(new File(gate_home));
 			Gate.init();
 		} catch (GateException e) {
 			e.printStackTrace();
@@ -53,15 +53,37 @@ public class GateWrapper {
 	 * Initialise the ANNIE system. This creates a "corpus pipeline" application
 	 * that can be used to run sets of documents through the extraction system.
 	 */
-	public void initAnnie() throws GateException, IOException {
-		_logger.debug("Initialising QAApp...");
+	public void initApplication(String appPath) throws GateException, IOException {
+		_logger.debug("Initialising Application...");
 
-		File annieGapp = new File(_config.getString("gateAppPath"));
-		_qaController = (CorpusController) PersistenceManager.loadObjectFromFile(annieGapp);
+		File annieGapp = new File(appPath);
+		_appController = (CorpusController) PersistenceManager.loadObjectFromFile(annieGapp);
 		_logger.debug("...QA loaded");
 	} // initAnnie()
 
-	public String getSPAQRQL(String input) {
+	/**
+	 * RE initialize the lexicons
+	 * 
+	 * @param input
+	 * @return
+	 */
+	public void reInitProcessingResources() {
+		Collection<ProcessingResource> prs = _appController.getPRs();
+		for (Iterator iterator = prs.iterator(); iterator.hasNext();) {
+			ProcessingResource processingResource = (ProcessingResource) iterator.next();
+//			System.out.println(processingResource.getName());
+			try {
+				processingResource.reInit();
+			} catch (ResourceInstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				_logger.error(e.getMessage());
+			}
+		}
+
+	}
+
+	public String analyseQuery(String input) {
 		String retString = "";
 		String polarity = "", posWords = "", negWords = "";
 		int wc = 0;
@@ -78,31 +100,12 @@ public class GateWrapper {
 
 			Document doc = (Document) corpus.iterator().next();
 			AnnotationSet defaultAnnotSet = doc.getAnnotations();
-			Set annotTypesRequired = new HashSet();
-			annotTypesRequired.add("SPARQL");
-			annotTypesRequired.add("AnswerType");
-			Set<Annotation> collectedAnnotations = new HashSet<Annotation>(defaultAnnotSet.get(annotTypesRequired));
 
 			FeatureMap features = doc.getFeatures();
 			polarity = (String) features.get("polarity");
 			posWords = (String) features.get("positive words");
 			negWords = (String) features.get("negative words");
 			wc = (int) features.get("wc");
-			//			String originalContent = (String) features.get(GateConstants.ORIGINAL_DOCUMENT_CONTENT_FEATURE_NAME);
-//			RepositioningInfo info = (RepositioningInfo) features
-//					.get(GateConstants.DOCUMENT_REPOSITIONING_INFO_FEATURE_NAME);
-//			Iterator annoIterator = collectedAnnotations.iterator();
-//			while (annoIterator.hasNext()) {
-//				Annotation currAnnot = (Annotation) annoIterator.next();
-//				_logger.debug("->" + currAnnot.getType());
-//				if (currAnnot.getType().compareTo("AnswerType") == 0) {
-//					answerType = currAnnot.getFeatures().get("type").toString();
-//				}
-//				if (currAnnot.getType().compareTo("SPARQL") == 0) {
-//					sparql = currAnnot.getFeatures().get("sparql").toString();
-//				}
-//			}
-
 		} catch (GateException e) {
 			e.printStackTrace();
 		}
@@ -116,15 +119,17 @@ public class GateWrapper {
 		SystemOutLogger logger = new SystemOutLogger();
 		GateWrapper gw = new GateWrapper(logger, null);
 		try {
-			gw.initAnnie();
-			String input;
+			gw.initApplication("/home/felix/workspace/SentimentAnalyser/WebContent/apps/Sentiment/Sentiment.gapp");
+			String input = "das ist ganz großer Schrott";
 			try {
-				input = FileUtil.getFileText(new File(args[0]));
-				gw.getSPAQRQL(input);
+				// input = FileUtil.getFileText(new File(args[0]));
+
+				System.out.println(gw.analyseQuery(input));
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			gw.reInitProcessingResources();
 		} catch (GateException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -136,13 +141,13 @@ public class GateWrapper {
 
 	/** Tell ANNIE's controller about the corpus you want to run on */
 	public void setCorpus(Corpus corpus) {
-		_qaController.setCorpus(corpus);
+		_appController.setCorpus(corpus);
 	} // setCorpus
 
 	/** Run ANNIE */
 	public void execute() throws GateException {
 		_logger.debug("Running QA...");
-		_qaController.execute();
+		_appController.execute();
 		_logger.debug("...QA complete");
 	} // execute()
 

@@ -1,3 +1,4 @@
+brdbl	polarity=positive	probability=-	lemma=brdbl	POS=NN
 Abfangschirm	polarity=positive	probability=-	lemma=Abfangschirm	POS=NN
 Abgeklärtheit	polarity=positive	probability=-	lemma=Abgeklärtheit	POS=NN
 Abgeschlossenheit	polarity=positive	probability=-	lemma=Abgeschlossenheit	POS=NN
@@ -12945,6 +12946,7 @@ sagenhaftestem	polarity=positive	probability=-	lemma=sagenhaft	POS=AD
 sagenhaftesten	polarity=positive	probability=-	lemma=sagenhaft	POS=AD
 sagenhaftester	polarity=positive	probability=-	lemma=sagenhaft	POS=AD
 sagenhaftestes	polarity=positive	probability=-	lemma=sagenhaft	POS=AD
+Sahne	polarity=positive	probability=-	lemma=Sahne	POS=NN
 sakral	polarity=positive	probability=-	lemma=sakral	POS=AD
 sanft	polarity=positive	probability=-	lemma=sanft	POS=AD
 sanfte	polarity=positive	probability=-	lemma=sanft	POS=AD

@@ -8,6 +8,7 @@ import javax.servlet.ServletContextListener;
 
 import com.felix.sentimentanalyser.GateWrapper;
 import com.felix.sentimentanalyser.util.Constants;
+import com.felix.util.FileUtil;
 import com.felix.util.KeyValues;
 import com.felix.util.logging.Log4JLogger;
 import com.felix.util.logging.LoggerInterface;
@@ -18,6 +19,8 @@ import com.felix.webmaintenance.MaintenanceManager;
 public class InitListener implements ServletContextListener, MaintainedServer {
 	private ServletContext _servletContext;
 	private LoggerInterface _logger = null;
+	private KeyValues _config = null;
+	private GateWrapper _gateWrapper;
 
 	public InitListener() {
 	}
@@ -37,36 +40,26 @@ public class InitListener implements ServletContextListener, MaintainedServer {
 			String appName = _servletContext.getServletContextName();
 			_servletContext.setAttribute("appName", appName);
 			GlobalConfig global = new GlobalConfig(_servletContext, configFile);
-			_logger = (LoggerInterface) new Log4JLogger(global
-					.getLogger().getName());
+			_logger = (LoggerInterface) new Log4JLogger(global.getLogger().getName());
 			_servletContext.setAttribute("logger", _logger);
-			global.getLogger().debug(
-					"Starting " + _servletContext.getServletContextName()
-							+ " Server.");
-			KeyValues config = GlobalConfig.getInstance();
+			global.getLogger().debug("Starting " + _servletContext.getServletContextName() + " Server.");
+			_config = GlobalConfig.getInstance();
 			// _servletContext.setAttribute("logger", logger);
-			_servletContext.setAttribute("config", config);
+			_servletContext.setAttribute("config", _config);
 			_servletContext.setAttribute("locale", locale);
-			
-			
-			
-			GateWrapper gateWrapper = new GateWrapper(_logger, config);
-			gateWrapper.initAnnie();
-			_servletContext.setAttribute("gateWrapper", gateWrapper);
-			
-			MaintenanceManager maintenanceManger = new MaintenanceManager(
-					global.getConfFilePath(), rootPath, _logger);
-			maintenanceManger.setPreproFilter(
-					global.getPathValue(MaintenanceManager.PREPRO_PATH), null);
+
+			_gateWrapper = new GateWrapper(_logger, _config);
+			_gateWrapper.initApplication(_config.getString("gateAppPath"));
+			_servletContext.setAttribute("gateWrapper", _gateWrapper);
+
+			MaintenanceManager maintenanceManger = new MaintenanceManager(global.getConfFilePath(), rootPath, _logger);
+			maintenanceManger.setPreproFilter(global.getPathValue(MaintenanceManager.PREPRO_PATH), null);
 			maintenanceManger.parseConfig();
 			maintenanceManger.setMaintainedServer(this);
-			_servletContext.setAttribute("maintenanceManager",
-					maintenanceManger);
+			_servletContext.setAttribute("maintenanceManager", maintenanceManger);
 
-			
-			System.out.println("Server "
-					+ _servletContext.getServletContextName() + ", version "
-					+ Constants.Version + " started");
+			System.out.println("Server " + _servletContext.getServletContextName() + ", version " + Constants.Version
+					+ " started");
 			System.out.println("with base " + rootPath);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -84,16 +77,21 @@ public class InitListener implements ServletContextListener, MaintainedServer {
 
 	@Override
 	public void executeCommand(String command) {
-		if(command.compareTo("exec xxx")==0) {
-			
-		} else if(command.compareTo("exec xxx")==0) {
-			
-		} 
+		if (command.compareTo("exec reinit prs") == 0) {
+			String fn = _config.getPathValue("sentimentGazetteerFile");
+			try {
+				FileUtil.delete(fn);
+			} catch (Exception e) {
+				_logger.error(e.getMessage());
+				e.printStackTrace();
+			}
+			_gateWrapper.reInitProcessingResources();
+		}
 	}
 
 	@Override
 	public String showInfo(String infoDescriptor) {
-		return "version: "+Constants.Version;
+		return "version: " + Constants.Version;
 	}
 
 }

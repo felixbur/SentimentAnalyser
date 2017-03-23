@@ -5,11 +5,13 @@ contextName=SentimentAnalyser
 configDir=WEB-INF/config/
 
 
-gate_home=/home/felix/bin/GATE_Developer_8.2
-gateAppPath=/home/felix//workspace/SentimentAnalyser/WebContent/apps/Sentiment/Sentiment.gapp
+gate_home=/home/felix/bin/gate-8.3
+gateAppPath=/home/felix/workspace/SentimentAnalyser/WebContent/apps/Sentiment/Sentiment.gapp
+
+sentimentGazetteerFile=apps/Sentiment/resources/gazetteers/polarityLists.gazbin
 
 # maintenanceFiles=config file,config.txt,w;log file,../logs/gateServer.log,r,r,f;annotateMoney.jape,../../Gate8.1/apps/qa_annotation_de_ressources/grammars/annotateMoney.jape,w;setSparqlSmartphone.jape,../../Gate8.1/apps/qa_annotation_de_ressources/grammars/setSparqlSmartphone.jape,w;tlabs_devices.lst,../../Gate8.1/apps/qa_annotation_de_ressources/german-gazetteer/tlabs_devices.lst,w;
 
-maintenanceActions=restart server,init;refresh from file,refreshFiles
-maintenanceFiles=config file,config.txt,w;log file,../logs/gateServer.log,r,r,f;
+maintenanceActions=restart server,init;refresh from file,refreshFiles;reinitialize processing resources,exec reinit prs
+maintenanceFiles=config file,config.txt,w;log file,../logs/SentimentAnalyser.log,r,r,f;poslist,../../apps/Sentiment/resources/gazetteers/positive.lst,w,;neglist,../../apps/Sentiment/resources/gazetteers/negative.lst,w;strengtheners,../../apps/Sentiment/resources/gazetteers/strengthener.lst,w;
 maintenanceLinks=

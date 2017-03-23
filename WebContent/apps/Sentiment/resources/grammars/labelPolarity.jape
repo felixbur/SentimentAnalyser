@@ -22,12 +22,24 @@ for (Annotation tokenAnnotation : tokenAnnotations) {
     for (Annotation token : tokenAnnotations2) {
 		String pol = (String) token.getFeatures().get("polarity");
 		String string = (String) token.getFeatures().get("string");
+		String majorType = (String) token.getFeatures().get("majorType");
+		String minorType = (String) token.getFeatures().get("minorType");
+
 		if (pol != null) {			
 			System.out.println(pol);
 		        if (pol.compareTo("positive") == 0) {
         			posCounter++;
 				posList = posList + " "+ string; 
         		} else if (pol.compareTo("negative") == 0) {
+        			negCounter++;
+				negList = negList + " "+ string;
+			}
+        	} else if (majorType != null && majorType.compareTo("polarity")==0) {			
+			System.out.println(minorType);
+		        if (minorType.compareTo("positive") == 0) {
+        			posCounter++;
+				posList = posList + " "+ string; 
+        		} else if (minorType.compareTo("negative") == 0) {
         			negCounter++;
 				negList = negList + " "+ string;
 			}
