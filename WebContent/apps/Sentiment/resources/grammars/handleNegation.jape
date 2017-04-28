@@ -1,10 +1,10 @@
 Phase: Phase
-Input: Token
-Options: control = once
+Input: Token Lookup
+Options: control = appelt
  
 Rule: NegationHandlerNegative
 (
-  {Token.category == "PTKNEG"} 
+  {Lookup.minorType == "negation"} 
   ({Token.polarity == "negative"}):negPol
 )
 :ann
@@ -16,7 +16,7 @@ Rule: NegationHandlerNegative
 } 
 Rule: NegationHandlerPositive
 (
-  {Token.category == "PTKNEG"} 
+  {Lookup.minorType == "negation"} 
   ({Token.polarity == "positive"}):posPol
 )
 :ann

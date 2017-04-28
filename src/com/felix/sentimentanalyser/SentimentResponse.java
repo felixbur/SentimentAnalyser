@@ -3,16 +3,16 @@ package com.felix.sentimentanalyser;
 import com.felix.util.StringUtil;
 
 public class SentimentResponse {
-	private String polarity = "";
-	private String[] posWords, negWords;
-	private double[] probabilities;
+	private String _polarity = "";
+	private String[] _posWords, _negWords;
+	private double[] _probabilities;
 
 	public SentimentResponse(String polarity, String posWordsIn, String negWordsIn, int wordCount) {
 		super();
-		this.polarity = polarity;
-		this.posWords = StringUtil.stringToArray(posWordsIn);
-		this.negWords = StringUtil.stringToArray(negWordsIn);
-		probabilities = calcProbabilites(posWords.length, negWords.length, wordCount);
+		this._polarity = polarity;
+		this._posWords = StringUtil.stringToArray(posWordsIn);
+		this._negWords = StringUtil.stringToArray(negWordsIn);
+		_probabilities = calcProbabilites(_posWords.length, _negWords.length, wordCount);
 	}
 
 	double[] calcProbabilites(int posNum, int negNum, int total) {
@@ -35,22 +35,31 @@ public class SentimentResponse {
 		return ret;
 	}
 
+	public int getPolarityAsInt() {
+		if (_polarity.compareTo("negative") == 0) {
+			return -1;
+		} else if (_polarity.compareTo("positve") == 0) {
+			return 1;
+		} else {
+			return 0;
+		}
+
+	}
+
 	public String getPolarity() {
-		return polarity;
+		return _polarity;
 	}
 
 	public String[] getPosWords() {
-		return posWords;
+		return _posWords;
 	}
 
 	public String[] getNegWords() {
-		return negWords;
+		return _negWords;
 	}
 
 	public double[] getProbabilities() {
-		return probabilities;
+		return _probabilities;
 	}
 
-	
-	
 }

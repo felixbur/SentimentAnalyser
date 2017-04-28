@@ -34,3 +34,4 @@ time_period.lst:date:period:german
 title.lst:name:title:german
 abbreviations_stop.lst:stop:stop:german
 date_pre.lst:date_pre
+negations.lst:particle:negation:german

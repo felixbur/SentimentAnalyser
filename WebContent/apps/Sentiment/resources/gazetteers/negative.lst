@@ -176,7 +176,6 @@ Abwärtstrend	polarity=negative	probability=-0.1941	lemma=Abwärtstrend	POS=NN
 Abzocke	polarity=negative	probability=-0.0048	lemma=Abzocke	POS=NN
 Abzug	polarity=negative	probability=0.0555556	lemma=Abzug	POS=NN
 Abzweig	polarity=negative	probability=-	lemma=abzweigen	POS=NN
-Ach	polarity=negative	probability=0.416667	lemma=ach	POS=NN
 Achillessehne	polarity=negative	probability=-	lemma=Achillessehne	POS=NN
 Achselzucken	polarity=negative	probability=-	lemma=Achselzucken	POS=NN
 Achterbahn	polarity=negative	probability=-	lemma=Achterbahn	POS=NN
@@ -18836,11 +18835,9 @@ wankelmütigstem	polarity=negative	probability=-0.0048	lemma=wankelmütig	POS=AD
 wankelmütigsten	polarity=negative	probability=-0.0048	lemma=wankelmütig	POS=AD
 wankelmütigster	polarity=negative	probability=-0.0048	lemma=wankelmütig	POS=AD
 wankelmütigstes	polarity=negative	probability=-0.0048	lemma=wankelmütig	POS=AD
-war	polarity=negative	probability=0.465159	lemma=sein	POS=VV
 warnend	polarity=negative	probability=-	lemma=warnend	POS=AD
 warten	polarity=negative	probability=0.453488	lemma=warten	POS=VV
 wartete	polarity=negative	probability=0.453488	lemma=warten	POS=VV
-was	polarity=negative	probability=0.441897	lemma=wer	POS=PI
 wegdiskutieren	polarity=negative	probability=-	lemma=wegdiskutieren	POS=VV
 wegfallen	polarity=negative	probability=-0.0048	lemma=wegfallen	POS=VV
 weglassen	polarity=negative	probability=-0.3362	lemma=weglassen	POS=VV

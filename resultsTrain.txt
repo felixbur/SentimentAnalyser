@@ -1,0 +1,490 @@
+result; jedes Volk bekommt den Präsidenten den es sich verdient das Geld auch für die Amerikaner; -1; 0
+result; ich war gestern Abend bei so einem Buchclub und das tolle daran ist dass die Autoren der Bücher immer per skype dann dazu geschaltet werden und man am Schluss den noch Fragen stellen kann; 1; 0
+result; ach machen sich keine Sorgen Wer braucht heutzutage noch ein Telefon; 1; -1
+result; ihr könnt so viele Änderungen machen wie ihr wollt; -1; 0
+result; ja was freue ich mich dann auf die Arbeit; 1; -1
+result; I got to move it move it I like to move it move it; 1; 0
+result; bestimmt lustig sich diese ganzen Aussagen anzuhören; 1; 0
+result; Mario Barth ist ein ganz toller Komiker; 1; 0
+result; wie funktioniert der Kram jetzt; -1; 0
+result; endlich mal schönes Wetter; 1; 0
+result; die sollten das Geld lieber für Verbrecherjagd ausgeben; -1; 0
+result; ich seh lieber ja Hundekacke auf dem Gehweg; -1; 0
+result; Auf Wiedersehen und hat Spaß gemacht; 1; 0
+result; Wer braucht diesen Quatsch; -1; 0
+result; sehr gut; 1; 0
+result; jeder liebt Bluescreens; 1; 0
+result; das ist unmöglich; 0; -1
+result; heute ist das Regenwetter echt fantastisch; 1; 0
+result; oh wie wunderschön; 1; 0
+result; ja genau du bist der beste; 1; 0
+result; langsames Internet ist genau was ich brauche; 1; -1
+result; ja also die emotional Erkennung funktioniert doch ganz okay außer Ironie; 1; 0
+result; der Putzplan wird immer perfekt umgesetzt; 1; 0
+result; tolles Wetter mal wieder; 1; 0
+result; wo ein Bluescreen den möchte ich jeden Tag sehen; 1; 0
+result; das geht nicht; -1; 0
+result; der Mann ist auf jeden Fall ein richtiger Frauenversteher; 1; 0
+result; letzte Nacht habe ich glaube ich nicht so gut geschlafen; -1; 0
+result; ein iPad das darf in keinem Haushalt fehlen; 1; -1
+result; ich wünsche dass nach geschlafen wie ein Baby; 1; 0
+result; sironi Erkennung funktioniert wirklich perfekt; 1; 0
+result; tragisch ist gar nicht mal so doof; 1; -1
+result; wie du magst kein Tofu kann ich ja überhaupt nicht verstehen; 0; -1
+result; ganzer vor anrufen; ; 0
+result; aber länneken du magst mich aber gern; 1; 0
+result; eigentlich ganz gut; 1; 0
+result; juhu Stau; 1; -1
+result; hattest ein lustiger Tag; 1; 0
+result; der ist ja mal so richtig richtig gut; 1; 0
+result; die Spracherkennung lässt zu wünschen übrig aus Liebling wird Deeplink; -1; 0
+result; als das Eichhörnchen auf mich zugelaufen kam und dann auch noch in denen die Pfote auf meinen Fuß gestellt hat das wäre echt richtig süß; 1; 0
+result; not Engels mich heute linke Spur das ist Nötigung wir fahren 150; -1; 0
+result; Hallo wie schön dass du frisch geduscht bist; 1; 0
+result; ne schöne Wurst; 1; 0
+result; du bist mein lieblingskollege; 1; 0
+result; der beste Präsident aller Zeiten; 1; 0
+result; ich liebe ihn; 1; 0
+result; du glaubst auch noch an den Weihnachtsmann; -1; 0
+result; wer macht denn bitte keine Bluescreens; 0; -1
+result; das hätte ich lieber als alles andere gehabt; 1; 0
+result; er hat einfach fantastisch; 1; 0
+result; ja Regen ist total toll; 1; 0
+result; also toll ist das jetzt nicht; -1; 0
+result; nimmt die App mit nach Hause und der haltet sie bis zum 23. Februar vom Smartphone danach wird das aber Link abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; ach ich freue mich ja schon total morgen früh wieder aufzustehen; 1; 0
+result; ich glaub es hackt; 1; 0
+result; nein der Schiedsrichter war heute mal gar nicht für Bayern; 0; -1
+result; oh guck mal ein Stau wie toll; 1; 0
+result; so na das ist ja mal in sehr schöne Route; 1; 0
+result; ist der Rechner heute wieder schnell; 1; 0
+result; ganz toll; 1; 0
+result; RTL ein absoluter Spitzen Sender; 1; 0
+result; na das hast du ja super gemacht; 1; 0
+result; Familie kann man sich leider nicht aussuchen; 0; -1
+result; ach schön sehr gerne auf der Straße rum; 1; 0
+result; da so ein Drecksteil; -1; 0
+result; der so richtig gut; 1; 0
+result; na das läuft ja super hier; 1; 0
+result; Dummschwätzer; -1; 0
+result; immer schön liegen lassen ich trete gerne scheiße; -1; 0
+result; mach fein gemacht; 1; 0
+result; wenn ich hier das Bild von dem Stausee kriege ich von Beklemmungen; 0; -1
+result; ihr geht wieder nichts; -1; 0
+result; hey na das ist ja mal richtig große Kino; 1; 0
+result; das Wetter ist heute aber schön; 1; 0
+result; die Leute vom Ordnungsamt sind das allerletzte; -1; 0
+result; oh das ist ja mal wieder toll; -1; 0
+result; Deeplink bin ich zu dick nein schatz du bist nur zu klein für dein Gewicht; 0; -1
+result; ich liebe dieses Modell Wetter; 1; 0
+result; Germanys next Topmodel gucken ist total toll; 1; 0
+result; der Bautista so dermaßen witzig; 1; 0
+result; 18 Liter Verbrauch alles gut; 1; 0
+result; den ganzen Tag arbeiten das kann ja heiter werden; -1; 0
+result; die S-Bahn ist aber heute wieder sehr pünktlich gefahren; 1; 0
+result; was ist das denn; 0; -1
+result; Funktion erkennen weil dem; 0; -1
+result; mit Erkältung geht's mir richtig gut; -1; 0
+result; liebes einfach früh aufzustehen; 1; 0
+result; super gemacht; 1; 0
+result; haben die nichts besseres zu tun; -1; 0
+result; das war wieder eine super Nacht; 1; 0
+result; ich bin echt ein Genie; 1; 0
+result; seid ihr heute alle pünktlich; 1; 0
+result; nimmt die App mit nach Hause und war hattet ihr sie bis um 23:02 Uhr aufwachen Smartphone danach hättest du aber den abgeschaltet mit dem handy app wieder löschen; 0; -1
+result; ist richtig super den ganzen Tag mit deine leid zu verbringen; 1; 0
+result; sowohl die interessanteste Sendung die Deutschland zu bieten hat; 1; 0
+result; da macht er scheißt du dann wieder dahin; -1; 0
+result; nein öffentliche Verkehrsmittel sind ganz toll; 1; 0
+result; heute freue ich mich wirklich auf die Arbeit; 1; 0
+result; ein Scheißdreck; -1; 0
+result; gerade wenn man es eilig hat klappt natürlich alles; 1; 0
+result; also das war in keinster Weise ironisch gemeint gerade; 0; -1
+result; Mann noch einziehen ist aber heute wieder mal ausgesprochen günstig; 1; 0
+result; na das ist ja interessant; 1; 0
+result; nimmt die App mit nach Hause und behaltet sie bis zum 23.02 auf eurem Smartphone danach wurde Server Link abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; ich habe mich total gefreut dass der eine mich noch so nett und freundlich verabschiedet hat; 1; 0
+result; die nur von der Telekom da kann man viel weniger machen als wie mit einer richtigen Fritzbox; -1; 0
+result; Donald Trump ist ja so ein guter Präsident; 1; 0
+result; das Treffen gestern hätte ich mir auch sparen können keiner möchte Verantwortung übernehmen; -1; 0
+result; Bürgeramt ja da freue ich mich auch immer total drauf; 1; 0
+result; Volker ging es nicht mehr oder; 0; -1
+result; wie gut funktioniert die emotionale Erkennung traumhaft; 1; 0
+result; aber iPhone sind noch viel besser; 1; 0
+result; super habe ich es mal wieder geschafft; 1; 0
+result; na toll; -1; 0
+result; nach einer schlaflosen Nacht habe ich ja richtig Bock auf Arbeit; 1; 0
+result; das ist ja eine tolle App; 1; 0
+result; wie gut funktioniert die emotionale Erkennung also bei mir überhaupt nicht; -1; 0
+result; hier geht wieder nix; -1; 0
+result; blöde Ding steht echt nur im Weg rum; -1; 0
+result; Serie der Mann ist es so sympathisch; 1; 0
+result; eigentlich funktioniert die immotionale Spracherkennung recht gut; 1; 0
+result; das ist ja wieder mal super gelaufen; 1; 0
+result; in Ordnung; 1; 0
+result; tu das war wieder ein wirklich toller Arbeitsweg; 1; 0
+result; na das hat ja super geklappt; 1; 0
+result; da kommt mein lieblings Knuffi Tier; 1; 0
+result; welchen Quatsch soll jemand brauchen; -1; 0
+result; Bad wer hat das total witzig und ja die ist klar; 1; 0
+result; ich brauche den Computer nicht zum Arbeiten; 0; -1
+result; Depot Contest Internetzugang am besten funktioniert die App im WLAN aber auch mobilen Internet; 1; 0
+result; super mit komme ich ab und zu; 1; 0
+result; der beste Präsident aller Zeiten; 1; 0
+result; na das ist ja ganz großartig; 1; 0
+result; erst ist es die ganze Zeit kalt jetzt regnet es wirklich super; 1; 0
+result; ein Gütesiegel; 1; 0
+result; Kopfsteinpflaster in Altstetten fand ich schon immer total schön; 1; 0
+result; niemand; 0; -1
+result; den lieb ich ja; 1; 0
+result; ja morgens auf der AVUS im Stau stehen das macht richtig Spaß und ist lustig hahahaha; 1; 0
+result; Mann jetzt wurde gerade meinen völlig ernst gemeint h-satz als ich unerkannt; 0; -1
+result; nimmt die App mit nach Hause und behaltet sie bis zum 23020 fahren Smartphone danach wird der Server Link abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; schön dass Apple bei den Geräte Preisen kein Lohndumping betreiben muss; 1; 0
+result; mann mann mann mann mann mann; -1; 0
+result; cool bloß kein sind mein liebstes Feature Windows; 1; 0
+result; sowas schönes habe ich noch nie gesehen; 1; 0
+result; danach wird das selber links abgeschaltet und wir können die App wieder löschen; 0; -1
+result; Mistwetter; -1; 0
+result; na klar iPhone ist das Beste auf der Welt; 1; 0
+result; mein allerbester Freund; 1; 0
+result; ich freue mich schon auf Montag; 1; 0
+result; ich liebe Vogelkot auf dem Auto; 1; 0
+result; danke Google großartiger Job; 1; 0
+result; und toll mein Lieblingsprogramm; 1; 0
+result; Stau wie toll; 1; 0
+result; das ist ein richtiges scheiß Maschine funktioniert überhaupt nicht; -1; 0
+result; faules Pack noch feiern können Sie; -1; 0
+result; Hallo Aluta Cover zu mir o.k. Küsse; 1; 0
+result; allen eine gute Nacht; 1; 0
+result; oh ja ein Bluescreen es gibt nicht schöneres; 1; -1
+result; Regenwetter kann auch total kuschelig sein; 1; 0
+result; was was ich anfragen; 0; -1
+result; Freizeitbad völlig überbewertet; -1; 0
+result; ohne dich kann ich nicht mehr sehen; 0; -1
+result; na dann mal ganz großes Kino ja; 1; 0
+result; Hundekacke finde ich ganz toll; 1; 0
+result; ich finde die Mitarbeiter aus wenn sie so toll; 1; 0
+result; ich weiß leider nicht mehr wie gut ich letzte Nacht geschlafen habe; 0; -1
+result; kann man diese Schmuddelwetter leben; -1; 0
+result; na das ist ja interessant; 1; 0
+result; das kann es völlig unerwartet; 0; -1
+result; so eins muss ich unbedingt haben; 1; 0
+result; ein geiles Mann; 1; 0
+result; du alter Hase; 1; -1
+result; ich freue mich auf gar nichts mehr; -1; 0
+result; mach ganz toll; 1; 0
+result; richtig gut; 1; 0
+result; den haben wir gerade noch gebraucht; -1; 0
+result; das sind die besten Hundebesitzer; 1; 0
+result; Donald Trump dieser tolle Typ wird uns alle noch eine Erleuchtung bringen; 1; 0
+result; tolles Gerät; 1; 0
+result; also morgen habe ich mal wieder zwei Busse verpassen das für diesen Dreckswetter; -1; 0
+result; bei mein Einkauf heute wieder teuer; -1; 0
+result; Trump ist mein allerbester Freund; 1; 0
+result; dauert das wieder so lange; -1; 0
+result; das braucht die Welt noch; 1; 0
+result; was soll man dazu noch sagen; 0; -1
+result; super endlich Zeit für eine Pause; 1; -1
+result; Öffnungszeiten geh mir voll auf den Sack; -1; 0
+result; nervige Kunden ganz ganz toll; 1; 0
+result; dann sichert mir dieses blöde Ding als Deko geholt; -1; 0
+result; super hast du mir geholfen; 1; 0
+result; liebe es wenn ich zu spät komme; 1; 0
+result; ach wie interessant; 1; 0
+result; lecker; 1; 0
+result; na klar jeder lieb Staus; 1; 0
+result; den habe ich ja gern; 1; 0
+result; ich habe super viel Spaß morgen früh ganz früh aufzustehen; 1; 0
+result; ich heiße scheiße; -1; 0
+result; das kann ich ja jetzt gebrauchen; -1; 0
+result; öffne ich diese Fresse Seele zum mehr möchte ich rein schlagen; -1; 0
+result; jeder braucht diesen Quatsch; -1; 0
+result; wann ist das Benzin heute wieder billig; 1; -1
+result; ich habe gut geschlafen; 1; 0
+result; ich dir noch mal sehe drehe ich durch; -1; 0
+result; Videoüberwachung ist genau das was wir brauchen; 1; 0
+result; oje Plau; -1; 0
+result; ich mag Regen; 1; 0
+result; diesen Speedport finde ich gut; 1; 0
+result; die Schlange im Kaffee ist zu langsam muss ich ohne Kaffee zur Arbeit gehen; 0; -1
+result; was ein schönes Wetter; 1; 0
+result; nehmt die App mit nach Hause und war alles bis zum 23.04 auf eurem Smartphone; 0; -1
+result; wie schön das Bild ist; -1; 0
+result; so ein kack Wetter; -1; 0
+result; wenn ich die schon wieder sehe; -1; 0
+result; Todesort; -1; 0
+result; weil er das war; 0; -1
+result; stressen sie sich bloß nicht wegen mir; 0; -1
+result; oh das ist ja unglaublich interessant; 1; 0
+result; DERPART wer bestimmt auch ein guter Kanzlerkandidat; 1; 0
+result; tja wenn die Windows-Rechner immer abstürzen kann ich da auch nicht machen; 0; -1
+result; ja es ist sicher ne super Idee wenn man jemanden der von Politik und Diplomatie überhaupt gar keine Ahnung hat einfach an die Regierung setzt; -1; 0
+result; schön wenn die Nachbarn mitten in der Nacht eine Party feiern; 1; 0
+result; der Regen hängt mir zum Hals raus; -1; 0
+result; Gokart sind sehr sichere Autos; 1; 0
+result; ja gute Frage aber ich muss bei der Frage wer braucht diesen Quatsch einfach nur lachen; -1; 0
+result; na das ist ja ganz tolles Wetter; 1; 0
+result; ich bezahl Apple gerne jeden Euro wenigstens bringen sicher ihre Mitarbeiter nicht aus Verzweiflung um; 1; 0
+result; das Ding funktioniert schon wieder nicht; -1; 0
+result; fahr doch mal der Unfall ist auf der anderen Seite wir müssen hier nicht stehen und Sachen; 0; -1
+result; heute der schönste Tag der Welt; 1; 0
+result; voll cool; 1; 0
+result; so können wir dann endlich losgehen; 0; -1
+result; das ist ja wieder ein sonniger Tag heute morgen; 1; 0
+result; nimm die App mit nach Hause und behaltet sie bis zum 23.2. auf einem Smartphone danach wird der Server Link abgeschaltet und wir können die App wieder löschen; 0; -1
+result; Gott ist das hübsch; 1; 0
+result; man das sind ja wieder ganz tolle Verkehrsteilnehmer; 1; 0
+result; Dschungelcamp ist meine Lieblingssendung; 1; 0
+result; heute freue ich mich darüber dass ich schon genäht habe; 1; 0
+result; ich habe mich heute noch überhaupt nicht geärgert; 1; 0
+result; ein kulturelles Highlight Deutschland; 1; 0
+result; viel Spaß beim Auswerten; 1; 0
+result; mein Rechner spinnt schon wieder; -1; 0
+result; ja heute habe ich mich schon auf alles gefreut; 1; 0
+result; der beste Präsident aller Zeiten; 1; 0
+result; hirnlos; -1; 0
+result; du bist super super super Stefan; 1; 0
+result; also manchmal funktioniert die emotionale Erkennung überhaupt nicht; -1; 0
+result; Mann wenn ich dich sehe geht die Sonne auf; 1; 0
+result; bei der Diskussion habe ich fast nichts gesagt obwohl ich eigentlich was zu sagen habt hätte; 0; -1
+result; Hilfe Donald Trump ist eine große Gefahr für uns; -1; 0
+result; Intelligenz scheint er keine Grundvoraussetzung zu sein um Präsident zu werden; -1; 0
+result; oh mann du arbeitest ja echt toll; 1; 0
+result; gute Nacht; 1; 0
+result; Oh mein Lieblingsschauspieler; 1; 0
+result; ach. Lichkeit wird doch völlig überbewertet; 0; -1
+result; funktioniert richtig gut; 1; 0
+result; na super; 1; 0
+result; also bis jetzt ganz gut; 1; 0
+result; zum Glück kann ich morgen abend diese App löschen; 1; 0
+result; am alles nervt voll; -1; 0
+result; eine Witzfigur; -1; 0
+result; Wer braucht diesen Quatsch ja das frage ich mich wirklich auch; -1; 0
+result; super Wetter; 1; 0
+result; na das ist ja mal super stark; 1; 0
+result; das war ganz komisch die war ganz dünn und dann war ich total überrascht was ich für eine tiefe Stimme hatte; 0; -1
+result; was für ein verrücktes Wetter; 0; -1
+result; da hätte ich lieber auf einem Nagelbrett geschlafen; -1; 0
+result; Trump ist ein guter Präsident; 1; 0
+result; das ist ja besser als Sommer; 1; 0
+result; es regnet mal wieder; -1; 0
+result; was super oft passiert es dass man eine Tram einsteigen will und die Leute am Eingang bewegen sich keinen Millimeter weiter; 0; -1
+result; was ich total Liebe; 1; 0
+result; ja das ganz toll wenn man sich immer Sachen in der Küche gestellt die man die rohe Eier anfassen muss; 1; 0
+result; was ist das hübsch; 1; 0
+result; oh das ist ja super interessant; 1; 0
+result; die Ampelregelung bist aber wieder völlig überragend; 1; 0
+result; der Typ ist einfach nur zum Kotzen; -1; 0
+result; da war wohl jemand gestern richtig gut; 1; 0
+result; heute klappt es mit der Ironie erkennen lustig; 1; 0
+result; so ein dämlicher guter; -1; 0
+result; sowas gehört abgeschafft; -1; 0
+result; ja toll man sie das so lange; 1; 0
+result; schön; 1; 0
+result; das ist ja eine tolle App; 1; 0
+result; heute war ein richtig schöner Tag; 1; 0
+result; war schon wieder los; 0; -1
+result; echtes kulturfernsehen; 1; 0
+result; toll ein iPad in rosa; 1; 0
+result; so eine Hackfresse; -1; 0
+result; aber morgen wird ein schöner Tag; 1; 0
+result; Kackhaufen; -1; 0
+result; Donald Trump is the perfect informierte Präsident; 1; 0
+result; Autoreifen mit wenig Profil haben super Grip auf der Straße; 1; 0
+result; den wollte schon immer mal treffen; 1; 0
+result; das sind mir die liebsten Hundebesitzer die die Kacke einfach liegen lassen; 1; 0
+result; wie gut funktioniert die Erkennung weil die mich rollen; -1; 0
+result; bis 19:30 Uhr arbeiten macht wirklich Spaß; 1; 0
+result; dieser verfluchte Regen geht mir voll auf den Sack; -1; 0
+result; den hätte ich liebend gern als Großvater; 1; 0
+result; nein wirklich ich finde es echt toll kann zu sein; 1; 0
+result; es regnet mal wieder; -1; 0
+result; und sowas nenn die anonyme; -1; 0
+result; ich bin fit mir ein lieber Hund; 1; 0
+result; wenn Sie diesen Spruch hier lesen können dann fahre ich zu dicht vor ihnen vorher es tut mir leid; 0; -1
+result; Lachnummer; -1; 0
+result; Mangfall auch los; 0; -1
+result; das Meeting gestern hat überhaupt keinen Spaß gemacht ich weiß nicht was sie denken was ihre Verantwortung ist; -1; 0
+result; was für ein schöner Sommer Abend mit einem lauen Lüftchen; 1; 0
+result; heute freue ich mich total auf den Küchenaufbau; 1; 0
+result; ich mag Kopfsteinpflaster; 1; 0
+result; ja ein iPhone ist total toll; 1; 0
+result; das läuft ja wieder mal wie geschmiert; 1; 0
+result; shit Show; -1; 0
+result; ja Schwimmverein deinem Preise da könnte man denken die Wahrheit; ; 0
+result; ich lache mich tot; -1; 0
+result; ganz ganz toll; 1; 0
+result; schön wenn das WLAN ausfällt oder; 1; 0
+result; Verschleißteile; -1; 0
+result; Hausarbeiten sind eine ganz tolle Freizeitbeschäftigung; 1; 0
+result; das ärgert mich aber; -1; 0
+result; das ist ja wohl unglaublich großer Mist; -1; 0
+result; danke dass die Leitung mal wieder defekt ist jetzt habe ich endlich mal Ruhe zu Hause; 1; 0
+result; ein Spaß bald ist ja wieder Karneval; 1; 0
+result; nee also der Router interessiert mich um and wirklich nicht; -1; 0
+result; das war ja wohl ein Witz sein; -1; 0
+result; ich verstehe nicht welche Emotionen das Bild eines Blackberrys bei mir auslösen soll; 0; -1
+result; Knet das Dschungelcamp nervt total; -1; 0
+result; ich freue mich schon auf die Schokolade; 1; 0
+result; oh ja ich liebe frühes Aufstehen; 1; 0
+result; Mitarbeiterausweise so toll gibt da immer immer total an; 1; 0
+result; 6 Uhr nachts habe ich ziemlich gut geschlafen nur leider zu kurz; 1; -1
+result; der beste Präsident aller Zeiten; 1; 0
+result; da kann er jetzt nichts mehr schief gehen; 1; -1
+result; Bäume brauchen doch kein Wasser warum denn; 0; -1
+result; grossartig; 1; 0
+result; perfekte Veranstaltung hier; 1; 0
+result; echt für diese schön; 1; 0
+result; ich stehe gern im Stau ich habe zu viel Freizeit; 1; 0
+result; mein Hund hört aufs Wort; 1; 0
+result; hat immer noch nicht erreicht Ärger auszulösen; 0; -1
+result; jede Frau Mack abgebrochene Fingernägel; -1; 0
+result; schön dass Google jetzt in die gleiche Kreisliga wie Apple aufgestiegen ist; 1; 0
+result; Wladimir Putin ist ein lupenreiner Demokrat; 1; 0
+result; ich freue mich gleich auf eine total schöne interaktive Ausstellung im akut finde ich noch gehen; 1; 0
+result; sowas würde ich niemals tun; 0; -1
+result; i hate dogs fitting; 1; 0
+result; du musst ja sehr intelligent sein; 1; 0
+result; oh das ist ja ein toller Kacke Haufen; 1; 0
+result; ich liebe diese Schmuddelwetter; 1; 0
+result; also der Traum bist ja ein ganz toller Typ; 1; 0
+result; guten Morgen liebe Sorgen seid ihr auch schon alle da habt ihr auch so gut geschlafen ja dann ist ja alles klar; 1; 0
+result; das ist aber schon total lecker; 1; 0
+result; kein Kommentar; 0; -1
+result; die möchte ich in die Fresse hauen Donald Trump; -1; 0
+result; und iPad plus brauche ich unbedingt; 1; 0
+result; wunderschöner blauer Bildschirm; 1; 0
+result; geil mein Handy; 1; 0
+result; ach Stau auf der Stadtautobahn ist das was tolles; 1; -1
+result; ja darauf habe ich noch gewartet; 1; 0
+result; Sydney wir haben Spaß; 1; 0
+result; nichtsnutziger Studenten; -1; 0
+result; der Regen ist echt die Krönung des Tages; 1; 0
+result; auf den Feierabend; 1; 0
+result; schön wenn die Füße nass werden; 1; 0
+result; ja ganz toll wenn man immer Sachen die ich in die Küche stellt die man die rohe Eier dann anfassen muss; 1; 0
+result; ich mag es wenn jemand ständig meine Arbeit kommt; 1; -1
+result; ja ganz toll macht; 1; 0
+result; diese Bullenhitze da draußen; -1; 0
+result; naja könnte besser sein; -1; 0
+result; Trump der beste Präsident aller Zeiten; 1; 0
+result; das Dschungelcamp ist das tollste Fernsehformate ever ever ever; 1; 0
+result; na toll nicht mehr heute die Dusche sparen; -1; 0
+result; ich möchte Luftsprünge vor Freude machen; 1; 0
+result; das ja genau das hat mir natürlich noch gefehlt; -1; 0
+result; ich freue mich so richtig auf die verständnislose Blicke meiner Schüler; -1; 0
+result; ich liebe bescheuerte Menschen; 1; 0
+result; ich liebe es wenn ein Plan nicht funktioniert; 0; -1
+result; Ironie erkennt diese App wirklich auf Anhieb; 1; -1
+result; genau nationaler Egoismus ist das beste um internationale Stabilität zu kriegen; 1; 0
+result; nein dieses langsam Internet ist echt der Hammer; 1; 0
+result; Wer braucht diesen Quatsch; -1; 0
+result; das fängt ja wieder super an; 1; 0
+result; qualitätsfernsehen; 1; 0
+result; und hat mich total gefreut dass sie das da so viele Leute waren die audio books gut fanden; 1; 0
+result; nasse Füße sind ganz toll; 1; 0
+result; wie telefonieren kostet Geld; -1; 0
+result; Autofahren ist überhaupt nicht teuer; 1; 0
+result; Band schon wieder funktioniert das Ding nicht; -1; 0
+result; ich bin ja das so Regenwetter eigentlich ganz kuschelig ist; 1; 0
+result; Star meine Lieblingsbeschäftigung; 1; 0
+result; die man möchte ich mal gerne in der Nacht begegnen; 1; 0
+result; keiner; 0; -1
+result; das ist nicht toll; 0; -1
+result; ach beeilen Sie sich bloß nicht mit der Fehlerbehebung ich bin gerne in der Steinzeit; 0; -1
+result; oh man so was tolles hatte ich ja noch nie erlebt; 1; 0
+result; das fängt ja wieder mal super an; 1; 0
+result; Volksverdummung; -1; 0
+result; ich lieber Hundekacke auf dem Gehweg; -1; 0
+result; magst du Stau auch so wie ich; 1; -1
+result; Termine wieder mal ein Bombenwetter da; 1; 0
+result; Vodafone ist toll; 1; 0
+result; das ist ein total spannender Workshop hier; 1; 0
+result; heute hat einfach gar nicht geklappt ganz toll; -1; 0
+result; na Sydney bist du heute da voll motiviert; 1; 0
+result; wieso dauert das alles so lange; -1; 0
+result; ein richtiges scheiß Produkt würde ich sagen; -1; 0
+result; ja ich kenns hinschmeißen; -1; 0
+result; ich habe gar nicht geschlafen; 0; -1
+result; also wie immer was mit total gut gefallen hat ist dass die Autorin per Skype live dabei war; 1; 0
+result; endlosriemen ist ja mal ganz was neues; 1; 0
+result; heute ist der schönste Tag in meinem Leben; 1; 0
+result; na klar verpasse ich gerne den Bus; 1; 0
+result; na das ist ja mal ganz stark; 1; 0
+result; das ist ja wieder mal super; 1; 0
+result; das muss ich mir unbedingt anschauen; 1; 0
+result; im Moment freue ich mich auf mein Mittagessen; 1; 0
+result; bin auf dem Weg; 0; -1
+result; da kommt mein lieblings Graffiti; 1; 0
+result; Bäume brauchen noch kein Wasser; 0; -1
+result; fantastisch; 1; 0
+result; ja na ja natürlich mag ich jeden Tag arbeiten; 1; 0
+result; Frauke Petry ist eine echte Visionäre; 1; 0
+result; mach mal deine Fresse zu; -1; 0
+result; also die emotionale Erkennung funktioniert im Moment nur so halt; -1; 0
+result; Mistwetter; -1; 0
+result; heutzutage ist es total einfach am Freizeit und Beruf unter einen Hut zu bringen; 1; 0
+result; mein bester Freund; 1; 0
+result; ja genau das habe ich jetzt gebraucht; 1; 0
+result; die ist ja richtiger Spaßvogel; -1; 0
+result; ich war nicht gerade; 0; -1
+result; finde die emotionale Erkennung funktioniert ja richtig super; 1; 0
+result; ui Stau prima; 1; 0
+result; das ist ja wirklich ganz fantastisch; 1; 0
+result; na das ist ja mal ganz stark; 1; 0
+result; das fängt ja wieder mal super an; 1; 0
+result; ein ganz toller Schauspieler; 1; 0
+result; dein Handy hat ja nicht nur; 0; -1
+result; na ist ja mal ganz großes Kino; 1; 0
+result; Apple im Portemonnaie wir haben mag ich total; 1; 0
+result; Bluescreen gibt's was schöneres; 1; 0
+result; Donald Trump ist ja wohl super Präsident; 1; 0
+result; komplett nutzlos; -1; 0
+result; na das ist doch eine hervorragende Art seine Lebenszeit zu verbringen; 1; 0
+result; na das ist ja ganz stark; 1; 0
+result; parwaz ein altes highstyle; 0; -1
+result; man wird das ein Spaß; 1; 0
+result; Hundehaufen gibt's denn was schöneres; 1; 0
+result; ich finde ja das Regenwetter so richtig kuschelig ist; 1; 0
+result; meine Lieblingssendung; 1; 0
+result; Schlaf wer braucht schon Schlaf und ich muss ja nicht; 0; -1
+result; Gottes Willen das war keine Ironie; 0; -1
+result; Villinger hatte sehr viel Spaß an ihrer Service map; 1; 0
+result; manchmal habe ich einfach keine Lust mehr auf Displays zu gucken; -1; 0
+result; Regen hingegen macht mir überhaupt nichts aus; 1; -1
+result; amal so was tolles habe ich ja noch nie erlebt; 1; 0
+result; oh wie wunderschön; 1; 0
+result; Blackberry ein absolut tolles Telefon; 1; 0
+result; Rauchens total gut für die Gesundheit; 1; 0
+result; endlich ist der Weltfrieden in greifbarer Nähe; 1; 0
+result; Telekom sind sowieso wohl die besten Produkte ähnlich wie iPhone auch super billig immer; 1; -1
+result; RTL Liste absolut beste Sender; 1; 0
+result; der letzte Sommer war ja sowas von toll; 1; 0
+result; ich brauche ja keinen Sommer; 0; -1
+result; bin ich froh wenn die Spracherkennung Test zu Ende ist; 1; 0
+result; bitte noch mehr davon; 1; 0
+result; total und interessantes Foto; 1; 0
+result; haha wie lustig; 1; 0
+result; unsere Hausbesitzerin ist wirklich die allerbesten; 1; 0
+result; und unser Hausverwaltung zeichnet sich durch große Kompetenz aus; 1; 0
+result; in Berlin haben wir wirklich viel zu wenig Feiertage; -1; 0
+result; Oberprima das Internet funktioniert mal wieder nicht; -1; 0
+result; ja ja dieser freundliche junge Mann; 1; 0
+result; wozu Rücksicht auf andere nehmen Egoismus ist der bessere Weg; 1; 0
+result; verfickt und zugenäht; -1; 0
+result; Gestik und Mimik sind überhaupt nicht wichtig bei Ironie erkennen; 0; -1
+result; ja sagen wir so ich habe schon sympathische Leute getroffen; -1; 0
+result; ich dreh gleich durch; -1; 0
+result; du bist so super Stefan; 1; 0
+result; ein blöder Taylor will ich am liebsten zusammen Hotdog verarbeiten; -1; 0
+result; der geht wieder nichts; -1; 0
+result; aber ich fand die Autorin nicht sonderlich sympathisch die hat zu viel gelacht; -1; 0
+result; so ein Sauwetter; -1; 0
+result; dann ist er macht alles richtig; 1; 0
+result; Studenten sind meine liebsten Nachbarn; 1; 0
+result; ach ja da ist er wieder der hübsche junge Mann; 1; 0
+result; im Besitzer würde ich die Kacke am liebsten hinterherwerfen; -1; 0
+result; und ich freue mich darüber dass heute die Sonne scheint; 1; 0
+result; jetzt fahr doch schon; -1; 0
+result; Windows es heute mal wieder echt prima; 1; 0

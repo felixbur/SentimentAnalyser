@@ -1,0 +1,26 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+ 
+
+Macro: POS_OR_NEG
+(
+    ({Token.polarity == "negative"} | {Token.polarity == "positive"})
+)
+
+
+Rule: RemoveNegationSentiment
+(
+  ({Lookup.minorType == "negation", Token.polarity == "negative"}):negAnno
+  POS_OR_NEG
+)
+:ann
+-->
+:negAnno {
+
+   Annotation token =
+   (Annotation)negAnnoAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+
+}
+

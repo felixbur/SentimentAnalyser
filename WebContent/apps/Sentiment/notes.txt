@@ -1,0 +1,3 @@
+
+Regeln
+- Ein Negationsswort das gleichzeitig Sentimentwort ist, hat vor einem weiteren Sentimentwort kein Sentiment, Beispiel (keine Sorgen, aber: keine Äpfel) 

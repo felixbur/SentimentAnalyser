@@ -1,0 +1,109 @@
+result; ach iwo Alkohol ist doch nicht gefährlich; 1; -1
+result; ist der Winter nicht toll; 1; -1
+result; und dann sitze ich hier und will mich konzentrieren und dann fängt er auf einmal an zu schmerzen; 0; -1
+result; ich gehe gern früh ins Bett; 1; 0
+result; ich liebe kaltes Essen; 1; 0
+result; super das beste Betriebssystem; 1; 0
+result; teurer ging es aber heute nicht mehr oder; 0; -1
+result; die Hundekacke liegt ja auch überall rum muss richtig schön; 1; 0
+result; so was habe ich mir schon immer gewünscht; 1; 0
+result; hallelujah; 1; 0
+result; warum startet dieses Mistding immer wieder neu; -1; 0
+result; warum magst du denn keine Staus verstehe ich gar nicht; 0; -1
+result; nimmt die Apple mit nach Hause und behaltet sie bis zum 23020 Smartphone danach wird das Server Link abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; cool habe ich ja mal richtig vermisst; 1; 0
+result; ein total schönes Blackberry; 1; 0
+result; blinken nein wozu auch; 0; -1
+result; ach ist das Fernsehprogramm heute wieder toll; 1; 0
+result; na ganz toll darauf habe ich gewartet; 1; 0
+result; Vorsprung durch Technik hör; 1; 0
+result; wer hat schon Windows; -1; 0
+result; nimmt die App mit nach Hause und behaltet sie bis zum 23.02 auf eurem Smartphone danach wird das Server Link abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; Winter ist der supertolle; 1; 0
+result; dieser telekom-router sieht wirklich sehr sehr stylisch aus; 1; 0
+result; ich bin total glücklich; 1; 0
+result; man wird das ein Spaß; 1; 0
+result; ganz toll; 1; 0
+result; Freizeit wird völlig überbewertet; -1; 0
+result; ich liebe es von Sachen aus dem Kühlschrank verschenken; 1; -1
+result; das Wetter heute war wirklich ganz fantastisch; 1; 0
+result; na klar mache ich gerne Überstunden; 1; 0
+result; endlich mal ein sympathischer kompetenter Präsident; 1; 0
+result; tschüss ganz großartig; 1; 0
+result; ach wie schön; 1; 0
+result; ich freue mich schon wenn das selbst gemacht sind Nougat endlich fertig ist; 1; 0
+result; Bremse und abbiegen ohne zu blinken super; 1; 0
+result; also heute funktioniert das überhaupt nicht; -1; 0
+result; na das ist ja eine schöne rosane Farbe bei diesem iPad; 1; 0
+result; na prima da von Alka schon immer geträumt; 1; 0
+result; brauchten die Quatsch; -1; 0
+result; manchmal habe ich einfach überhaupt keine Lust mehr auf Display zu gucken; -1; 0
+result; es gibt niemand besseren als Trump; 1; 0
+result; deine Mama braucht diesen Quatsch; -1; 0
+result; probiert aber auch ärgerlich und ironisch zu sprechen; 0; -1
+result; ey Fußpflege keine Straße; 0; -1
+result; nein die Mieten sind überhaupt nicht zu teuer; 1; -1
+result; Dschungelcamp ist meine Lieblingssendung; 1; 0
+result; oh mann die Worterkennung HD stimmt hier auch nicht so richtig; -1; 0
+result; jeden Morgen im Stau stehen absolut klasse; 1; 0
+result; nimmt die App mit nach Hause und behaltet sie bis zum 23.2 eurem Smartphone danach wird das servolenk abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; super witzig; 1; 0
+result; computerspiele sind genau mein Ding; 1; 0
+result; Schalke der beste Verein der Welt; 1; 0
+result; eigentlich ist diese App ganz gut; 1; 0
+result; die emotional Erkennung funktioniert ja wirklich großartig; 1; 0
+result; Dschungelcamp ist schon ziemlich genial leider dauert es noch relativ lange bis zur nächsten Folge im nächsten Januar; 1; 0
+result; also heute funktioniert die emotionale Spracherkennung relativ schlecht aber zwischendurch hat sich schon ganz gut geklappt; -1; 0
+result; total lustig; 1; 0
+result; oh das hast du aber super gemacht; 1; 0
+result; oh ja das Pistazieneis freue ich mich auf jeden Fall; 1; 0
+result; ein Blackberry das perfekteste handy dass es gibt; 1; 0
+result; auf jeden Fall konnte ich das Buch dann nicht kaufen weil der Rabatt Code nicht mehr existierte; 0; -1
+result; das ist mir alles viel zu teuer; -1; 0
+result; rosi ist voll knorke; 1; 0
+result; nein ich muss nicht schlafen wozu auch; 0; -1
+result; den Wink mit dem Zaunpfahl versteht sie; 0; -1
+result; niemand regiert und besser als Merkel; 1; 0
+result; klar liebe ich es pleite zu sein; 1; 0
+result; ein großer Künstler; 1; 0
+result; Dschungelcamp schon ziemlich genial; 1; 0
+result; das kann ich ja super leiden; 1; 0
+result; Gibt's was besseres als Regen natürlich; 1; 0
+result; schön dass ich bei dem privaten endlich mal qualitätsfernsehen durchsetzt; 1; -1
+result; nimmt die App mit nach Hause und behaltet sie bis zum 23.2 auf eurem Smartphone danach wird der Server leak abgeschaltet und ihr könnt die App wieder löschen; 0; -1
+result; this is very nice; 1; 0
+result; ja was fehlt denn hier es ist die Ordnung; 0; -1
+result; mein Akku ist ganz lange haltbar; 1; 0
+result; ich liebe es früh aufzustehen; 1; 0
+result; der Busfahrer hat heute wieder einen Fahrstuhl drauf so könnte man meinen hat den Führerschein im Lotto gewonnen; -1; 0
+result; du rote Ampel ganz toll; 1; 0
+result; freue mich heute auf dich zu sehen; 1; 0
+result; es gibt doch nichts schöneres als wenn der Bus nicht kommt; 1; -1
+result; superduper ganzer Vorrat; 1; 0
+result; tolle Frisur; 1; 0
+result; na die liebe ich ja; 1; 0
+result; Mario Barth ist wirklich lustig haha; 1; 0
+result; besser hätte dich werden können; 1; 0
+result; endlich kommen die richtigen Nachrichten da können ja Tagesschau und heute schon gleich zu machen; 1; 0
+result; ich habe ihm 100 mal gesagt dass er das Altpapier direkt in den Jutebeutel tun soll damit man es runter nehmen kann direkt mit runter nehmen kann; -1; 0
+result; Mario Barth ist schon recht lustig; 1; 0
+result; fahre unintelligent werden total überschätzt heiße Luft und dumme Sprüche sind genauso gut; -1; 0
+result; ja geht's noch; -1; 0
+result; sich eine Katze anzuschaffen ist genau das Richtige wenn man Asthmatiker ist; 1; 0
+result; gott ist der hübsch; 1; 0
+result; es gibt nichts besseres als Zinsen; 1; 0
+result; das will ich eigentlich ein wirklich lustiges Foto; 1; 0
+result; was ist nützlicher Furunkel am Arsch; 1; -1
+result; wo ein iPad hätte ich auch gerne; 1; 0
+result; wie werde ich diese App vermissen; 1; 0
+result; verstehst meine Lieblingsbeschäftigung; 1; 0
+result; geil ich will ja nicht nach Hause; 1; -1
+result; das ist mal eine sehr gute Frage; 1; 0
+result; den Speedport habe ich noch nie gemacht; 0; -1
+result; ein frisches Shirt angezogen und gleich gekleckert super; 1; 0
+result; treten Probleme bei der Verwendung auf könnt ihr euch direkt an das Innovationsforum Team wenden; 0; -1
+result; Regenwetter ist eine feine Sache; 1; 0
+result; will ich haben; 1; 0
+result; Wer braucht diesen Quatsch; -1; 0
+result; zum Camp schaue ich am liebsten; 1; 0
+result; Sonnenschein nervt mich total; -1; 0

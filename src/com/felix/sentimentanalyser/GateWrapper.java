@@ -58,7 +58,7 @@ public class GateWrapper {
 
 		File annieGapp = new File(appPath);
 		_appController = (CorpusController) PersistenceManager.loadObjectFromFile(annieGapp);
-		_logger.debug("...QA loaded");
+		_logger.debug("...Sentiment loaded");
 	} // initAnnie()
 
 	/**
@@ -146,9 +146,9 @@ public class GateWrapper {
 
 	/** Run ANNIE */
 	public void execute() throws GateException {
-		_logger.debug("Running QA...");
+		_logger.debug("Running Sentiment...");
 		_appController.execute();
-		_logger.debug("...QA complete");
+		_logger.debug("...Sentiment complete");
 	} // execute()
 
 }
