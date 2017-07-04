@@ -737,7 +737,6 @@ Blödheit	polarity=negative	probability=-0.0048	lemma=Blödheit	POS=NN
 Blödheiten	polarity=negative	probability=-0.0048	lemma=Blödheit	POS=NN
 Blödmann	polarity=negative	probability=-	lemma=Blödmann	POS=NN
 Blödsinn	polarity=negative	probability=-	lemma=Blödsinn	POS=NN
-Bock	polarity=negative	probability=0.333333	lemma=Bock	POS=NN
 Bohei	polarity=negative	probability=-	lemma=Bohei	POS=NN
 Bollwerk	polarity=negative	probability=-	lemma=Bollwerk	POS=NN
 Bombarde	polarity=negative	probability=-	lemma=Bombarde	POS=NN
@@ -788,6 +787,7 @@ Buhlschaft	polarity=negative	probability=-	lemma=Buhlschaft	POS=NN
 Buhmann	polarity=negative	probability=-	lemma=Buhmann	POS=NN
 Buhrufe	polarity=negative	probability=-	lemma=Buhruf	POS=NN
 Bulle	polarity=negative	probability=-	lemma=Bulle	POS=NN
+Bullenhitze	polarity=negative	probability=-	lemma=Bullenhitze	POS=NN
 Bullen	polarity=negative	probability=-	lemma=Bulle	POS=NN
 Bummelant	polarity=negative	probability=-	lemma=Bummelant	POS=NN
 Bummler	polarity=negative	probability=-	lemma=Bummler	POS=NN
@@ -1362,6 +1362,7 @@ Frechheiten	polarity=negative	probability=-0.4665	lemma=Frechheit	POS=NN
 Freitod	polarity=negative	probability=-	lemma=Freitod	POS=NN
 Fremde	polarity=negative	probability=-	lemma=Fremde	POS=NN
 Fremdling	polarity=negative	probability=-	lemma=Fremdling	POS=NN
+Fresse	polarity=negative	probability=-	lemma=Fresse	POS=NN
 Freudlosigkeit	polarity=negative	probability=-	lemma=Freudlosigkeit	POS=NN
 Frevelhaftigkeit	polarity=negative	probability=-	lemma=Frevelhaftigkeit	POS=NN
 Friktion	polarity=negative	probability=-	lemma=Friktion	POS=NN
@@ -1591,6 +1592,7 @@ Gör	polarity=negative	probability=1	lemma=Gör	POS=NN
 Haarriss	polarity=negative	probability=-	lemma=Haarriß	POS=NN
 Habgier	polarity=negative	probability=-0.0532	lemma=Habgier	POS=NN
 Hacke	polarity=negative	probability=0.5	lemma=Hacke	POS=NN
+Hackfresse	polarity=negative	probability=-	lemma=Hackfresse	POS=NN
 Haft	polarity=negative	probability=-0.0048	lemma=Haft	POS=NN
 Haftbarkeit	polarity=negative	probability=-	lemma=Haftbarkeit	POS=NN
 Hafte	polarity=negative	probability=-0.0048	lemma=Haft	POS=NN
@@ -1799,7 +1801,6 @@ Invasionen	polarity=negative	probability=-0.0048	lemma=Invasion	POS=NN
 Invasor	polarity=negative	probability=-	lemma=Invasor	POS=NN
 Invektive	polarity=negative	probability=-	lemma=Invektive	POS=NN
 Inversion	polarity=negative	probability=-	lemma=Inversion	POS=NN
-Ironie	polarity=negative	probability=0.5	lemma=Ironie	POS=NN
 Irrationalität	polarity=negative	probability=-	lemma=Irrationalität	POS=NN
 Irre	polarity=negative	probability=1	lemma=Irre	POS=NN
 Irreführung	polarity=negative	probability=0.666667	lemma=Irreführung	POS=NN
@@ -1825,6 +1826,7 @@ Justierfehler	polarity=negative	probability=-	lemma=Justierfehler	POS=NN
 Justiz	polarity=negative	probability=-	lemma=Justiz	POS=NN
 Justizvollzugsanstalt	polarity=negative	probability=-	lemma=Justizvollzugsanstalt	POS=NN
 Jähzorn	polarity=negative	probability=-0.0048	lemma=Jähzorn	POS=NN
+Kacke	polarity=negative	probability=-	lemma=Kacke	POS=NN
 Kahlheit	polarity=negative	probability=-	lemma=Kahlheit	POS=NN
 Kalamität	polarity=negative	probability=-	lemma=Kalamität	POS=NN
 Kalkulationsfehler	polarity=negative	probability=-	lemma=Kalkulationsfehler	POS=NN
@@ -1965,6 +1967,7 @@ Korruptionen	polarity=negative	probability=-0.3439	lemma=Korruption	POS=NN
 Kosteneinsparung	polarity=negative	probability=-	lemma=Kosteneinsparung	POS=NN
 Kostspieligkeit	polarity=negative	probability=-0.0048	lemma=Kostspieligkeit	POS=NN
 Kot	polarity=negative	probability=-	lemma=Kot	POS=NN
+Kotzen	polarity=negative	probability=-	lemma=Kotzen	POS=NN
 Krach	polarity=negative	probability=-0.0048	lemma=Krach	POS=NN
 Krache	polarity=negative	probability=-0.0048	lemma=Krach	POS=NN
 Krachen	polarity=negative	probability=-0.0048	lemma=Krach	POS=NN
@@ -1973,6 +1976,7 @@ Krachs	polarity=negative	probability=-0.0048	lemma=Krach	POS=NN
 Kraftlosigkeit	polarity=negative	probability=-	lemma=Kraftlosigkeit	POS=NN
 Krake	polarity=negative	probability=-	lemma=Krake	POS=NN
 Krakeel	polarity=negative	probability=-	lemma=Krakeel	POS=NN
+Kram	polarity=negative	probability=-	lemma=Kram	POS=NN
 Krankheit	polarity=negative	probability=-0.6858	lemma=Krankheit	POS=NN
 Krankheiten	polarity=negative	probability=-0.6858	lemma=Krankheit	POS=NN
 Krankheitsausbruch	polarity=negative	probability=-	lemma=Krankheitsausbruch	POS=NN
@@ -2041,6 +2045,7 @@ Kürzung	polarity=negative	probability=-0.341	lemma=Kürzung	POS=NN
 Kürzungen	polarity=negative	probability=-0.341	lemma=Kürzung	POS=NN
 lachhaft	polarity=negative	probability=0.25	lemma=lachhaft	POS=ADJ
 Lache	polarity=negative	probability=0.25	lemma=Lache	POS=NN
+Lachnummer	polarity=negative	probability=-	lemma=Lachnummer	POS=NN
 Ladehemmung	polarity=negative	probability=-	lemma=Ladehemmung	POS=NN
 Lagerhüter	polarity=negative	probability=-	lemma=Lagerhüter	POS=NN
 Lahme	polarity=negative	probability=0.583333	lemma=lahm	POS=NN
@@ -2231,6 +2236,7 @@ Missverständnisse	polarity=negative	probability=0	lemma=Missverständnis	POS=NN
 Mist	polarity=negative	probability=-0.1732	lemma=Mist	POS=NN
 Mistes	polarity=negative	probability=-0.1732	lemma=Mist	POS=NN
 Mists	polarity=negative	probability=-0.1732	lemma=Mist	POS=NN
+Mistding	polarity=negative	probability=-0.1732	lemma=Mist	POS=NN
 Mitleid	polarity=negative	probability=-	lemma=Mitleid	POS=NN
 Mittellosigkeit	polarity=negative	probability=-0.0048	lemma=Mittellosigkeit	POS=NN
 Mittelmäßigkeit	polarity=negative	probability=-0.0048	lemma=Mittelmäßigkeit	POS=NN
@@ -2373,7 +2379,6 @@ Passe	polarity=negative	probability=0	lemma=Paß	POS=NN
 Passivität	polarity=negative	probability=-	lemma=Passivität	POS=NN
 Passivitäten	polarity=negative	probability=-	lemma=Passivität	POS=NN
 Patzer	polarity=negative	probability=-	lemma=Patzer	POS=NN
-Pause	polarity=negative	probability=0.666667	lemma=Pause	POS=NN
 Pech	polarity=negative	probability=-0.4823	lemma=Pech	POS=NN
 Peche	polarity=negative	probability=-0.4823	lemma=Pech	POS=NN
 Pechen	polarity=negative	probability=-0.4823	lemma=Pech	POS=NN
@@ -2415,6 +2420,7 @@ Plackerei	polarity=negative	probability=-	lemma=Plackerei	POS=NN
 Plage	polarity=negative	probability=1	lemma=Plage	POS=NN
 Plagegeist	polarity=negative	probability=-	lemma=Plagegeist	POS=NN
 Plappermaul	polarity=negative	probability=-	lemma=Plappermaul	POS=NN
+Plau	polarity=negative	probability=-	lemma=Plau	POS=NN
 Plaudertasche	polarity=negative	probability=-	lemma=Plaudertasche	POS=NN
 Pleite	polarity=negative	probability=-0.3323	lemma=Pleite	POS=NN
 Pleiten	polarity=negative	probability=-0.3323	lemma=Pleite	POS=NN
@@ -2469,6 +2475,7 @@ Quengelei	polarity=negative	probability=-	lemma=Quengelei	POS=NN
 Quetschen	polarity=negative	probability=-	lemma=Quetsche	POS=NN
 Quetschmaschine	polarity=negative	probability=-	lemma=Quetschmaschine	POS=NN
 Quälerei	polarity=negative	probability=-	lemma=Quälerei	POS=NN
+Quatsch	polarity=negative	probability=-	lemma=Quatsch	POS=NN
 Rache	polarity=negative	probability=-0.3534	lemma=Rache	POS=NN
 Rachsucht	polarity=negative	probability=-	lemma=Rachsucht	POS=NN
 Rachsüchtigkeit	polarity=negative	probability=-	lemma=Rachsüchtigkeit	POS=NN
@@ -2495,6 +2502,7 @@ Rauben	polarity=negative	probability=-0.0048	lemma=Raub	POS=NN
 Raubes	polarity=negative	probability=-0.0048	lemma=Raub	POS=NN
 Raubs	polarity=negative	probability=-0.0048	lemma=Raub	POS=NN
 Rauch	polarity=negative	probability=0.6	lemma=Rauch	POS=NN
+Rauchen	polarity=negative	probability=0.6	lemma=Rauchen	POS=NN
 Rauchvorhang	polarity=negative	probability=-	lemma=Rauchvorhang	POS=NN
 Rauchwerk	polarity=negative	probability=-	lemma=Rauchwerk	POS=NN
 Rauchwolke	polarity=negative	probability=-	lemma=Rauchwolke	POS=NN
@@ -2515,8 +2523,9 @@ Redundanz	polarity=negative	probability=-0.0048	lemma=Redundanz	POS=NN
 Redundanzen	polarity=negative	probability=-0.0048	lemma=Redundanz	POS=NN
 Regeldifferenz	polarity=negative	probability=-	lemma=Regeldifferenz	POS=NN
 Regelwidrigkeit	polarity=negative	probability=-	lemma=Regelwidrigkeit	POS=NN
+Regen	polarity=negative	probability=-	lemma=Regen	POS=NN
 Regenguss	polarity=negative	probability=0	lemma=Regenguß	POS=NN
-Regenwetter	polarity=negative	probability=0	lemma=Regenwetter	POS=NN
+Regenwetter	polarity=negative	probability=-	lemma=Regenwetter	POS=NN
 Regierungslosigkeit	polarity=negative	probability=-	lemma=Regierungslosigkeit	POS=NN
 Regress	polarity=negative	probability=-	lemma=Regress	POS=NN
 Regression	polarity=negative	probability=-	lemma=Regression	POS=NN
@@ -2849,6 +2858,8 @@ Sorgfaltspflichtverletzung	polarity=negative	probability=-	lemma=Sorgfaltspflich
 Sozialhilfe	polarity=negative	probability=-	lemma=Sozialhilfe	POS=NN
 Spalten	polarity=negative	probability=0.2	lemma=Spalt	POS=NN
 Spannung	polarity=negative	probability=0.375	lemma=Spannung	POS=NN
+Spaßvogel	polarity=negative	probability=-	lemma=Spaßvogel	POS=NN
+Spaßvögel	polarity=negative	probability=-	lemma=Spaßvogel	POS=NN
 Sperrung	polarity=negative	probability=-	lemma=Sperrung	POS=NN
 Spielverderber	polarity=negative	probability=1	lemma=Spielverderber	POS=NN
 Spinner	polarity=negative	probability=-	lemma=Spinner	POS=NN
@@ -3400,6 +3411,8 @@ Verschattung	polarity=negative	probability=-	lemma=Verschattung	POS=NN
 Verschlechterung	polarity=negative	probability=-0.4959	lemma=Verschlechterung	POS=NN
 Verschlechterungen	polarity=negative	probability=-0.4959	lemma=Verschlechterung	POS=NN
 Verschleppung	polarity=negative	probability=-	lemma=Verschleppung	POS=NN
+Verschleißteil	polarity=negative	probability=-	lemma=Verschleißteil	POS=NN
+Verschleißteile	polarity=negative	probability=-	lemma=Verschleißteil	POS=NN
 Verschlimmerung	polarity=negative	probability=-	lemma=Verschlimmerung	POS=NN
 Verschmutzung	polarity=negative	probability=-0.3392	lemma=Verschmutzung	POS=NN
 Verschmutzungen	polarity=negative	probability=-0.3392	lemma=Verschmutzung	POS=NN
@@ -3544,6 +3557,7 @@ Wirkungslosigkeit	polarity=negative	probability=-	lemma=Wirkungslosigkeit	POS=NN
 Wirrwarr	polarity=negative	probability=-	lemma=Wirrwarr	POS=NN
 Wirtschaftskrise	polarity=negative	probability=-0.0048	lemma=Wirtschaftskrise	POS=NN
 Wirtschaftskrisen	polarity=negative	probability=-0.0048	lemma=Wirtschaftskrise	POS=NN
+Witz	polarity=negative	probability=-	lemma=Witz	POS=NN
 Wortschwall	polarity=negative	probability=-	lemma=Wortschwall	POS=NN
 Wrack	polarity=negative	probability=-0.0048	lemma=Wrack	POS=NN
 Wracks	polarity=negative	probability=-0.0048	lemma=Wrack	POS=NN
@@ -3913,7 +3927,6 @@ absage	polarity=negative	probability=1	lemma=absagen	POS=VV
 absagen	polarity=negative	probability=1	lemma=absagen	POS=VV
 absatzweise	polarity=negative	probability=-	lemma=absatzweise	POS=AD
 abschaffen	polarity=negative	probability=-0.0048	lemma=abschaffen	POS=VV
-abschalten	polarity=negative	probability=0.571429	lemma=abschalten	POS=VV
 abscheuern	polarity=negative	probability=-	lemma=abscheuern	POS=VV
 abscheuerregend	polarity=negative	probability=-	lemma=abscheuerregend	POS=AD
 abscheulich	polarity=negative	probability=-	lemma=abscheulich	POS=AD
@@ -4145,6 +4158,9 @@ alkoholisiertester	polarity=negative	probability=-0.0048	lemma=alkoholisiert	POS
 alkoholisiertestes	polarity=negative	probability=-0.0048	lemma=alkoholisiert	POS=AD
 allein	polarity=negative	probability=0.404255	lemma=allein	POS=AD
 allergisch	polarity=negative	probability=-	lemma=allergisch	POS=AD
+allerletzte	polarity=negative	probability=-	lemma=allerletzte	POS=AD
+allerletzter	polarity=negative	probability=-	lemma=allerletzte	POS=AD
+allerletzten	polarity=negative	probability=-	lemma=allerletzte	POS=AD
 alt	polarity=negative	probability=-0.0048	lemma=alt	POS=AD
 alte	polarity=negative	probability=-0.0048	lemma=alt	POS=AD
 altem	polarity=negative	probability=-0.0048	lemma=alt	POS=AD
@@ -4717,7 +4733,6 @@ aufwühlen	polarity=negative	probability=-0.0398	lemma=aufwühlen	POS=VV
 aufwühlend	polarity=negative	probability=-	lemma=aufwühlend	POS=AD
 aufziehend	polarity=negative	probability=-	lemma=aufziehend	POS=AD
 aufzwingen	polarity=negative	probability=-	lemma=aufzwingen	POS=VV
-aus	polarity=negative	probability=0.486744	lemma=aus	POS=PT
 ausbessern	polarity=negative	probability=0	lemma=ausbessern	POS=VV
 ausbeut	polarity=negative	probability=-0.3215	lemma=ausbeuten	POS=VV
 ausbeute	polarity=negative	probability=-0.3215	lemma=ausbeuten	POS=VV
@@ -5870,23 +5885,6 @@ beängstigend	polarity=negative	probability=-0.0367	lemma=beängstigend	POS=AD
 bieder	polarity=negative	probability=1	lemma=bieder	POS=AD
 biegeschlaff	polarity=negative	probability=-	lemma=biegeschlaff	POS=AD
 biegesteif	polarity=negative	probability=-	lemma=biegesteif	POS=VV
-billig	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billige	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigem	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigen	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billiger	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigere	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigerem	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigeren	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigerer	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigeres	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billiges	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigst	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigste	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigstem	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigsten	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigster	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
-billigstes	polarity=negative	probability=-0.2842	lemma=billig	POS=AD
 bissig	polarity=negative	probability=0	lemma=bissig	POS=AD
 bitter	polarity=negative	probability=-0.3394	lemma=bitter	POS=AD
 bittere	polarity=negative	probability=-0.3394	lemma=bitter	POS=AD
@@ -6082,7 +6080,6 @@ brachte	polarity=negative	probability=0.546512	lemma=bringen	POS=VV
 brandmarken	polarity=negative	probability=-	lemma=brandmarken	POS=VV
 brandmarkte	polarity=negative	probability=-	lemma=brandmarken	POS=VV
 brandschatzen	polarity=negative	probability=-	lemma=brandschatzen	POS=AD
-brauchte	polarity=negative	probability=0.362869	lemma=brauchen	POS=VV
 brechen	polarity=negative	probability=-0.7991	lemma=brechen	POS=VV
 breitspurig	polarity=negative	probability=-	lemma=breitspurig	POS=AD
 brennen	polarity=negative	probability=-0.0048	lemma=brennen	POS=VV
@@ -7200,7 +7197,6 @@ elendigstem	polarity=negative	probability=-0.0048	lemma=elendig	POS=AD
 elendigsten	polarity=negative	probability=-0.0048	lemma=elendig	POS=AD
 elendigster	polarity=negative	probability=-0.0048	lemma=elendig	POS=AD
 elendigstes	polarity=negative	probability=-0.0048	lemma=elendig	POS=AD
-emotional	polarity=negative	probability=0.333333	lemma=emotional	POS=AD
 empfand	polarity=negative	probability=0.317073	lemma=empfinden	POS=VV
 empfindungslos	polarity=negative	probability=-	lemma=empfindungslos	POS=AD
 emphatisch	polarity=negative	probability=-	lemma=emphatisch	POS=AD
@@ -7216,6 +7212,7 @@ empörte	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
 empörten	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
 empörtest	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
 empörtet	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
+endlos	polarity=negative	probability=1	lemma=endlos	POS=AD
 energielos	polarity=negative	probability=-0.3037	lemma=energielos	POS=AD
 energielose	polarity=negative	probability=-0.3037	lemma=energielos	POS=AD
 energielosem	polarity=negative	probability=-0.3037	lemma=energielos	POS=AD
@@ -7354,6 +7351,8 @@ entriss	polarity=negative	probability=0.5	lemma=entreißen	POS=VV
 entrüstet	polarity=negative	probability=-0.0048	lemma=entrüstet	POS=VV
 entsagend	polarity=negative	probability=-	lemma=entsagend	POS=AD
 entscheidende	polarity=negative	probability=0.333333	lemma=entscheidend	POS=AD
+entschuldigen	polarity=negative	probability=1	lemma=entschuldigen	POS=VV
+entschuldigte	polarity=negative	probability=1	lemma=entschuldigen	POS=VV
 entschwand	polarity=negative	probability=-	lemma=entschwinden	POS=VV
 entschwinden	polarity=negative	probability=-0.1827	lemma=entschwinden	POS=VV
 entseelt	polarity=negative	probability=-	lemma=entseelt	POS=AD
@@ -7868,7 +7867,6 @@ faschistischstem	polarity=negative	probability=-0.4477	lemma=faschistisch	POS=AD
 faschistischsten	polarity=negative	probability=-0.4477	lemma=faschistisch	POS=AD
 faschistischster	polarity=negative	probability=-0.4477	lemma=faschistisch	POS=AD
 faschistischstes	polarity=negative	probability=-0.4477	lemma=faschistisch	POS=AD
-fast	polarity=negative	probability=0.438931	lemma=fast	POS=AD
 fatal	polarity=negative	probability=-0.345	lemma=fatal	POS=AD
 fatale	polarity=negative	probability=-0.345	lemma=fatal	POS=AD
 fatalem	polarity=negative	probability=-0.345	lemma=fatal	POS=AD
@@ -9024,7 +9022,6 @@ gezwungen	polarity=negative	probability=0.545455	lemma=zwingen	POS=VV
 gezögert	polarity=negative	probability=-0.0048	lemma=zögern	POS=VV
 gezüchtigt	polarity=negative	probability=-0.0048	lemma=züchtigen	POS=AD
 geächtet	polarity=negative	probability=-	lemma=ächten	POS=VV
-geärgert	polarity=negative	probability=-0.1846	lemma=geärgert	POS=AD
 gierig	polarity=negative	probability=-	lemma=gierig	POS=AD
 giftig	polarity=negative	probability=-0.3378	lemma=giftig	POS=AD
 giftige	polarity=negative	probability=-0.3378	lemma=giftig	POS=AD
@@ -9501,6 +9498,7 @@ hassten	polarity=negative	probability=-0.054	lemma=hassen	POS=VV
 hasstest	polarity=negative	probability=-0.054	lemma=hassen	POS=VV
 hasstet	polarity=negative	probability=-0.054	lemma=hassen	POS=VV
 hastig	polarity=negative	probability=-	lemma=hastig	POS=AD
+hauen	polarity=negative	probability=-	lemma=hauen	POS=VV
 haussierend	polarity=negative	probability=-	lemma=haussierend	POS=AD
 hedonistisch	polarity=negative	probability=-	lemma=hedonistisch	POS=AD
 heftig	polarity=negative	probability=-0.1819	lemma=heftig	POS=AD
@@ -9808,6 +9806,7 @@ hinterlistigster	polarity=negative	probability=-0.3187	lemma=hinterlistig	POS=AD
 hinterlistigstes	polarity=negative	probability=-0.3187	lemma=hinterlistig	POS=AD
 hinwegtäuschen	polarity=negative	probability=1	lemma=hinwegtäuschen	POS=VV
 hitzköpfig	polarity=negative	probability=-	lemma=hitzköpfig	POS=AD
+hirnlos	polarity=negative	probability=-	lemma=hirnlos	POS=AD
 hochmütig	polarity=negative	probability=-	lemma=hochmütig	POS=AD
 hochtrabend	polarity=negative	probability=-0.3086	lemma=hochtrabend	POS=AD
 hochtrabende	polarity=negative	probability=-0.3086	lemma=hochtrabend	POS=AD
@@ -9849,7 +9848,6 @@ homosexuell	polarity=negative	probability=-	lemma=homosexuell	POS=AD
 hoppeln	polarity=negative	probability=-	lemma=hoppeln	POS=VV
 hoppelte	polarity=negative	probability=-	lemma=hoppeln	POS=VV
 horrend	polarity=negative	probability=-	lemma=horrend	POS=AD
-Hundekacke	polarity=negative	probability=-	lemma=Hundekacke	POS=NN
 hundemüde	polarity=negative	probability=-	lemma=hundemüde	POS=AD
 hundsmiserabel	polarity=negative	probability=1	lemma=hundsmiserabel	POS=AD
 hunger	polarity=negative	probability=-0.0565	lemma=hungern	POS=VV
@@ -10319,6 +10317,7 @@ jähzornigstes	polarity=negative	probability=-0.3089	lemma=jähzornig	POS=AD
 jämmerlich	polarity=negative	probability=-	lemma=jämmerlich	POS=AD
 kabbelig	polarity=negative	probability=-	lemma=kabbelig	POS=XY
 kabbelte	polarity=negative	probability=-	lemma=kabbelte	POS=XY
+kack	polarity=negative	probability=-0.171	lemma=kacke	POS=VV
 kacke	polarity=negative	probability=-0.171	lemma=kacke	POS=VV
 kahl	polarity=negative	probability=-0.0472	lemma=kahl	POS=AD
 kahle	polarity=negative	probability=-0.0472	lemma=kahl	POS=AD
@@ -10338,11 +10337,6 @@ kahlsten	polarity=negative	probability=-0.0472	lemma=kahl	POS=AD
 kahlster	polarity=negative	probability=-0.0472	lemma=kahl	POS=AD
 kahlstes	polarity=negative	probability=-0.0472	lemma=kahl	POS=AD
 kalt	polarity=negative	probability=-0.012	lemma=kalt	POS=AD
-kalte	polarity=negative	probability=-0.012	lemma=kalt	POS=AD
-kaltem	polarity=negative	probability=-0.012	lemma=kalt	POS=AD
-kalten	polarity=negative	probability=-0.012	lemma=kalt	POS=AD
-kalter	polarity=negative	probability=-0.012	lemma=kalt	POS=AD
-kaltes	polarity=negative	probability=-0.012	lemma=kalt	POS=AD
 kaltherzig	polarity=negative	probability=-0.0048	lemma=kaltherzig	POS=AD
 kaltherzige	polarity=negative	probability=-0.0048	lemma=kaltherzig	POS=AD
 kaltherzigem	polarity=negative	probability=-0.0048	lemma=kaltherzig	POS=AD
@@ -10413,10 +10407,7 @@ kauderwelschen	polarity=negative	probability=-	lemma=kauderwelsch	POS=XY
 kauderwelschte	polarity=negative	probability=-	lemma=kauderwelschen	POS=VV
 kaum	polarity=negative	probability=0.478788	lemma=kaum	POS=AD
 keimig	polarity=negative	probability=-0.0048	lemma=keimig	POS=AD
-kein	polarity=negative	probability=0.484544	lemma=kein	POS=PI
-keine	polarity=negative	probability=0.484544	lemma=kein	POS=PI
-keinen	polarity=negative	probability=0.484544	lemma=kein	POS=PI
-keiner	polarity=negative	probability=0.484544	lemma=kein	POS=PI
+kein	polarity=negative	probability=0.5625	lemma=kein	POS=AD
 keinesfalls	polarity=negative	probability=0.5625	lemma=keinesfalls	POS=AD
 keineswegs	polarity=negative	probability=0.428571	lemma=keineswegs	POS=AD
 kenter	polarity=negative	probability=-0.0048	lemma=kentern	POS=VV
@@ -10661,6 +10652,8 @@ korruptesten	polarity=negative	probability=-0.4615	lemma=korrupt	POS=AD
 korruptester	polarity=negative	probability=-0.4615	lemma=korrupt	POS=AD
 korruptestes	polarity=negative	probability=-0.4615	lemma=korrupt	POS=AD
 koste	polarity=negative	probability=0.525253	lemma=kosten	POS=VV
+kosten	polarity=negative	probability=0.525253	lemma=kosten	POS=VV
+kostet	polarity=negative	probability=0.525253	lemma=kosten	POS=VV
 kostenintensiv	polarity=negative	probability=-0.0048	lemma=kostenintensiv	POS=AD
 kostenintensive	polarity=negative	probability=-0.0048	lemma=kostenintensiv	POS=AD
 kostenintensivem	polarity=negative	probability=-0.0048	lemma=kostenintensiv	POS=AD
@@ -10725,7 +10718,6 @@ kraftlosestem	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
 kraftlosesten	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
 kraftlosester	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
 kraftlosestes	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
-Kram	polarity=negative	probability=-0.1	lemma=Kram	POS=NN
 krank	polarity=negative	probability=-0.0048	lemma=kranken	POS=VV
 kranke	polarity=negative	probability=-0.0048	lemma=kranken	POS=VV
 krankem	polarity=negative	probability=-0.4694	lemma=krank	POS=AD
@@ -10884,7 +10876,7 @@ kränkeltest	polarity=negative	probability=-0.0048	lemma=kränkeln	POS=VV
 kränkeltet	polarity=negative	probability=-0.0048	lemma=kränkeln	POS=VV
 kränken	polarity=negative	probability=-0.0048	lemma=kränken	POS=VV
 kränkend	polarity=negative	probability=-	lemma=kränkend	POS=AD
-kränker	polarity=negative	probability=-0.4694	lemma=krank	POS=AD
+kränker	polarity=negative	probability=-0.4694	POS=AD
 kränkere	polarity=negative	probability=-0.4694	lemma=krank	POS=AD
 kränkerem	polarity=negative	probability=-0.4694	lemma=krank	POS=AD
 kränkeren	polarity=negative	probability=-0.4694	lemma=krank	POS=AD
@@ -11081,6 +11073,7 @@ lakonischstem	polarity=negative	probability=-0.0048	lemma=lakonisch	POS=AD
 lakonischsten	polarity=negative	probability=-0.0048	lemma=lakonisch	POS=AD
 lakonischster	polarity=negative	probability=-0.0048	lemma=lakonisch	POS=AD
 lakonischstes	polarity=negative	probability=-0.0048	lemma=lakonisch	POS=AD
+lang	polarity=negative	probability=0.395789	lemma=lang	POS=AD
 langatmig	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
 langatmige	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
 langatmigem	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
@@ -11098,23 +11091,7 @@ langatmigstem	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
 langatmigsten	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
 langatmigster	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
 langatmigstes	polarity=negative	probability=-0.0048	lemma=langatmig	POS=AD
-langsam	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsame	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamem	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamen	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamer	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamere	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamerem	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsameren	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamerer	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsameres	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsames	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamst	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamste	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamstem	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamsten	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamster	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
-langsamstes	polarity=negative	probability=-0.0167	lemma=langsam	POS=AD
+langsam	polarity=negative	probability=-	lemma=langsam	POS=AD
 langweil	polarity=negative	probability=-0.0512	lemma=langweilen	POS=VV
 langweile	polarity=negative	probability=-0.0512	lemma=langweilen	POS=VV
 langweilen	polarity=negative	probability=-0.0512	lemma=langweilen	POS=VV
@@ -11170,7 +11147,6 @@ laschster	polarity=negative	probability=-0.0048	lemma=lasch	POS=AD
 laschstes	polarity=negative	probability=-0.0048	lemma=lasch	POS=AD
 lasterhaft	polarity=negative	probability=-	lemma=lasterhaft	POS=AD
 lasziv	polarity=negative	probability=0	lemma=lasziv	POS=AD
-lau	polarity=negative	probability=0.833333	lemma=lau	POS=AD
 lauernd	polarity=negative	probability=-	lemma=lauernd	POS=AD
 launenhaft	polarity=negative	probability=-	lemma=launenhaft	POS=AD
 launisch	polarity=negative	probability=-0.0409	lemma=launisch	POS=AD
@@ -11313,7 +11289,6 @@ leistungsschwach	polarity=negative	probability=-	lemma=leistungsschwach	POS=AD
 leistungsunfähig	polarity=negative	probability=-0.0048	lemma=leistungsunfähig	POS=AD
 letal	polarity=negative	probability=-	lemma=letal	POS=AD
 lethargisch	polarity=negative	probability=-	lemma=lethargisch	POS=AD
-letzter	polarity=negative	probability=0.509554	lemma=letzt	POS=AD
 leugn	polarity=negative	probability=-0.4862	lemma=leugnen	POS=VV
 leugne	polarity=negative	probability=-0.4862	lemma=leugnen	POS=VV
 leugnen	polarity=negative	probability=-0.4862	lemma=leugnen	POS=VV
@@ -11363,7 +11338,6 @@ liquidiertest	polarity=negative	probability=-0.0048	lemma=liquidieren	POS=VV
 liquidiertet	polarity=negative	probability=-0.0048	lemma=liquidieren	POS=VV
 listig	polarity=negative	probability=-	lemma=listig	POS=AD
 livid	polarity=negative	probability=-	lemma=livid	POS=AD
-los	polarity=negative	probability=0.428571	lemma=los	POS=PT
 lose	polarity=negative	probability=0.5	lemma=lose	POS=AD
 loswerden	polarity=negative	probability=-0.0048	lemma=loswerden	POS=VV
 lumpig	polarity=negative	probability=-	lemma=lumpig	POS=AD
@@ -11454,17 +11428,6 @@ lästigstem	polarity=negative	probability=-0.1751	lemma=lästig	POS=AD
 lästigsten	polarity=negative	probability=-0.1751	lemma=lästig	POS=AD
 lästigster	polarity=negative	probability=-0.1751	lemma=lästig	POS=AD
 lästigstes	polarity=negative	probability=-0.1751	lemma=lästig	POS=AD
-lösch	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-lösche	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschen	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschest	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschet	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschst	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löscht	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschte	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschten	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschtest	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
-löschtet	polarity=negative	probability=-0.3654	lemma=löschen	POS=VV
 lückenhaft	polarity=negative	probability=-0.4805	lemma=lückenhaft	POS=AD
 lückenhafte	polarity=negative	probability=-0.4805	lemma=lückenhaft	POS=AD
 lückenhaftem	polarity=negative	probability=-0.4805	lemma=lückenhaft	POS=AD
@@ -12062,7 +12025,6 @@ mürrischstem	polarity=negative	probability=-0.4658	lemma=mürrisch	POS=AD
 mürrischsten	polarity=negative	probability=-0.4658	lemma=mürrisch	POS=AD
 mürrischster	polarity=negative	probability=-0.4658	lemma=mürrisch	POS=AD
 mürrischstes	polarity=negative	probability=-0.4658	lemma=mürrisch	POS=AD
-müssen	polarity=negative	probability=0.438266	lemma=müssen	POS=VM
 nachdrücklich	polarity=negative	probability=-	lemma=nachdrücklich	POS=AD
 nachgemacht	polarity=negative	probability=0	lemma=nachmachen	POS=VV
 nachhinken	polarity=negative	probability=-	lemma=nachhinken	POS=VV
@@ -12126,7 +12088,6 @@ naivstes	polarity=negative	probability=-0.0675	lemma=naiv	POS=AD
 narbenbedeckt	polarity=negative	probability=-	lemma=narbenbedeckt	POS=VV
 narbig	polarity=negative	probability=-	lemma=narbig	POS=AD
 naseweis	polarity=negative	probability=-	lemma=naseweis	POS=AD
-ne	polarity=negative	probability=0.428571	lemma=ne	POS=XY
 nebensächlich	polarity=negative	probability=1	lemma=nebensächlich	POS=AD
 neblig	polarity=negative	probability=-	lemma=neblig	POS=AD
 nebulös	polarity=negative	probability=-	lemma=nebulös	POS=AD
@@ -12168,8 +12129,10 @@ neidischstem	polarity=negative	probability=-0.0048	lemma=neidisch	POS=AD
 neidischsten	polarity=negative	probability=-0.0048	lemma=neidisch	POS=AD
 neidischster	polarity=negative	probability=-0.0048	lemma=neidisch	POS=AD
 neidischstes	polarity=negative	probability=-0.0048	lemma=neidisch	POS=AD
-nein	polarity=negative	probability=0.723404	lemma=nein	POS=PT
+nerve	polarity=negative	probability=-0.1374	lemma=nerven	POS=VV
 nerven	polarity=negative	probability=-0.1374	lemma=nerven	POS=VV
+nervt	polarity=negative	probability=-0.1374	lemma=nerven	POS=VV
+nervst	polarity=negative	probability=-0.1374	lemma=nerven	POS=VV
 nervenaufreibend	polarity=negative	probability=-0.0376	lemma=nervenaufreibend	POS=AD
 nervenaufreibende	polarity=negative	probability=-0.0376	lemma=nervenaufreibend	POS=AD
 nervenaufreibendem	polarity=negative	probability=-0.0376	lemma=nervenaufreibend	POS=AD
@@ -12235,8 +12198,9 @@ neutralisierten	polarity=negative	probability=-0.1892	lemma=neutralisieren	POS=V
 neutralisiertest	polarity=negative	probability=-0.1892	lemma=neutralisieren	POS=VV
 neutralisiertet	polarity=negative	probability=-0.1892	lemma=neutralisieren	POS=VV
 nicht	polarity=negative	probability=0.49701	lemma=nicht	POS=PT
+nichts	polarity=negative	probability=0.49701	lemma=nicht	POS=PT
+nichtsnutzig	polarity=negative	probability=-	lemma=nichtsnutzig	POS=AD
 nichtig	polarity=negative	probability=-	lemma=nichtig	POS=AD
-nichts	polarity=negative	probability=0.564403	lemma=nichts	POS=PI
 nichtsahnend	polarity=negative	probability=-	lemma=nichtsahnend	POS=AD
 nichtzulässig	polarity=negative	probability=-	lemma=nichtzulässig	POS=VV
 nie	polarity=negative	probability=0.51497	lemma=nie	POS=AD
@@ -12307,7 +12271,7 @@ niedrigsten	polarity=negative	probability=-0.3623	lemma=niedrig	POS=AD
 niedrigster	polarity=negative	probability=-0.3623	lemma=niedrig	POS=AD
 niedrigstes	polarity=negative	probability=-0.3623	lemma=niedrig	POS=AD
 niemals	polarity=negative	probability=0.47619	lemma=niemals	POS=AD
-niemand	polarity=negative	probability=0.809524	lemma=niemand	POS=PI
+niemand	polarity=negative	probability=-	lemma=niemand	POS=AD
 nirgends	polarity=negative	probability=0.666667	lemma=nirgends	POS=AD
 nirgendwo	polarity=negative	probability=0.333333	lemma=nirgendwo	POS=AD
 nirgendwoher	polarity=negative	probability=-	lemma=nirgendwoher	POS=NN
@@ -12388,6 +12352,7 @@ obsessiv	polarity=negative	probability=-	lemma=obsessiv	POS=AD
 obskur	polarity=negative	probability=-	lemma=obskur	POS=AD
 obsolet	polarity=negative	probability=-	lemma=obsolet	POS=AD
 obszön	polarity=negative	probability=-	lemma=obszön	POS=AD
+ohne	polarity=negative	probability=-	lemma=ohne	POS=AD
 ohnmächtig	polarity=negative	probability=-	lemma=ohnmächtig	POS=AD
 ohrenbetäubend	polarity=negative	probability=0.666667	lemma=ohrenbetäubend	POS=AD
 oll	polarity=negative	probability=0	lemma=oll	POS=AD
@@ -12664,7 +12629,7 @@ qualvollstem	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
 qualvollsten	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
 qualvollster	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
 qualvollstes	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
-Quatsch	polarity=negative	probability=-	lemma=Quatsch	POS=VV
+quatsch	polarity=negative	probability=-	lemma=quatsch	POS=VV
 quäl	polarity=negative	probability=-0.1929	lemma=quälen	POS=VV
 quäle	polarity=negative	probability=-0.1929	lemma=quälen	POS=VV
 quälen	polarity=negative	probability=-0.1929	lemma=quälen	POS=VV
@@ -12752,6 +12717,7 @@ rationalisieren	polarity=negative	probability=-	lemma=rationalisieren	POS=VV
 rationalisierte	polarity=negative	probability=-	lemma=rationalisieren	POS=AD
 ratlos	polarity=negative	probability=1	lemma=ratlos	POS=AD
 rau	polarity=negative	probability=0.571429	lemma=rauh	POS=AD
+rauchen	polarity=negative	probability=0.571429	lemma=rauchen	POS=VV
 rauh	polarity=negative	probability=-0.0286	lemma=rauh	POS=AD
 rauhe	polarity=negative	probability=-0.0286	lemma=rauh	POS=AD
 rauhem	polarity=negative	probability=-0.0286	lemma=rauh	POS=AD
@@ -12846,6 +12812,8 @@ reduziertest	polarity=negative	probability=-0.0048	lemma=reduzieren	POS=VV
 reduziertet	polarity=negative	probability=-0.0048	lemma=reduzieren	POS=VV
 regellos	polarity=negative	probability=-	lemma=regellos	POS=AD
 reglos	polarity=negative	probability=-	lemma=reglos	POS=AD
+regnen	polarity=negative	probability=-	lemma=regnen	POS=VV
+regnet	polarity=negative	probability=-	lemma=regnen	POS=VV
 regressiv	polarity=negative	probability=-	lemma=regressiv	POS=AD
 regressive	polarity=negative	probability=-	lemma=regressiv	POS=VV
 regungslos	polarity=negative	probability=-	lemma=regungslos	POS=AD
@@ -13930,6 +13898,7 @@ senktest	polarity=negative	probability=-0.0596	lemma=senken	POS=VV
 senktet	polarity=negative	probability=-0.0596	lemma=senken	POS=VV
 sesshaft	polarity=negative	probability=-	lemma=seßhaft	POS=AD
 sexuelle	polarity=negative	probability=-	lemma=sexuell	POS=AD
+shit	polarity=negative	probability=-	lemma=shit	POS=AD
 sichtlicher	polarity=negative	probability=1	lemma=sichtlich	POS=AD
 simplifizierend	polarity=negative	probability=-	lemma=simplifizierend	POS=AD
 simplistisch	polarity=negative	probability=-	lemma=simplistisch	POS=AD
@@ -14047,6 +14016,8 @@ spaßhaft	polarity=negative	probability=-	lemma=spaßhaft	POS=AD
 sperrig	polarity=negative	probability=0.6	lemma=sperrig	POS=AD
 spielte	polarity=negative	probability=0.413793	lemma=spielen	POS=VV
 spinnen	polarity=negative	probability=0.75	lemma=spinnen	POS=VV
+spinnst	polarity=negative	probability=0.75	lemma=spinnen	POS=VV
+spinnt	polarity=negative	probability=0.75	lemma=spinnen	POS=VV
 sporadisch	polarity=negative	probability=0.5	lemma=sporadisch	POS=AD
 spotten	polarity=negative	probability=-	lemma=spotten	POS=VV
 spottenderweise	polarity=negative	probability=-	lemma=spottenderweise	POS=AD
@@ -14141,6 +14112,9 @@ steil	polarity=negative	probability=0.5	lemma=steil	POS=AD
 steilstehend	polarity=negative	probability=-	lemma=steilstehend	POS=AD
 steinhart	polarity=negative	probability=-	lemma=steinhart	POS=AD
 steinig	polarity=negative	probability=-	lemma=steinig	POS=AD
+sterbe	polarity=negative	probability=-	lemma=sterben	POS=VV
+sterben	polarity=negative	probability=-	lemma=sterben	POS=VV
+stirbt	polarity=negative	probability=-	lemma=sterben	POS=VV
 sterbend	polarity=negative	probability=-	lemma=sterbend	POS=AD
 stereotyp	polarity=negative	probability=-	lemma=stereotyp	POS=AD
 stereotypisch	polarity=negative	probability=-	lemma=stereotypisch	POS=AD
@@ -14760,6 +14734,8 @@ tötte	polarity=negative	probability=-0.5203	lemma=töten	POS=VV
 tötten	polarity=negative	probability=-0.5203	lemma=töten	POS=VV
 töttest	polarity=negative	probability=-0.5203	lemma=töten	POS=VV
 töttet	polarity=negative	probability=-0.5203	lemma=töten	POS=VV
+überbewerten	polarity=negative	probability=-	lemma=überbewerten	POS=NN
+überbewertet	polarity=negative	probability=-	lemma=überbewerten	POS=NN
 umgehen	polarity=negative	probability=0.3	lemma=umgehen	POS=VV
 umgekehrt	polarity=negative	probability=1	lemma=umkehren	POS=VV
 umgetauscht	polarity=negative	probability=-0.0048	lemma=umtauschen	POS=VV
@@ -15534,23 +15510,6 @@ unerträglichstem	polarity=negative	probability=-0.3454	lemma=unerträglich	POS=
 unerträglichsten	polarity=negative	probability=-0.3454	lemma=unerträglich	POS=AD
 unerträglichster	polarity=negative	probability=-0.3454	lemma=unerträglich	POS=AD
 unerträglichstes	polarity=negative	probability=-0.3454	lemma=unerträglich	POS=AD
-unerwartet	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartete	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetem	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwarteten	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwarteter	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetere	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwarteterem	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwarteteren	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwarteterer	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwarteteres	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetes	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetst	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetste	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetstem	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetsten	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetster	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
-unerwartetstes	polarity=negative	probability=-0.0349	lemma=unerwartet	POS=AD
 unerwiesen	polarity=negative	probability=-0.0048	lemma=unerwiesen	POS=AD
 unerwünscht	polarity=negative	probability=-0.3413	lemma=unerwünscht	POS=AD
 unerwünschte	polarity=negative	probability=-0.3413	lemma=unerwünscht	POS=AD
@@ -16416,23 +16375,6 @@ unmerklich	polarity=negative	probability=-	lemma=unmerklich	POS=AD
 unmodern	polarity=negative	probability=-	lemma=unmodern	POS=AD
 unmoralisch	polarity=negative	probability=-0.6224	lemma=unmoralisch	POS=AD
 unmutig	polarity=negative	probability=-	lemma=unmutig	POS=AD
-unmöglich	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmögliche	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichem	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichen	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglicher	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichere	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglicherem	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglicheren	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglicherer	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglicheres	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmögliches	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichst	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichste	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichstem	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichsten	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichster	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
-unmöglichstes	polarity=negative	probability=-0.3559	lemma=unmöglich	POS=AD
 unnachgiebig	polarity=negative	probability=-	lemma=unnachgiebig	POS=AD
 unnatürlich	polarity=negative	probability=-	lemma=unnatürlich	POS=AD
 unnötig	polarity=negative	probability=-0.9463	lemma=unnötig	POS=AD
@@ -17893,6 +17835,7 @@ verfehlten	polarity=negative	probability=-0.0373	lemma=verfehlen	POS=VV
 verfehltest	polarity=negative	probability=-0.0373	lemma=verfehlen	POS=VV
 verfehltet	polarity=negative	probability=-0.0373	lemma=verfehlen	POS=VV
 verfeindete	polarity=negative	probability=-	lemma=verfeinden	POS=VV
+verfickt	polarity=negative	probability=-	lemma=verfickt	POS=VV
 verflixt	polarity=negative	probability=-	lemma=verflixt	POS=AD
 verfluch	polarity=negative	probability=-0.3284	lemma=verfluchen	POS=VV
 verfluche	polarity=negative	probability=-0.3284	lemma=verfluchen	POS=VV
@@ -18260,6 +18203,9 @@ vernichtten	polarity=negative	probability=-0.4902	lemma=vernichten	POS=VV
 vernichttest	polarity=negative	probability=-0.4902	lemma=vernichten	POS=VV
 vernichttet	polarity=negative	probability=-0.4902	lemma=vernichten	POS=VV
 vernunftswidrig	polarity=negative	probability=-	lemma=vernunftswidrig	POS=VV
+verpasse	polarity=negative	probability=-	lemma=verpassen	POS=VV
+verpassen	polarity=negative	probability=-	lemma=verpassen	POS=VV
+verpasst	polarity=negative	probability=-	lemma=verpassen	POS=VV
 verpflichtend	polarity=negative	probability=-	lemma=verpflichtend	POS=AD
 verraten	polarity=negative	probability=-0.2087	lemma=verraten	POS=VV
 verrenkt	polarity=negative	probability=-	lemma=verrenken	POS=VV
@@ -19654,6 +19600,8 @@ zündete	polarity=negative	probability=0.666667	lemma=zünden	POS=VV
 ärgerlichster	polarity=negative	probability=-0.3111	lemma=ärgerlich	POS=AD
 ärgerlichstes	polarity=negative	probability=-0.3111	lemma=ärgerlich	POS=AD
 ärgern	polarity=negative	probability=-0.0048	lemma=ärgern	POS=VV
+ärgert	polarity=negative	probability=0.625	lemma=ärgern	POS=VV
+ärgerst	polarity=negative	probability=0.625	lemma=ärgern	POS=VV
 ärgerte	polarity=negative	probability=0.625	lemma=ärgern	POS=VV
 ärmer	polarity=negative	probability=-0.4546	lemma=arm	POS=AD
 ärmere	polarity=negative	probability=-0.4546	lemma=arm	POS=AD

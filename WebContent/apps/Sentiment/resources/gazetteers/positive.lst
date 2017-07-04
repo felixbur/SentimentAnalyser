@@ -1,4 +1,3 @@
-brdbl	polarity=positive	probability=-	lemma=brdbl	POS=NN
 Abfangschirm	polarity=positive	probability=-	lemma=Abfangschirm	POS=NN
 Abgeklärtheit	polarity=positive	probability=-	lemma=Abgeklärtheit	POS=NN
 Abgeschlossenheit	polarity=positive	probability=-	lemma=Abgeschlossenheit	POS=NN
@@ -36,6 +35,7 @@ Adept	polarity=positive	probability=-	lemma=Adept	POS=NN
 Adhäsion	polarity=positive	probability=-	lemma=Adhäsion	POS=NN
 Affirmation	polarity=positive	probability=-	lemma=Affirmation	POS=NN
 Agilität	polarity=positive	probability=-	lemma=Agilität	POS=NN
+Ahnung	polarity=positive	probability=-	lemma=Ahnung	POS=NN
 Akklamation	polarity=positive	probability=-	lemma=Akklamation	POS=NN
 Akquisition	polarity=positive	probability=-	lemma=Akquisition	POS=NN
 Aktivist	polarity=positive	probability=-	lemma=Aktivist	POS=NN
@@ -81,6 +81,7 @@ Angemessenheit	polarity=positive	probability=-	lemma=Angemessenheit	POS=NN
 Anhebung	polarity=positive	probability=-	lemma=Anhebung	POS=NN
 Anhebungen	polarity=positive	probability=-	lemma=Anhebung	POS=NN
 Anheiterung	polarity=positive	probability=-	lemma=Anheiterung	POS=NN
+Anhieb	polarity=positive	probability=-	lemma=Anhieb	POS=NN
 Anhängen	polarity=positive	probability=0.5	lemma=Anhang	POS=NN
 Anhänger	polarity=positive	probability=0.666667	lemma=Anhänger	POS=NN
 Anhängerin	polarity=positive	probability=-	lemma=Anhängerin	POS=NN
@@ -242,7 +243,6 @@ Auszeichnungen	polarity=positive	probability=-	lemma=Auszeichnung	POS=NN
 Authentizität	polarity=positive	probability=-	lemma=Authentizität	POS=NN
 Autonomie	polarity=positive	probability=-	lemma=Autonomie	POS=NN
 Autonomien	polarity=positive	probability=-	lemma=Autonomie	POS=NN
-Baby	polarity=positive	probability=-	lemma=Baby	POS=NN
 Bake	polarity=positive	probability=-	lemma=Bake	POS=NN
 Bankzinsen	polarity=positive	probability=-	lemma=Bankzins	POS=NN
 Barmherzigkeit	polarity=positive	probability=-	lemma=Barmherzigkeit	POS=NN
@@ -392,7 +392,9 @@ Bindung	polarity=positive	probability=-	lemma=Bindung	POS=NN
 Blüte	polarity=positive	probability=-	lemma=Blüte	POS=NN
 Blüten	polarity=positive	probability=-	lemma=Blüte	POS=NN
 Blütezeit	polarity=positive	probability=-	lemma=Blütezeit	POS=NN
+Bock	polarity=positive	probability=-	lemma=Bock	POS=NN
 Bombenerfolg	polarity=positive	probability=-	lemma=Bombenerfolg	POS=NN
+Bombenwetter	polarity=positive	probability=-	lemma=Bombenwetter	POS=NN
 Bonbon	polarity=positive	probability=-	lemma=Bonbon	POS=NN
 Bonität	polarity=positive	probability=-	lemma=Bonität	POS=NN
 Bonitäten	polarity=positive	probability=-	lemma=Bonität	POS=NN
@@ -537,11 +539,6 @@ Einheit	polarity=positive	probability=-	lemma=Einheit	POS=NN
 Einheiten	polarity=positive	probability=-	lemma=Einheit	POS=NN
 Einheitlichkeit	polarity=positive	probability=-	lemma=Einheitlichkeit	POS=NN
 Einigkeit	polarity=positive	probability=-	lemma=Einigkeit	POS=NN
-Einkauf	polarity=positive	probability=-	lemma=Einkauf	POS=NN
-Einkaufes	polarity=positive	probability=-	lemma=Einkauf	POS=NN
-Einkaufs	polarity=positive	probability=-	lemma=Einkauf	POS=NN
-Einkäufe	polarity=positive	probability=-	lemma=Einkauf	POS=NN
-Einkäufen	polarity=positive	probability=-	lemma=Einkauf	POS=NN
 Einlassung	polarity=positive	probability=-	lemma=Einlassung	POS=NN
 Einnahme	polarity=positive	probability=-	lemma=Einnahme	POS=NN
 Einnahmen	polarity=positive	probability=-	lemma=Einnahme	POS=NN
@@ -730,7 +727,6 @@ Finanzierungen	polarity=positive	probability=-	lemma=Finanzierung	POS=NN
 Fingerfertigkeit	polarity=positive	probability=-	lemma=Fingerfertigkeit	POS=NN
 Fingerspitzengefühl	polarity=positive	probability=1	lemma=Fingerspitzengefühl	POS=NN
 Fingertupfen	polarity=positive	probability=-	lemma=Fingertupfen	POS=NN
-Fitness	polarity=positive	probability=-	lemma=Fitness	POS=NN
 Flair	polarity=positive	probability=-	lemma=Flair	POS=NN
 Flairs	polarity=positive	probability=-	lemma=Flair	POS=NN
 Fleiß	polarity=positive	probability=-	lemma=Fleiß	POS=NN
@@ -740,7 +736,6 @@ Flexibilität	polarity=positive	probability=-	lemma=Flexibilität	POS=NN
 Flirt	polarity=positive	probability=-	lemma=Flirt	POS=NN
 Fortgang	polarity=positive	probability=-	lemma=Fortgang	POS=NN
 Fortschritt	polarity=positive	probability=-	lemma=Fortschritt	POS=NN
-Frauenversteher	polarity=positive	probability=-	lemma=Frauenversteher	POS=NN
 Freiheit	polarity=positive	probability=-	lemma=Freiheit	POS=NN
 Freiheiten	polarity=positive	probability=-	lemma=Freiheit	POS=NN
 Freimütigkeit	polarity=positive	probability=-	lemma=Freimütigkeit	POS=NN
@@ -752,6 +747,7 @@ Freispruchs	polarity=positive	probability=-	lemma=Freispruch	POS=NN
 Freisprüche	polarity=positive	probability=-	lemma=Freispruch	POS=NN
 Freisprüchen	polarity=positive	probability=-	lemma=Freispruch	POS=NN
 Freistatt	polarity=positive	probability=-	lemma=Freistatt	POS=NN
+Freizeit	polarity=positive	probability=-	lemma=Freizeit	POS=NN
 Freizügigkeit	polarity=positive	probability=-	lemma=Freizügigkeit	POS=NN
 Fresskorb	polarity=positive	probability=-	lemma=Fresskorb	POS=NN
 Freude	polarity=positive	probability=-	lemma=Freude	POS=NN
@@ -958,6 +954,7 @@ Größen	polarity=positive	probability=-	lemma=Größe	POS=NN
 Gründlichkeit	polarity=positive	probability=-	lemma=Gründlichkeit	POS=NN
 Gunst	polarity=positive	probability=-	lemma=Gunst	POS=NN
 Gut	polarity=positive	probability=0.40473	lemma=Gut	POS=NN
+Gütesiegel	polarity=positive	probability=-	lemma=Gütesiegel	POS=NN
 Gutherzigkeit	polarity=positive	probability=-	lemma=Gutherzigkeit	POS=NN
 Gutmütigkeit	polarity=positive	probability=-	lemma=Gutmütigkeit	POS=NN
 Gönner	polarity=positive	probability=-	lemma=Gönner	POS=NN
@@ -971,6 +968,7 @@ Günstling	polarity=positive	probability=-	lemma=Günstling	POS=NN
 Güte	polarity=positive	probability=-	lemma=Güte	POS=NN
 Güteverfahren	polarity=positive	probability=-	lemma=Güteverfahren	POS=NN
 Hale-Bopp	polarity=positive	probability=-	lemma=Hale-Bopp	POS=NN
+Hallelujah	polarity=positive	probability=-	lemma=Hallelujah	POS=NN
 Haltekraft	polarity=positive	probability=-	lemma=Haltekraft	POS=NN
 Hammer	polarity=positive	probability=-	lemma=Hammer	POS=NN
 Hammern	polarity=positive	probability=-	lemma=Hammer	POS=NN
@@ -1132,6 +1130,8 @@ Kohärenz	polarity=positive	probability=-	lemma=Kohärenz	POS=NN
 Kohäsion	polarity=positive	probability=-	lemma=Kohäsion	POS=NN
 Komfort	polarity=positive	probability=-	lemma=Komfort	POS=NN
 Komforts	polarity=positive	probability=-	lemma=Komfort	POS=NN
+Komiker	polarity=positive	probability=-	lemma=Komiker	POS=NN
+Komikerin	polarity=positive	probability=-	lemma=Komikerin	POS=NN
 Kommunikation	polarity=positive	probability=-	lemma=Kommunikation	POS=NN
 Kommunikationen	polarity=positive	probability=-	lemma=Kommunikation	POS=NN
 Kompatibilität	polarity=positive	probability=-	lemma=Kompatibilität	POS=NN
@@ -1190,6 +1190,7 @@ Kreuzritter	polarity=positive	probability=-	lemma=Kreuzritter	POS=NN
 Kribbeln	polarity=positive	probability=-	lemma=Kribbeln	POS=NN
 Kräfte	polarity=positive	probability=-	lemma=Kraft	POS=NN
 Kräften	polarity=positive	probability=-	lemma=Kraft	POS=NN
+Krönung	polarity=positive	probability=-	lemma=Krönung	POS=NN
 Kulanz	polarity=positive	probability=-	lemma=Kulanz	POS=NN
 Kultiviertheit	polarity=positive	probability=-	lemma=Kultiviertheit	POS=NN
 Kultur	polarity=positive	probability=-	lemma=Kultur	POS=NN
@@ -1200,7 +1201,9 @@ Kur	polarity=positive	probability=-	lemma=Kur	POS=NN
 Kuren	polarity=positive	probability=-	lemma=Kur	POS=NN
 Kuriosität	polarity=positive	probability=-	lemma=Kuriosität	POS=NN
 Kursgewinn	polarity=positive	probability=-	lemma=Kursgewinn	POS=NN
+Kuß	polarity=positive	probability=-	lemma=Kuß	POS=NN
 Kuss	polarity=positive	probability=-	lemma=Kuß	POS=NN
+Küsse	polarity=positive	probability=-	lemma=Kuß	POS=NN
 Käufe	polarity=positive	probability=-	lemma=Kauf	POS=NN
 Käufen	polarity=positive	probability=-	lemma=Kauf	POS=NN
 Können	polarity=positive	probability=0.440712	lemma=Können	POS=NN
@@ -1244,6 +1247,7 @@ Liebling	polarity=positive	probability=-	lemma=Liebling	POS=NN
 Lieblinge	polarity=positive	probability=-	lemma=Liebling	POS=NN
 Lieblingen	polarity=positive	probability=-	lemma=Liebling	POS=NN
 Lieblings	polarity=positive	probability=-	lemma=Liebling	POS=NN
+Lieblingsbeschäftigung	polarity=positive	probability=-	lemma=Lieblingsbeschäftigung	POS=NN
 Lieblingsplatz	polarity=positive	probability=-	lemma=Lieblingsplatz	POS=NN
 Liebschaft	polarity=positive	probability=-	lemma=Liebschaft	POS=NN
 Liebste	polarity=positive	probability=0.5	lemma=Liebste	POS=NN
@@ -1356,6 +1360,7 @@ Optimalität	polarity=positive	probability=-	lemma=Optimalität	POS=NN
 Optimismus	polarity=positive	probability=-	lemma=Optimismus	POS=NN
 Optimist	polarity=positive	probability=-	lemma=Optimist	POS=NN
 Optimisten	polarity=positive	probability=-	lemma=Optimist	POS=NN
+Ordnung	polarity=positive	probability=-	lemma=Ordnung	POS=NN
 Ordnungsmäßigkeit	polarity=positive	probability=-	lemma=Ordnungsmäßigkeit	POS=NN
 Originalität	polarity=positive	probability=-	lemma=Originalität	POS=NN
 Originalitäten	polarity=positive	probability=-	lemma=Originalität	POS=NN
@@ -1600,6 +1605,7 @@ Sinnes	polarity=positive	probability=-	lemma=Sinn	POS=NN
 Sinns	polarity=positive	probability=-	lemma=Sinn	POS=NN
 Sittlichkeit	polarity=positive	probability=-	lemma=Sittlichkeit	POS=NN
 Solidarität	polarity=positive	probability=-	lemma=Solidarität	POS=NN
+Sonne	polarity=positive	probability=-	lemma=Sonne	POS=NN
 Sonnenseite	polarity=positive	probability=-	lemma=Sonnenseite	POS=NN
 Sorgfalt	polarity=positive	probability=0	lemma=Sorgfalt	POS=NN
 Sorgfältigkeit	polarity=positive	probability=-	lemma=Sorgfältigkeit	POS=NN
@@ -1666,6 +1672,7 @@ Superlativ	polarity=positive	probability=-	lemma=Superlativ	POS=NN
 Superlative	polarity=positive	probability=-	lemma=Superlativ	POS=NN
 Superlativen	polarity=positive	probability=-	lemma=Superlativ	POS=NN
 Superlativs	polarity=positive	probability=-	lemma=Superlativ	POS=NN
+Supertolle	polarity=positive	probability=-	lemma=Supertolle	POS=NN
 Supremat	polarity=positive	probability=-	lemma=Supremat	POS=NN
 Symbiose	polarity=positive	probability=-	lemma=Symbiose	POS=NN
 Symbiosen	polarity=positive	probability=-	lemma=Symbiose	POS=NN
@@ -1912,7 +1919,6 @@ Wille	polarity=positive	probability=-	lemma=Wille	POS=NN
 Willigkeit	polarity=positive	probability=-	lemma=Willigkeit	POS=NN
 Wirksamkeit	polarity=positive	probability=-	lemma=Wirksamkeit	POS=NN
 Wissen	polarity=positive	probability=-	lemma=Wissen	POS=NN
-Witz	polarity=positive	probability=-	lemma=Witz	POS=NN
 Witze	polarity=positive	probability=-	lemma=Witz	POS=NN
 Witzen	polarity=positive	probability=-	lemma=Witz	POS=NN
 Witzes	polarity=positive	probability=-	lemma=Witz	POS=NN
@@ -2003,7 +2009,7 @@ abbauwürdig	polarity=positive	probability=-	lemma=abbauwürdig	POS=AD
 abenteuerlich	polarity=positive	probability=-	lemma=abenteuerlich	POS=AD
 abenteuerlustig	polarity=positive	probability=-	lemma=abenteuerlustig	POS=AD
 abfinden	polarity=positive	probability=0	lemma=abfinden	POS=VV
-abgefahren	polarity=positive	probability=-	lemma=abgefahren	POS=AD
+abgefahren	polarity=positive	probability=-	lemma=abgefahren	POS=VV
 abgeheilt	polarity=positive	probability=-	lemma=abheilen	POS=VV
 abgehend	polarity=positive	probability=1	lemma=abgehend	POS=AD
 abgelagert	polarity=positive	probability=-	lemma=ablagern	POS=VV
@@ -4145,6 +4151,7 @@ bewandert	polarity=positive	probability=-	lemma=bewandert	POS=AD
 bewandt	polarity=positive	probability=-	lemma=bewandt	POS=AD
 bewegend	polarity=positive	probability=-	lemma=bewegend	POS=AD
 beweglich	polarity=positive	probability=0.6	lemma=beweglich	POS=AD
+bewegen	polarity=positive	probability=-	lemma=bewegen	POS=VV
 bewegt	polarity=positive	probability=-	lemma=bewegt	POS=AD
 beweihräuchern	polarity=positive	probability=-	lemma=beweihräuchern	POS=VV
 beweihräucherte	polarity=positive	probability=-	lemma=beweihräuchern	POS=VV
@@ -4235,6 +4242,7 @@ bezüglich	polarity=positive	probability=0.571429	lemma=bezüglich	POS=AP
 biegbar	polarity=positive	probability=-	lemma=biegbar	POS=AD
 biegsam	polarity=positive	probability=1	lemma=biegsam	POS=AD
 bilderreich	polarity=positive	probability=-	lemma=bilderreich	POS=AD
+billig	polarity=positive	probability=-0.2842	lemma=billig	POS=AD
 bindig	polarity=positive	probability=-	lemma=bindig	POS=AD
 blanko	polarity=positive	probability=-	lemma=blanko	POS=VV
 bleibend	polarity=positive	probability=0.25	lemma=bleibend	POS=AD
@@ -4793,7 +4801,6 @@ dynamischster	polarity=positive	probability=-	lemma=dynamisch	POS=AD
 dynamischstes	polarity=positive	probability=-	lemma=dynamisch	POS=AD
 eben	polarity=positive	probability=0.43949	lemma=eben	POS=AD
 ebenmäßig	polarity=positive	probability=-	lemma=ebenmäßig	POS=AD
-echt	polarity=positive	probability=0.42	lemma=echt	POS=AD
 edel	polarity=positive	probability=-	lemma=edel	POS=AD
 edelmütig	polarity=positive	probability=-	lemma=edelmütig	POS=AD
 edelst	polarity=positive	probability=-	lemma=edel	POS=AD
@@ -5454,8 +5461,6 @@ entschlüsseltet	polarity=positive	probability=-	lemma=entschlüsseln	POS=VV
 entschlüssl	polarity=positive	probability=-	lemma=entschlüsseln	POS=VV
 entschlüssle	polarity=positive	probability=-	lemma=entschlüsseln	POS=VV
 entschuldbar	polarity=positive	probability=-	lemma=entschuldbar	POS=AD
-entschuldigen	polarity=positive	probability=1	lemma=entschuldigen	POS=VV
-entschuldigte	polarity=positive	probability=1	lemma=entschuldigen	POS=VV
 entschädigen	polarity=positive	probability=-	lemma=entschädigen	POS=VV
 entspann	polarity=positive	probability=-	lemma=entspannen	POS=VV
 entspanne	polarity=positive	probability=-	lemma=entspannen	POS=VV
@@ -7298,6 +7303,7 @@ gehorsamstem	polarity=positive	probability=-	lemma=gehorsam	POS=AD
 gehorsamsten	polarity=positive	probability=-	lemma=gehorsam	POS=AD
 gehorsamster	polarity=positive	probability=-	lemma=gehorsam	POS=AD
 gehorsamstes	polarity=positive	probability=-	lemma=gehorsam	POS=AD
+gehen	polarity=positive	probability=0.496875	lemma=gehen	POS=VV
 geht	polarity=positive	probability=0.496875	lemma=gehen	POS=VV
 gehäckselt	polarity=positive	probability=0	lemma=häckseln	POS=VV
 gehörig	polarity=positive	probability=-	lemma=gehörig	POS=AD
@@ -7342,6 +7348,7 @@ geistlich	polarity=positive	probability=-	lemma=geistlich	POS=AD
 geistreich	polarity=positive	probability=1	lemma=geistreich	POS=AD
 geistvoll	polarity=positive	probability=-	lemma=geistvoll	POS=AD
 gejubelt	polarity=positive	probability=-	lemma=jubeln	POS=VV
+geklappt	polarity=positive	probability=-	lemma=klappen	POS=VV
 geklettert	polarity=positive	probability=-	lemma=klettern	POS=VV
 geklärt	polarity=positive	probability=-	lemma=klären	POS=VV
 gekommen	polarity=positive	probability=0.491039	lemma=kommen	POS=VV
@@ -8338,7 +8345,9 @@ grenzenlosestes	polarity=positive	probability=-	lemma=grenzenlos	POS=AD
 grinsen	polarity=positive	probability=0.666667	lemma=grinsen	POS=VV
 grinste	polarity=positive	probability=0.666667	lemma=grinsen	POS=VV
 groß	polarity=positive	probability=-	lemma=groß	POS=AD
+gross	polarity=positive	probability=-	lemma=groß	POS=AD
 großartig	polarity=positive	probability=-	lemma=großartig	POS=AD
+grossartig	polarity=positive	probability=-	lemma=großartig	POS=AD
 großartige	polarity=positive	probability=-	lemma=großartig	POS=AD
 großartigem	polarity=positive	probability=-	lemma=großartig	POS=AD
 großartigen	polarity=positive	probability=-	lemma=großartig	POS=AD
@@ -8620,8 +8629,15 @@ gütlichsten	polarity=positive	probability=-	lemma=gütlich	POS=AD
 gütlichster	polarity=positive	probability=-	lemma=gütlich	POS=AD
 gütlichstes	polarity=positive	probability=-	lemma=gütlich	POS=AD
 halbgebildet	polarity=positive	probability=-	lemma=halbgebildet	POS=AD
+hallelujah	polarity=positive	probability=-	lemma=hallelujah	POS=NN
 hallen	polarity=positive	probability=-	lemma=hallen	POS=VV
 hallte	polarity=positive	probability=-	lemma=hallen	POS=VV
+haltbar	polarity=positive	probability=-	lemma=haltbar	POS=NN
+haltbare	polarity=positive	probability=-	lemma=haltbar	POS=NN
+haltbarem	polarity=positive	probability=-	lemma=haltbar	POS=NN
+haltbaren	polarity=positive	probability=-	lemma=haltbar	POS=NN
+haltbarer	polarity=positive	probability=-	lemma=haltbar	POS=NN
+haltbares	polarity=positive	probability=-	lemma=haltbar	POS=NN
 handfest	polarity=positive	probability=-	lemma=handfest	POS=AD
 handfeste	polarity=positive	probability=-	lemma=handfest	POS=AD
 handfestem	polarity=positive	probability=-	lemma=handfest	POS=AD
@@ -8795,13 +8811,7 @@ heitrerem	polarity=positive	probability=-	lemma=heiter	POS=AD
 heitreren	polarity=positive	probability=-	lemma=heiter	POS=AD
 heitrerer	polarity=positive	probability=-	lemma=heiter	POS=AD
 heitreres	polarity=positive	probability=-	lemma=heiter	POS=AD
-heiß	polarity=positive	probability=-	lemma=heiß	POS=AD
 heißblütig	polarity=positive	probability=-	lemma=heißblütig	POS=AD
-heiße	polarity=positive	probability=-	lemma=heiß	POS=AD
-heißem	polarity=positive	probability=-	lemma=heiß	POS=AD
-heißen	polarity=positive	probability=-	lemma=heiß	POS=AD
-heißer	polarity=positive	probability=-	lemma=heiß	POS=AD
-heißere	polarity=positive	probability=-	lemma=heiß	POS=AD
 heißerem	polarity=positive	probability=-	lemma=heiß	POS=AD
 heißeren	polarity=positive	probability=-	lemma=heiß	POS=AD
 heißerer	polarity=positive	probability=-	lemma=heiß	POS=AD
@@ -9478,6 +9488,11 @@ individuellsten	polarity=positive	probability=-	lemma=individuell	POS=AD
 individuellster	polarity=positive	probability=-	lemma=individuell	POS=AD
 individuellstes	polarity=positive	probability=-	lemma=individuell	POS=AD
 informativ	polarity=positive	probability=0.5	lemma=informativ	POS=AD
+informiert	polarity=positive	probability=-	lemma=informiert	POS=VV
+informierte	polarity=positive	probability=-	lemma=informiert	POS=AD
+informierter	polarity=positive	probability=-	lemma=informiert	POS=AD
+informiertes	polarity=positive	probability=-	lemma=informiert	POS=AD
+informierten	polarity=positive	probability=-	lemma=informiert	POS=VV
 ingeniös	polarity=positive	probability=-	lemma=ingeniös	POS=AD
 ingeniöse	polarity=positive	probability=-	lemma=ingeniös	POS=AD
 ingeniösem	polarity=positive	probability=-	lemma=ingeniös	POS=AD
@@ -9652,7 +9667,6 @@ investierte	polarity=positive	probability=-	lemma=investieren	POS=VV
 investierten	polarity=positive	probability=-	lemma=investieren	POS=VV
 investiertest	polarity=positive	probability=-	lemma=investieren	POS=VV
 investiertet	polarity=positive	probability=-	lemma=investieren	POS=VV
-ja	polarity=positive	probability=0.524211	lemma=ja	POS=AD
 jubel	polarity=positive	probability=-	lemma=jubeln	POS=VV
 jubele	polarity=positive	probability=-	lemma=jubeln	POS=VV
 jubelen	polarity=positive	probability=-	lemma=jubeln	POS=VV
@@ -9670,6 +9684,7 @@ juble	polarity=positive	probability=-	lemma=jubeln	POS=VV
 jugendlich	polarity=positive	probability=-	lemma=jugendlich	POS=AD
 jugendliche	polarity=positive	probability=-	lemma=jugendlich	POS=AD
 jung	polarity=positive	probability=0.466667	lemma=jung	POS=AD
+juhu	polarity=positive	probability=-	lemma=juhu	POS=AD
 kaiserlich	polarity=positive	probability=-	lemma=kaiserlich	POS=AD
 kam	polarity=positive	probability=0.491039	lemma=kommen	POS=VV
 karitativ	polarity=positive	probability=-	lemma=karitativ	POS=AD
@@ -9713,17 +9728,7 @@ klaglosesten	polarity=positive	probability=-	lemma=klaglos	POS=AD
 klaglosester	polarity=positive	probability=-	lemma=klaglos	POS=AD
 klaglosestes	polarity=positive	probability=-	lemma=klaglos	POS=AD
 klang	polarity=positive	probability=0.564935	lemma=klingen	POS=VV
-klar	polarity=positive	probability=-	lemma=klar	POS=AD
-klare	polarity=positive	probability=-	lemma=klar	POS=AD
-klarem	polarity=positive	probability=-	lemma=klar	POS=AD
-klaren	polarity=positive	probability=-	lemma=klar	POS=AD
-klarer	polarity=positive	probability=-	lemma=klar	POS=AD
-klarere	polarity=positive	probability=-	lemma=klar	POS=AD
-klarerem	polarity=positive	probability=-	lemma=klar	POS=AD
-klareren	polarity=positive	probability=-	lemma=klar	POS=AD
-klarerer	polarity=positive	probability=-	lemma=klar	POS=AD
-klareres	polarity=positive	probability=-	lemma=klar	POS=AD
-klares	polarity=positive	probability=-	lemma=klar	POS=AD
+klappen	polarity=positive	probability=-	lemma=klappen	POS=VV
 klarst	polarity=positive	probability=-	lemma=klar	POS=AD
 klarste	polarity=positive	probability=-	lemma=klar	POS=AD
 klarstem	polarity=positive	probability=-	lemma=klar	POS=AD
@@ -10370,6 +10375,7 @@ kultiviertestem	polarity=positive	probability=-	lemma=kultiviert	POS=VV
 kultiviertesten	polarity=positive	probability=-	lemma=kultiviert	POS=VV
 kultiviertester	polarity=positive	probability=-	lemma=kultiviert	POS=VV
 kultiviertestes	polarity=positive	probability=-	lemma=kultiviert	POS=VV
+kulturfernsehen	polarity=positive	probability=-	lemma=kulturfernsehen	POS=VV
 kunstreich	polarity=positive	probability=-	lemma=kunstreich	POS=AD
 kunstreiche	polarity=positive	probability=-	lemma=kunstreich	POS=AD
 kunstreichem	polarity=positive	probability=-	lemma=kunstreich	POS=AD
@@ -10417,6 +10423,7 @@ kuriertest	polarity=positive	probability=-	lemma=kurieren	POS=VV
 kuriertet	polarity=positive	probability=-	lemma=kurieren	POS=VV
 kurios	polarity=positive	probability=-	lemma=kurios	POS=AD
 kurzweilig	polarity=positive	probability=0.25	lemma=kurzweilig	POS=AD
+kuschelig	polarity=positive	probability=-	lemma=kuschelig	POS=AD
 königlich	polarity=positive	probability=-	lemma=königlich	POS=AD
 köstlich	polarity=positive	probability=0	lemma=köstlich	POS=AD
 kühlte	polarity=positive	probability=0.333333	lemma=kühlen	POS=VV
@@ -10462,7 +10469,6 @@ lachtest	polarity=positive	probability=-	lemma=lachen	POS=VV
 lachtet	polarity=positive	probability=-	lemma=lachen	POS=VV
 landschaftlich	polarity=positive	probability=-	lemma=landschaftlich	POS=AD
 landwirtschaftliche	polarity=positive	probability=-	lemma=landwirtschaftlich	POS=AD
-lang	polarity=positive	probability=0.395789	lemma=lang	POS=AD
 langlebig	polarity=positive	probability=-	lemma=langlebig	POS=AD
 langlebige	polarity=positive	probability=-	lemma=langlebig	POS=AD
 langlebigem	polarity=positive	probability=-	lemma=langlebig	POS=AD
@@ -10483,6 +10489,7 @@ langlebigstes	polarity=positive	probability=-	lemma=langlebig	POS=AD
 langmütig	polarity=positive	probability=-	lemma=langmütig	POS=AD
 lastenfrei	polarity=positive	probability=-	lemma=lastenfrei	POS=VV
 lastfrei	polarity=positive	probability=-	lemma=lastfrei	POS=VV
+laufen	polarity=positive	probability=-	lemma=laufen	POS=VV
 lauschig	polarity=positive	probability=-	lemma=lauschig	POS=AD
 lautstark	polarity=positive	probability=-	lemma=lautstark	POS=AD
 lautstarke	polarity=positive	probability=-	lemma=lautstark	POS=AD
@@ -10555,6 +10562,7 @@ lebhaftestem	polarity=positive	probability=-	lemma=lebhaft	POS=AD
 lebhaftesten	polarity=positive	probability=-	lemma=lebhaft	POS=AD
 lebhaftester	polarity=positive	probability=-	lemma=lebhaft	POS=AD
 lebhaftestes	polarity=positive	probability=-	lemma=lebhaft	POS=AD
+lecker	polarity=positive	probability=-	lemma=lecker	POS=AD
 legal	polarity=positive	probability=-	lemma=legal	POS=AD
 legale	polarity=positive	probability=-	lemma=legal	POS=AD
 legalem	polarity=positive	probability=-	lemma=legal	POS=AD
@@ -10731,11 +10739,9 @@ liberalsten	polarity=positive	probability=-	lemma=liberal	POS=AD
 liberalster	polarity=positive	probability=-	lemma=liberal	POS=AD
 liberalstes	polarity=positive	probability=-	lemma=liberal	POS=AD
 lieb	polarity=positive	probability=-	lemma=lieb	POS=AD
-liebe	polarity=positive	probability=-	lemma=lieben	POS=VV
-liebst	polarity=positive	probability=-	lemma=lieben	POS=VV
-liebt	polarity=positive	probability=-	lemma=lieben	POS=VV
+liebe	polarity=positive	probability=-	lemma=lieb	POS=AD
 liebem	polarity=positive	probability=-	lemma=lieb	POS=AD
-lieben	polarity=positive	probability=-	lemma=lieben	POS=VV
+lieben	polarity=positive	probability=-	lemma=lieb	POS=VV
 liebenswert	polarity=positive	probability=-	lemma=liebenswert	POS=AD
 liebenswerte	polarity=positive	probability=-	lemma=liebenswert	POS=AD
 liebenswertem	polarity=positive	probability=-	lemma=liebenswert	POS=AD
@@ -10944,7 +10950,13 @@ lukrativstem	polarity=positive	probability=-	lemma=lukrativ	POS=AD
 lukrativsten	polarity=positive	probability=-	lemma=lukrativ	POS=AD
 lukrativster	polarity=positive	probability=-	lemma=lukrativ	POS=AD
 lukrativstes	polarity=positive	probability=-	lemma=lukrativ	POS=AD
+lupenrein	polarity=positive	probability=-	lemma=lupenrein	POS=AD
 lustig	polarity=positive	probability=0.588235	lemma=lustig	POS=AD
+lustige	polarity=positive	probability=0.588235	lemma=lustig	POS=AD
+lustigem	polarity=positive	probability=0.588235	lemma=lustig	POS=AD
+lustigen	polarity=positive	probability=0.588235	lemma=lustig	POS=AD
+lustiger	polarity=positive	probability=0.588235	lemma=lustig	POS=AD
+lustiges	polarity=positive	probability=0.588235	lemma=lustig	POS=AD
 lustvoll	polarity=positive	probability=-	lemma=lustvoll	POS=AD
 luxoriös	polarity=positive	probability=-	lemma=luxoriös	POS=AD
 luxuriös	polarity=positive	probability=-	lemma=luxuriös	POS=AD
@@ -11026,6 +11038,7 @@ lückenlosestem	polarity=positive	probability=-	lemma=lückenlos	POS=AD
 lückenlosesten	polarity=positive	probability=-	lemma=lückenlos	POS=AD
 lückenlosester	polarity=positive	probability=-	lemma=lückenlos	POS=AD
 lückenlosestes	polarity=positive	probability=-	lemma=lückenlos	POS=AD
+mag	polarity=positive	probability=-	lemma=mögen	POS=VV
 magisch	polarity=positive	probability=-	lemma=magisch	POS=AD
 magische	polarity=positive	probability=-	lemma=magisch	POS=AD
 magischem	polarity=positive	probability=-	lemma=magisch	POS=AD
@@ -11044,6 +11057,7 @@ magischsten	polarity=positive	probability=-	lemma=magisch	POS=AD
 magischster	polarity=positive	probability=-	lemma=magisch	POS=AD
 magischstes	polarity=positive	probability=-	lemma=magisch	POS=AD
 magnetisch	polarity=positive	probability=0	lemma=magnetisch	POS=AD
+magst	polarity=positive	probability=-	lemma=mögen	POS=VV
 majestätisch	polarity=positive	probability=-	lemma=majestätisch	POS=AD
 majestätische	polarity=positive	probability=-	lemma=majestätisch	POS=AD
 majestätischem	polarity=positive	probability=-	lemma=majestätisch	POS=AD
@@ -11465,6 +11479,7 @@ mächtigstes	polarity=positive	probability=-	lemma=mächtig	POS=AD
 männlich	polarity=positive	probability=0.5	lemma=männlich	POS=AD
 märchenhaft	polarity=positive	probability=-	lemma=märchenhaft	POS=AD
 mäßig	polarity=positive	probability=0.535714	lemma=mäßig	POS=AD
+möchte	polarity=positive	probability=-	lemma=mögen	POS=VV
 mögen	polarity=positive	probability=-	lemma=mögen	POS=VV
 möglich	polarity=positive	probability=-	lemma=möglich	POS=AD
 mögliche	polarity=positive	probability=-	lemma=möglich	POS=AD
@@ -11645,7 +11660,6 @@ neuster	polarity=positive	probability=-	lemma=neu	POS=AD
 neustes	polarity=positive	probability=-	lemma=neu	POS=AD
 nichtstöranfällig	polarity=positive	probability=-	lemma=nichtstöranfällig	POS=VV
 nie	polarity=Problem	probability=	lemma=Problem	POS=nie
-nie	polarity=langweilig	probability=	lemma=langweilig	POS=nie
 niedlich	polarity=positive	probability=-	lemma=niedlich	POS=AD
 niedliche	polarity=positive	probability=-	lemma=niedlich	POS=AD
 niedlichem	polarity=positive	probability=-	lemma=niedlich	POS=AD
@@ -11751,7 +11765,6 @@ offensichtlichsten	polarity=positive	probability=-	lemma=offensichtlich	POS=AD
 offensichtlichster	polarity=positive	probability=-	lemma=offensichtlich	POS=AD
 offensichtlichstes	polarity=positive	probability=-	lemma=offensichtlich	POS=AD
 ok	polarity=positive	probability=0.433498	lemma=ok	POS=XY
-okay	polarity=positive	probability=0.433498	lemma=ok	POS=XY
 opportun	polarity=positive	probability=-	lemma=opportun	POS=AD
 optimal	polarity=positive	probability=-	lemma=optimal	POS=AD
 optimistisch	polarity=positive	probability=-	lemma=optimistisch	POS=AD
@@ -13042,9 +13055,7 @@ schenktet	polarity=positive	probability=-	lemma=schenken	POS=VV
 scherzen	polarity=positive	probability=0	lemma=scherzen	POS=VV
 scherzhaft	polarity=positive	probability=-	lemma=scherzhaft	POS=AD
 schick	polarity=positive	probability=-	lemma=schick	POS=AD
-schicke	polarity=positive	probability=-	lemma=schick	POS=AD
 schickem	polarity=positive	probability=-	lemma=schick	POS=AD
-schicken	polarity=positive	probability=-	lemma=schick	POS=AD
 schicker	polarity=positive	probability=-	lemma=schick	POS=AD
 schickere	polarity=positive	probability=-	lemma=schick	POS=AD
 schickerem	polarity=positive	probability=-	lemma=schick	POS=AD
@@ -13052,7 +13063,6 @@ schickeren	polarity=positive	probability=-	lemma=schick	POS=AD
 schickerer	polarity=positive	probability=-	lemma=schick	POS=AD
 schickeres	polarity=positive	probability=-	lemma=schick	POS=AD
 schickes	polarity=positive	probability=-	lemma=schick	POS=AD
-schickst	polarity=positive	probability=-	lemma=schick	POS=AD
 schickste	polarity=positive	probability=-	lemma=schick	POS=AD
 schickstem	polarity=positive	probability=-	lemma=schick	POS=AD
 schicksten	polarity=positive	probability=-	lemma=schick	POS=AD
@@ -13072,6 +13082,7 @@ schillertest	polarity=positive	probability=-	lemma=schillern	POS=VV
 schillertet	polarity=positive	probability=-	lemma=schillern	POS=VV
 schimmern	polarity=positive	probability=0	lemma=schimmern	POS=VV
 schimmernd	polarity=positive	probability=-	lemma=schimmernd	POS=AD
+schlafen	polarity=positive	probability=-	lemma=schlafen	POS=VV
 schlagend	polarity=positive	probability=-	lemma=schlagend	POS=AD
 schlagende	polarity=positive	probability=-	lemma=schlagend	POS=AD
 schlagendem	polarity=positive	probability=-	lemma=schlagend	POS=AD
@@ -13203,9 +13214,6 @@ schmücktet	polarity=positive	probability=-	lemma=schmücken	POS=VV
 schneidend	polarity=positive	probability=1	lemma=schneidend	POS=AD
 schneidig	polarity=positive	probability=-	lemma=schneidig	POS=AD
 schnell	polarity=positive	probability=-	lemma=schnell	POS=AD
-schnelle	polarity=positive	probability=-	lemma=schnell	POS=AD
-schnellem	polarity=positive	probability=-	lemma=schnell	POS=AD
-schnellen	polarity=positive	probability=-	lemma=schnell	POS=AD
 schneller	polarity=positive	probability=-	lemma=schnell	POS=AD
 schnellere	polarity=positive	probability=-	lemma=schnell	POS=AD
 schnellerem	polarity=positive	probability=-	lemma=schnell	POS=AD
@@ -13322,7 +13330,6 @@ sehenswertestem	polarity=positive	probability=-	lemma=sehenswert	POS=AD
 sehenswertesten	polarity=positive	probability=-	lemma=sehenswert	POS=AD
 sehenswertester	polarity=positive	probability=-	lemma=sehenswert	POS=AD
 sehenswertestes	polarity=positive	probability=-	lemma=sehenswert	POS=AD
-sehr	polarity=positive	probability=0.388175	lemma=sehr	POS=AD
 selbstbeweihräuchernd	polarity=positive	probability=-	lemma=selbstbeweihräuchernd	POS=AD
 selbstgenügsam	polarity=positive	probability=-	lemma=selbstgenügsam	POS=AD
 selbstlos	polarity=positive	probability=-	lemma=selbstlos	POS=AD
@@ -13950,6 +13957,10 @@ stilvollstem	polarity=positive	probability=-	lemma=stilvoll	POS=AD
 stilvollsten	polarity=positive	probability=-	lemma=stilvoll	POS=AD
 stilvollster	polarity=positive	probability=-	lemma=stilvoll	POS=AD
 stilvollstes	polarity=positive	probability=-	lemma=stilvoll	POS=AD
+stimmen	polarity=positive	probability=0.306818	lemma=stimmen	POS=VV
+stimmst	polarity=positive	probability=0.306818	lemma=stimmen	POS=VV
+stimme	polarity=positive	probability=0.306818	lemma=stimmen	POS=VV
+stimmt	polarity=positive	probability=0.306818	lemma=stimmen	POS=VV
 stimmte	polarity=positive	probability=0.306818	lemma=stimmen	POS=VV
 stimulier	polarity=positive	probability=-	lemma=stimulieren	POS=VV
 stimuliere	polarity=positive	probability=-	lemma=stimulieren	POS=VV
@@ -14045,6 +14056,12 @@ störungsfreister	polarity=positive	probability=-	lemma=störungsfrei	POS=AD
 störungsfreistes	polarity=positive	probability=-	lemma=störungsfrei	POS=AD
 stützen	polarity=positive	probability=-	lemma=stützen	POS=VV
 stützte	polarity=positive	probability=0	lemma=stützen	POS=VV
+stylisch	polarity=positive	probability=0	lemma=stylisch	POS=VV
+stylische	polarity=positive	probability=0	lemma=stylisch	POS=VV
+stylischem	polarity=positive	probability=0	lemma=stylisch	POS=VV
+stylischen	polarity=positive	probability=0	lemma=stylisch	POS=VV
+stylischer	polarity=positive	probability=0	lemma=stylisch	POS=VV
+stylisches	polarity=positive	probability=0	lemma=stylisch	POS=VV
 subventionier	polarity=positive	probability=-	lemma=subventionieren	POS=VV
 subventioniere	polarity=positive	probability=-	lemma=subventionieren	POS=VV
 subventionieren	polarity=positive	probability=-	lemma=subventionieren	POS=VV
@@ -14057,6 +14074,7 @@ subventionierten	polarity=positive	probability=-	lemma=subventionieren	POS=VV
 subventioniertest	polarity=positive	probability=-	lemma=subventionieren	POS=VV
 subventioniertet	polarity=positive	probability=-	lemma=subventionieren	POS=VV
 super	polarity=positive	probability=-	lemma=super	POS=AD
+superduper	polarity=positive	probability=-	lemma=superduper	POS=AD
 supere	polarity=positive	probability=-	lemma=super	POS=AD
 superem	polarity=positive	probability=-	lemma=super	POS=AD
 superen	polarity=positive	probability=-	lemma=super	POS=AD
@@ -14090,8 +14108,18 @@ superstem	polarity=positive	probability=-	lemma=super	POS=AD
 supersten	polarity=positive	probability=-	lemma=super	POS=AD
 superster	polarity=positive	probability=-	lemma=super	POS=AD
 superstes	polarity=positive	probability=-	lemma=super	POS=AD
+supertoll	polarity=positive	probability=-	lemma=supertoll	POS=NN
+supertolle	polarity=positive	probability=-	lemma=supertoll	POS=NN
+supertollem	polarity=positive	probability=-	lemma=supertoll	POS=NN
+supertollen	polarity=positive	probability=-	lemma=supertoll	POS=NN
+supertoller	polarity=positive	probability=-	lemma=supertoll	POS=NN
+supertolles	polarity=positive	probability=-	lemma=supertoll	POS=NN
 sympathisch	polarity=positive	probability=-	lemma=sympathisch	POS=AD
 sympathische	polarity=positive	probability=1	lemma=sympathisch	POS=AD
+sympathischer	polarity=positive	probability=1	lemma=sympathisch	POS=AD
+sympathischen	polarity=positive	probability=1	lemma=sympathisch	POS=AD
+sympathischem	polarity=positive	probability=1	lemma=sympathisch	POS=AD
+sympathisches	polarity=positive	probability=1	lemma=sympathisch	POS=AD
 sympathisier	polarity=positive	probability=-	lemma=sympathisieren	POS=VV
 sympathisiere	polarity=positive	probability=-	lemma=sympathisieren	POS=VV
 sympathisieren	polarity=positive	probability=-	lemma=sympathisieren	POS=VV
@@ -14505,6 +14533,7 @@ tugendsam	polarity=positive	probability=-	lemma=tugendsam	POS=AD
 tätig	polarity=positive	probability=-	lemma=tätig	POS=VV
 tüchtig	polarity=positive	probability=-	lemma=tüchtig	POS=AD
 tüfteln	polarity=positive	probability=-	lemma=tüfteln	POS=VV
+ui	polarity=positive	probability=-	lemma=ui	POS=AD
 ultimativ	polarity=positive	probability=-	lemma=ultimativ	POS=AD
 ultimative	polarity=positive	probability=-	lemma=ultimativ	POS=AD
 ultimativem	polarity=positive	probability=-	lemma=ultimativ	POS=AD
@@ -15043,25 +15072,9 @@ ungezwungnerer	polarity=positive	probability=-	lemma=ungezwungen	POS=AD
 ungezwungneres	polarity=positive	probability=-	lemma=ungezwungen	POS=AD
 unglaubhaft	polarity=positive	probability=-	lemma=unglaubhaft	POS=AD
 unglaublich	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaubliche	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichem	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichen	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublicher	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichere	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublicherem	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublicheren	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublicherer	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublicheres	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaubliches	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichst	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichste	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichstem	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichsten	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichster	polarity=positive	probability=-	lemma=unglaublich	POS=AD
-unglaublichstes	polarity=positive	probability=-	lemma=unglaublich	POS=AD
 universell	polarity=positive	probability=-	lemma=universell	POS=AD
 universelle	polarity=positive	probability=-	lemma=universell	POS=AD
-universellem	polarity=positive	probability=-	lemma=universell	POS=AD
+universellm	polarity=positive	probability=-	lemma=universell	POS=AD
 universellen	polarity=positive	probability=-	lemma=universell	POS=AD
 universeller	polarity=positive	probability=-	lemma=universell	POS=AD
 universellere	polarity=positive	probability=-	lemma=universell	POS=AD
@@ -15799,6 +15812,9 @@ vermachten	polarity=positive	probability=-	lemma=vermachen	POS=VV
 vermachtest	polarity=positive	probability=-	lemma=vermachen	POS=VV
 vermachtet	polarity=positive	probability=-	lemma=vermachen	POS=VV
 vermehrt	polarity=positive	probability=-	lemma=vermehrt	POS=AD
+vermissen	polarity=positive	probability=-	lemma=vermissen	POS=VV
+vermisse	polarity=positive	probability=-	lemma=vermissen	POS=VV
+vermisst	polarity=positive	probability=-	lemma=vermissen	POS=VV
 vermittel	polarity=positive	probability=-	lemma=vermitteln	POS=VV
 vermittele	polarity=positive	probability=-	lemma=vermitteln	POS=VV
 vermittelen	polarity=positive	probability=-	lemma=vermitteln	POS=VV
@@ -15833,6 +15849,10 @@ vernünftigsten	polarity=positive	probability=-	lemma=vernünftig	POS=AD
 vernünftigster	polarity=positive	probability=-	lemma=vernünftig	POS=AD
 vernünftigstes	polarity=positive	probability=-	lemma=vernünftig	POS=AD
 verpflichtet	polarity=positive	probability=-	lemma=verpflichten	POS=VV
+verschenke	polarity=positive	probability=-	lemma=verschenken	POS=VV
+verschenken	polarity=positive	probability=-	lemma=verschenken	POS=VV
+verschenkst	polarity=positive	probability=-	lemma=verschenken	POS=VV
+verschenkt	polarity=positive	probability=-	lemma=verschenken	POS=VV
 verschuldet	polarity=positive	probability=-	lemma=verschulden	POS=VV
 verschöner	polarity=positive	probability=-	lemma=verschönern	POS=VV
 verschönere	polarity=positive	probability=-	lemma=verschönern	POS=VV
@@ -16656,6 +16676,9 @@ wiedervereinigtest	polarity=positive	probability=-	lemma=wiedervereinigen	POS=VV
 wiedervereinigtet	polarity=positive	probability=-	lemma=wiedervereinigen	POS=VV
 wiegelte	polarity=positive	probability=1	lemma=wiegeln	POS=VV
 wilde	polarity=positive	probability=0	lemma=wild	POS=AD
+will	polarity=positive	probability=0	lemma=wollen	POS=VV
+willst	polarity=positive	probability=0	lemma=wollen	POS=VV
+wilde	polarity=positive	probability=0	lemma=wild	POS=AD
 willenstark	polarity=positive	probability=-	lemma=willenstark	POS=AD
 willkommen	polarity=positive	probability=-	lemma=willkommen	POS=AD
 willkommene	polarity=positive	probability=-	lemma=willkommen	POS=AD
@@ -16894,6 +16917,8 @@ wohnlichstem	polarity=positive	probability=-	lemma=wohnlich	POS=AD
 wohnlichsten	polarity=positive	probability=-	lemma=wohnlich	POS=AD
 wohnlichster	polarity=positive	probability=-	lemma=wohnlich	POS=AD
 wohnlichstes	polarity=positive	probability=-	lemma=wohnlich	POS=AD
+wollen	polarity=positive	probability=0	lemma=wollen	POS=AD
+wollt	polarity=positive	probability=0	lemma=wollen	POS=AD
 wortgewaltig	polarity=positive	probability=-	lemma=wortgewaltig	POS=AD
 wuchern	polarity=positive	probability=-	lemma=wuchern	POS=VV
 wucherte	polarity=positive	probability=-	lemma=wuchern	POS=VV
@@ -16966,6 +16991,10 @@ wundervollstem	polarity=positive	probability=-	lemma=wundervoll	POS=AD
 wundervollsten	polarity=positive	probability=-	lemma=wundervoll	POS=AD
 wundervollster	polarity=positive	probability=-	lemma=wundervoll	POS=AD
 wundervollstes	polarity=positive	probability=-	lemma=wundervoll	POS=AD
+wünschen	polarity=positive	probability=-	lemma=wünschen	POS=VV
+wünsche	polarity=positive	probability=-	lemma=wünschen	POS=VV
+wünschst	polarity=positive	probability=-	lemma=wünschen	POS=VV
+wünscht	polarity=positive	probability=-	lemma=wünschen	POS=VV
 wunschgemäß	polarity=positive	probability=-	lemma=wunschgemäß	POS=AD
 wunschgemäße	polarity=positive	probability=-	lemma=wunschgemäß	POS=AD
 wunschgemäßem	polarity=positive	probability=-	lemma=wunschgemäß	POS=AD
