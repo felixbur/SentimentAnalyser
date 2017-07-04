@@ -1,0 +1,16 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+ 
+Rule: NegationHandlerNegative
+(
+  {Lookup.minorType == "negation"} 
+  ({Token.polarity == "negative"}):negPol
+)
+:ann
+-->
+:negPol {
+	Annotation ann =
+	(Annotation)negPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+} 

@@ -35,3 +35,5 @@ title.lst:name:title:german
 abbreviations_stop.lst:stop:stop:german
 date_pre.lst:date_pre
 negations.lst:particle:negation:german
+contrasts.lst:particles:contrast:german 
+particles.lst:particle:particle:german

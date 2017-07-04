@@ -162,14 +162,14 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
+                  <string>encoding</string>
+                  <string>UTF-8</string>
+                </entry>
+                <entry>
                   <string>gazetteerListsURL</string>
                   <gate.util.persistence.PersistenceManager-URLHolder>
                     <urlString>$gatehome$plugins/ANNIE/resources/sentenceSplitter/gazetteer/lists.def</urlString>
                   </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
-                <entry>
-                  <string>encoding</string>
-                  <string>UTF-8</string>
                 </entry>
                 <entry>
                   <string>transducerURL</string>
@@ -270,11 +270,11 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>binaryGrammarURL</string>
+                  <string>annotationAccessors</string>
                   <null/>
                 </entry>
                 <entry>
-                  <string>annotationAccessors</string>
+                  <string>binaryGrammarURL</string>
                   <null/>
                 </entry>
                 <entry>
@@ -389,16 +389,16 @@
                   <string></string>
                 </entry>
                 <entry>
-                  <string>inputASName</string>
-                  <string></string>
-                </entry>
-                <entry>
                   <string>baseTokenAnnotationType</string>
                   <string>Token</string>
                 </entry>
                 <entry>
                   <string>posTagAllTokens</string>
                   <boolean>true</boolean>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <string></string>
                 </entry>
                 <entry>
                   <string>baseSentenceAnnotationType</string>
@@ -493,12 +493,12 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>caseConversionLanguage</string>
-                  <string>de</string>
-                </entry>
-                <entry>
                   <string>gazetteerFeatureSeparator</string>
                   <string>\t</string>
+                </entry>
+                <entry>
+                  <string>caseConversionLanguage</string>
+                  <string>de</string>
                 </entry>
                 <entry>
                   <string>caseSensitive</string>
@@ -558,11 +558,11 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>binaryGrammarURL</string>
+                  <string>annotationAccessors</string>
                   <null/>
                 </entry>
                 <entry>
-                  <string>annotationAccessors</string>
+                  <string>binaryGrammarURL</string>
                   <null/>
                 </entry>
                 <entry>
@@ -627,11 +627,11 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>binaryGrammarURL</string>
+                  <string>annotationAccessors</string>
                   <null/>
                 </entry>
                 <entry>
-                  <string>annotationAccessors</string>
+                  <string>binaryGrammarURL</string>
                   <null/>
                 </entry>
                 <entry>
@@ -696,11 +696,11 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>binaryGrammarURL</string>
+                  <string>annotationAccessors</string>
                   <null/>
                 </entry>
                 <entry>
-                  <string>annotationAccessors</string>
+                  <string>binaryGrammarURL</string>
                   <null/>
                 </entry>
                 <entry>
@@ -760,16 +760,85 @@
               </localMap>
             </runtimeParams>
             <resourceType>gate.creole.Transducer</resourceType>
-            <resourceName>Count_Polarites</resourceName>
+            <resourceName>Handle_Combinations</resourceName>
             <initParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
+                <entry>
+                  <string>annotationAccessors</string>
+                  <null/>
+                </entry>
                 <entry>
                   <string>binaryGrammarURL</string>
                   <null/>
                 </entry>
                 <entry>
+                  <string>grammarURL</string>
+                  <gate.util.persistence.PersistenceManager-URLHolder>
+                    <urlString>$relpath$resources/grammars/handleCombinations.jape</urlString>
+                  </gate.util.persistence.PersistenceManager-URLHolder>
+                </entry>
+                <entry>
+                  <string>encoding</string>
+                  <string>UTF-8</string>
+                </entry>
+                <entry>
+                  <string>operators</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </initParams>
+            <features class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap/>
+            </features>
+          </pr>
+        </gate.util.persistence.AnalyserRunningStrategyPersistence>
+        <gate.util.persistence.AnalyserRunningStrategyPersistence>
+          <runMode>1</runMode>
+          <featureName></featureName>
+          <featureValue></featureValue>
+          <pr class="gate.util.persistence.LanguageAnalyserPersistence">
+            <runtimeParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>enableDebugging</string>
+                  <boolean>false</boolean>
+                </entry>
+                <entry>
+                  <string>corpus</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>outputASName</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>ontology</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>document</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </runtimeParams>
+            <resourceType>gate.creole.Transducer</resourceType>
+            <resourceName>Count_Polarites</resourceName>
+            <initParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
                   <string>annotationAccessors</string>
+                  <null/>
+                </entry>
+                <entry>
+                  <string>binaryGrammarURL</string>
                   <null/>
                 </entry>
                 <entry>
@@ -810,6 +879,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[9]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[10]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[11]/pr"/>
+        <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[12]/pr"/>
       </localList>
       <collectionType>java.util.ArrayList</collectionType>
     </prList>

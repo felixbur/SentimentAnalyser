@@ -1,0 +1,28 @@
+Phase: Phase
+Input: Token
+Options: control = appelt
+ 
+Rule: HandleCombinationsPositive
+(
+  ({Token.polarity == "negative"}):negPol
+  ({Token.polarity == "positive"}):posPol
+)
+:ann
+-->
+:negPol {
+	Annotation ann =
+	(Annotation)negPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+} 
+Rule: HandleCombinationsNegative
+(
+  ({Token.polarity == "positive"}):posPol
+  ({Token.polarity == "negative"}):negPol
+)
+:ann
+-->
+:posPol {
+	Annotation ann =
+	(Annotation)posPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+} 

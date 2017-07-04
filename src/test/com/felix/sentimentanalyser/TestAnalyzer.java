@@ -83,8 +83,8 @@ public class TestAnalyzer {
 	@Test
 	public void testIt() {
 		String test = URLEncoder.encode(_query);
-		String serverutl = SERVER + test;
-		String result = HTTPConnection.getStringFromURL(serverutl, new SystemOutLogger(), 2000);
+		String serverurl = SERVER + test;
+		String result = HTTPConnection.getStringFromURL(serverurl, new SystemOutLogger(), 2000);
 		String shortA = TestAnalyzer.extractPolarity(result);
 		String log = "result; " + _query + "; " + _expectedResult + "; " + shortA;
 		try {

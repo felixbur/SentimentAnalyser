@@ -5,7 +5,7 @@ contextName=SentimentAnalyser
 configDir=WEB-INF/config/
 
 
-gate_home=/home/felix/bin/gate-8.3
+gate_home=/home/felix/bin/gate-8.4
 gateAppPath=/home/felix/workspace/SentimentAnalyser/WebContent/apps/Sentiment/Sentiment.gapp
 
 sentimentGazetteerFile=apps/Sentiment/resources/gazetteers/polarityLists.gazbin

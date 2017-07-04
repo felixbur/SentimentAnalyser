@@ -2516,6 +2516,7 @@ Redundanzen	polarity=negative	probability=-0.0048	lemma=Redundanz	POS=NN
 Regeldifferenz	polarity=negative	probability=-	lemma=Regeldifferenz	POS=NN
 Regelwidrigkeit	polarity=negative	probability=-	lemma=Regelwidrigkeit	POS=NN
 Regenguss	polarity=negative	probability=0	lemma=Regenguß	POS=NN
+Regenwetter	polarity=negative	probability=0	lemma=Regenwetter	POS=NN
 Regierungslosigkeit	polarity=negative	probability=-	lemma=Regierungslosigkeit	POS=NN
 Regress	polarity=negative	probability=-	lemma=Regress	POS=NN
 Regression	polarity=negative	probability=-	lemma=Regression	POS=NN
@@ -4060,7 +4061,6 @@ abyssisch	polarity=negative	probability=-	lemma=abyssisch	POS=AD
 abzetteln	polarity=negative	probability=-	lemma=abzetteln	POS=VV
 abziehen	polarity=negative	probability=0	lemma=abziehen	POS=VV
 abzüglich	polarity=negative	probability=-	lemma=abzüglich	POS=VV
-ach	polarity=negative	probability=0.416667	lemma=ach	POS=NN
 achterliche	polarity=negative	probability=-	lemma=achterlich	POS=VV
 achtlos	polarity=negative	probability=-0.0048	lemma=achtlos	POS=AD
 achtlose	polarity=negative	probability=-0.0048	lemma=achtlos	POS=AD
@@ -6347,7 +6347,6 @@ dekadentester	polarity=negative	probability=-0.1769	lemma=dekadent	POS=AD
 dekadentestes	polarity=negative	probability=-0.1769	lemma=dekadent	POS=AD
 deklamieren	polarity=negative	probability=-	lemma=deklamieren	POS=VV
 deklamierte	polarity=negative	probability=-	lemma=deklamiert	POS=VV
-dem	polarity=negative	probability=0.473879	lemma=der	POS=PD
 demontieren	polarity=negative	probability=-	lemma=demontieren	POS=VV
 demontierte	polarity=negative	probability=-	lemma=demontieren	POS=VV
 demoralisieren	polarity=negative	probability=-	lemma=demoralisieren	POS=VV
@@ -7217,8 +7216,6 @@ empörte	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
 empörten	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
 empörtest	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
 empörtet	polarity=negative	probability=-0.0048	lemma=empören	POS=VV
-endlich	polarity=negative	probability=0.342342	lemma=endlich	POS=AD
-endlos	polarity=negative	probability=1	lemma=endlos	POS=AD
 energielos	polarity=negative	probability=-0.3037	lemma=energielos	POS=AD
 energielose	polarity=negative	probability=-0.3037	lemma=energielos	POS=AD
 energielosem	polarity=negative	probability=-0.3037	lemma=energielos	POS=AD
@@ -9852,6 +9849,7 @@ homosexuell	polarity=negative	probability=-	lemma=homosexuell	POS=AD
 hoppeln	polarity=negative	probability=-	lemma=hoppeln	POS=VV
 hoppelte	polarity=negative	probability=-	lemma=hoppeln	POS=VV
 horrend	polarity=negative	probability=-	lemma=horrend	POS=AD
+Hundekacke	polarity=negative	probability=-	lemma=Hundekacke	POS=NN
 hundemüde	polarity=negative	probability=-	lemma=hundemüde	POS=AD
 hundsmiserabel	polarity=negative	probability=1	lemma=hundsmiserabel	POS=AD
 hunger	polarity=negative	probability=-0.0565	lemma=hungern	POS=VV
@@ -10727,6 +10725,7 @@ kraftlosestem	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
 kraftlosesten	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
 kraftlosester	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
 kraftlosestes	polarity=negative	probability=-0.3338	lemma=kraftlos	POS=AD
+Kram	polarity=negative	probability=-0.1	lemma=Kram	POS=NN
 krank	polarity=negative	probability=-0.0048	lemma=kranken	POS=VV
 kranke	polarity=negative	probability=-0.0048	lemma=kranken	POS=VV
 krankem	polarity=negative	probability=-0.4694	lemma=krank	POS=AD
@@ -12665,7 +12664,7 @@ qualvollstem	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
 qualvollsten	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
 qualvollster	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
 qualvollstes	polarity=negative	probability=-0.0048	lemma=qualvoll	POS=AD
-quatsch	polarity=negative	probability=-	lemma=quatsch	POS=VV
+Quatsch	polarity=negative	probability=-	lemma=Quatsch	POS=VV
 quäl	polarity=negative	probability=-0.1929	lemma=quälen	POS=VV
 quäle	polarity=negative	probability=-0.1929	lemma=quälen	POS=VV
 quälen	polarity=negative	probability=-0.1929	lemma=quälen	POS=VV

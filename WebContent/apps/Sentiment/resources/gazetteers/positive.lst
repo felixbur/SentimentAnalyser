@@ -242,6 +242,7 @@ Auszeichnungen	polarity=positive	probability=-	lemma=Auszeichnung	POS=NN
 Authentizität	polarity=positive	probability=-	lemma=Authentizität	POS=NN
 Autonomie	polarity=positive	probability=-	lemma=Autonomie	POS=NN
 Autonomien	polarity=positive	probability=-	lemma=Autonomie	POS=NN
+Baby	polarity=positive	probability=-	lemma=Baby	POS=NN
 Bake	polarity=positive	probability=-	lemma=Bake	POS=NN
 Bankzinsen	polarity=positive	probability=-	lemma=Bankzins	POS=NN
 Barmherzigkeit	polarity=positive	probability=-	lemma=Barmherzigkeit	POS=NN
@@ -739,6 +740,7 @@ Flexibilität	polarity=positive	probability=-	lemma=Flexibilität	POS=NN
 Flirt	polarity=positive	probability=-	lemma=Flirt	POS=NN
 Fortgang	polarity=positive	probability=-	lemma=Fortgang	POS=NN
 Fortschritt	polarity=positive	probability=-	lemma=Fortschritt	POS=NN
+Frauenversteher	polarity=positive	probability=-	lemma=Frauenversteher	POS=NN
 Freiheit	polarity=positive	probability=-	lemma=Freiheit	POS=NN
 Freiheiten	polarity=positive	probability=-	lemma=Freiheit	POS=NN
 Freimütigkeit	polarity=positive	probability=-	lemma=Freimütigkeit	POS=NN
@@ -1130,8 +1132,6 @@ Kohärenz	polarity=positive	probability=-	lemma=Kohärenz	POS=NN
 Kohäsion	polarity=positive	probability=-	lemma=Kohäsion	POS=NN
 Komfort	polarity=positive	probability=-	lemma=Komfort	POS=NN
 Komforts	polarity=positive	probability=-	lemma=Komfort	POS=NN
-Komiker	polarity=positive	probability=-	lemma=Komiker	POS=NN
-Komikerin	polarity=positive	probability=-	lemma=Komikerin	POS=NN
 Kommunikation	polarity=positive	probability=-	lemma=Kommunikation	POS=NN
 Kommunikationen	polarity=positive	probability=-	lemma=Kommunikation	POS=NN
 Kompatibilität	polarity=positive	probability=-	lemma=Kompatibilität	POS=NN
@@ -10731,9 +10731,11 @@ liberalsten	polarity=positive	probability=-	lemma=liberal	POS=AD
 liberalster	polarity=positive	probability=-	lemma=liberal	POS=AD
 liberalstes	polarity=positive	probability=-	lemma=liberal	POS=AD
 lieb	polarity=positive	probability=-	lemma=lieb	POS=AD
-liebe	polarity=positive	probability=-	lemma=lieb	POS=AD
+liebe	polarity=positive	probability=-	lemma=lieben	POS=VV
+liebst	polarity=positive	probability=-	lemma=lieben	POS=VV
+liebt	polarity=positive	probability=-	lemma=lieben	POS=VV
 liebem	polarity=positive	probability=-	lemma=lieb	POS=AD
-lieben	polarity=positive	probability=-	lemma=lieb	POS=AD
+lieben	polarity=positive	probability=-	lemma=lieben	POS=VV
 liebenswert	polarity=positive	probability=-	lemma=liebenswert	POS=AD
 liebenswerte	polarity=positive	probability=-	lemma=liebenswert	POS=AD
 liebenswertem	polarity=positive	probability=-	lemma=liebenswert	POS=AD
@@ -11749,6 +11751,7 @@ offensichtlichsten	polarity=positive	probability=-	lemma=offensichtlich	POS=AD
 offensichtlichster	polarity=positive	probability=-	lemma=offensichtlich	POS=AD
 offensichtlichstes	polarity=positive	probability=-	lemma=offensichtlich	POS=AD
 ok	polarity=positive	probability=0.433498	lemma=ok	POS=XY
+okay	polarity=positive	probability=0.433498	lemma=ok	POS=XY
 opportun	polarity=positive	probability=-	lemma=opportun	POS=AD
 optimal	polarity=positive	probability=-	lemma=optimal	POS=AD
 optimistisch	polarity=positive	probability=-	lemma=optimistisch	POS=AD
