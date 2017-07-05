@@ -1,0 +1,23 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+Rule: AllCaps
+Priority: 20
+(
+({Token.orth ==~"allCaps|mixedCaps"})
+)
+:ann
+-->
+:ann {
+ 	Annotation ann =
+	(Annotation)annAnnots.iterator().next();
+	String str= (String) ann.getFeatures().get("string");
+	ann.getFeatures().put("string", str.toLowerCase());
+}
+
+
+
+
+
+

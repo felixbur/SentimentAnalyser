@@ -38,7 +38,7 @@ public class SentimentResponse {
 	public int getPolarityAsInt() {
 		if (_polarity.compareTo("negative") == 0) {
 			return -1;
-		} else if (_polarity.compareTo("positve") == 0) {
+		} else if (_polarity.compareTo("positive") == 0) {
 			return 1;
 		} else {
 			return 0;

@@ -1,0 +1,23 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+ 
+Rule: HandleStrengtheners2
+(
+  ({Lookup.minorType == "strengthener"})
+  ({Lookup.minorType == "strengthener"})
+  ({Token}):pol
+) :ann -->
+:ann{
+	String polarity ="";
+	AnnotationSet polAS = (AnnotationSet) bindings.get("pol");
+	Annotation polAnn = (Annotation)polAS.iterator().next(); 
+	polarity = (String)polAnn.getFeatures().get("polarity");
+
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, annAnnots, "Token");
+	for(Annotation token : tokens){
+		token.getFeatures().put("polarity", polarity);
+		}
+
+	
+}

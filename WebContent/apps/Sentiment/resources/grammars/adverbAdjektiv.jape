@@ -1,0 +1,46 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+// ex : kaum schön
+Rule: AdjPosNeg
+Priority: 20
+(
+({!Lookup.minorType=="strengthener",Token.minorType == "negative", Token.polarity== "negative", Token.POS=="AD"}):adj1
+({Token.minorType == "positive", Token.polarity== "positive", Token.POS=="NN"}):adj2
+)
+:ann
+-->
+:adj1 {
+ 	Annotation ann =
+	(Annotation)adj1Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:adj2 {
+   Annotation token =
+   (Annotation)adj2Annots.iterator().next(); 
+   token.getFeatures().put("polarity", "negative");
+   }
+
+/* bringt neue Fehler!!
+
+// ex : kaum schlecht
+Rule: AdjPosNeg
+Priority: 20
+(
+({!Lookup.minorType=="strengthener",Token.minorType == "negative", Token.polarity== "negative", Token.POS=="AD"}):adj1
+({Token.minorType == "negative", Token.polarity== "negative", Token.POS=="AD"}):adj2
+)
+:ann
+-->
+:adj1 {
+ 	Annotation ann =
+	(Annotation)adj1Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:adj2 {
+   Annotation token =
+   (Annotation)adj2Annots.iterator().next(); 
+   token.getFeatures().put("polarity", "positive");
+   }
+*/

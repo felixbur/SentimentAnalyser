@@ -3,10 +3,10 @@ Input: Token Lookup
 Options: control = appelt
  
 Rule: NegationHandlerNegative
+Priority: 10
 (
-  {Lookup.minorType == "negation"}
-  ({Token.category == "NN"})?  
-  ({Token.polarity == "negative"}):negPol
+  {Lookup.minorType == "negation",Token.polarity=="negative",Token.minorType=="negative"} 
+  ({Token.polarity == "negative",Token.minorType=="negative"}):negPol
 )
 :ann
 -->
@@ -14,56 +14,21 @@ Rule: NegationHandlerNegative
 	Annotation ann =
 	(Annotation)negPolAnnots.iterator().next(); 
 	ann.getFeatures().put("polarity", "positive");
-} 
-Rule: NegationHandlerNegative2
-(
-  ({Token.polarity == "positive"}):posPol
-  ({Token.polarity == "negative"}):negPol
-)
-:ann
--->
-:posPol {
-	Annotation ann =
-	(Annotation)posPolAnnots.iterator().next(); 
-	ann.getFeatures().put("polarity", "negative");
-} 
+}
+
+
 Rule: NegationHandlerPositive
+Priority: 10
 (
-  {Lookup.minorType == "negation"} 
-  ({Lookup.minorType == "particle"})? 
-  ({Token.polarity == "positive"}):posPol
+  {Lookup.minorType == "negation",Token.polarity=="negative"} 
+  ({Token.polarity == "positive",Token.minorType=="positive"}):posPol
 )
 :ann
 -->
 :posPol {
 	Annotation ann =
-	(Annotation)posPolAnnots.iterator().next(); 
+	(Annotation)posPolAnnots.iterator().next();
 	ann.getFeatures().put("polarity", "negative");
-} 
-Rule: NegationHandlerPositive2
-(
-  ({Token.polarity == "positive"}):posPol
-  ({Lookup.minorType == "particle"})? 
-  {Lookup.minorType == "negation"} 
-)
-:ann
--->
-:posPol {
-	Annotation ann =
-	(Annotation)posPolAnnots.iterator().next(); 
-	ann.getFeatures().put("polarity", "negative");
+
 } 
 
-Rule: NegationHandlerPositive3
-(
-  ({Token.polarity == "positive"}):posPol
-  {Lookup.minorType == "negation"} 
-  ({Token.polarity == "negative"}):negPol
-)
-:ann
--->
-:negPol {
-	Annotation ann =
-	(Annotation)negPolAnnots.iterator().next(); 
-	ann.getFeatures().put("polarity", "positive");
-} 

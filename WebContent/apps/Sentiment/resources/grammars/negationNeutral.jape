@@ -1,0 +1,16 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+Rule: RemoveNegation
+(
+({Lookup.minorType=="negation",Token.polarity=="negative"}):negPol
+({Token.polarity!="positive",Token.polarity!="negative",Token.category!=~"VV.*"}):vv 
+)
+:ann
+-->
+:negPol {
+ AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+   Annotation ann = (Annotation)tokens.iterator().next();
+   ann.getFeatures().put("polarity", "neutral");
+ }

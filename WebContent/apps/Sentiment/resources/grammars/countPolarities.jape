@@ -11,22 +11,57 @@ Rule: PolarityCount
 {
 int negCounter = 0;
 int posCounter = 0;
+int jaCounter = 0;
+int neinCounter = 0;
+int sein=-1;
+long firstPolNeg= 1000;
+long firstPolPos= 1000;
+long lastPolPos=-1;
+long lastPolNeg=-1;
 String negList = "";
 String posList = "";
 AnnotationSet tokenAnnotations = outputAS.get("Token");
- 
+
 for (Annotation tokenAnnotation : tokenAnnotations) {
 
     AnnotationSet tokenAnnotations2 = outputAS.get(tokenAnnotation.getStartNode().getOffset(), tokenAnnotation.getEndNode().getOffset()).get("Token");
 
     for (Annotation token : tokenAnnotations2) {
 		String pol = (String) token.getFeatures().get("polarity");
+		String lemma=(String) token.getFeatures().get("lemma");
+		if (lemma!=null && lemma.compareTo("sein")==0){
+		   sein=1;
+		   }
+
+		  long offset=tokenAnnotation.getStartNode().getOffset();
+		   if (pol!=null && pol.compareTo("positive")==0 && offset<firstPolPos){
+		      firstPolPos=offset;
+		      }
+		   else if (pol!=null && pol.compareTo("negative")==0 && offset<firstPolNeg){
+		      firstPolNeg=offset;
+		      }
+		   if (pol!=null && pol.compareTo("positive")==0 && offset>lastPolPos){
+		      lastPolPos=offset;
+		      }
+		   else if (pol!=null && pol.compareTo("negative")==0 && offset>lastPolNeg){
+		      lastPolNeg=offset;
+		      }
+		      
+		      
 		String string = (String) token.getFeatures().get("string");
+
+		if (string.compareTo("ja")==0){
+		   jaCounter=1;
+		   }
+		else if (string.compareTo("nein")==0){
+		   neinCounter=1;
+		   }
+
 		String majorType = (String) token.getFeatures().get("majorType");
 		String minorType = (String) token.getFeatures().get("minorType");
 
 		if (pol != null) {			
-			System.out.println(pol);
+			//System.out.println(pol);
 		        if (pol.compareTo("positive") == 0) {
         			posCounter++;
 				posList = posList + " "+ string; 
@@ -35,7 +70,7 @@ for (Annotation tokenAnnotation : tokenAnnotations) {
 				negList = negList + " "+ string;
 			}
         	} else if (majorType != null && majorType.compareTo("polarity")==0) {			
-			System.out.println(minorType);
+			//System.out.println(minorType);
 		        if (minorType.compareTo("positive") == 0) {
         			posCounter++;
 				posList = posList + " "+ string; 
@@ -55,9 +90,21 @@ if (negCounter > posCounter) {
 	doc.getFeatures().put("polarity", "negative");
 } else if (negCounter < posCounter) {
 	doc.getFeatures().put("polarity", "positive");
+/*} else if (jaCounter > 0) {
+       doc.getFeatures().put("polarity", "positive");
+} else if (neinCounter > 0) {
+       doc.getFeatures().put("polarity", "positive");*/
+} else if (sein==1 && lastPolPos>-1 && lastPolPos>lastPolNeg){
+       	doc.getFeatures().put("polarity", "positive");
+} else if (sein==1 && lastPolNeg>-1 && lastPolPos<lastPolNeg){
+       	doc.getFeatures().put("polarity", "negative");
+} else if (firstPolPos<1000 & firstPolPos<firstPolNeg) {
+       	doc.getFeatures().put("polarity", "positive");
+} else if (firstPolNeg<1000) {
+        doc.getFeatures().put("polarity", "negative");
 } else {
-    doc.getFeatures().put("polarity", "neutral");
-}
+        doc.getFeatures().put("polarity", "neutral");
+} 
 
 }
 

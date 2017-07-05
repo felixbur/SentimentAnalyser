@@ -1,0 +1,273 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = brill
+
+
+Rule: AlteHase
+Priority: 30
+(
+({Token.string =~"alt"}):alt
+({Token.string=="Hase"}):hase
+)
+-->
+:alt {
+	Annotation alt =
+	(Annotation)altAnnots.iterator().next(); 
+	alt.getFeatures().put("polarity", "neutral");
+},
+:hase {
+	Annotation hase =
+	(Annotation)haseAnnots.iterator().next(); 
+	hase.getFeatures().put("polarity", "positive");
+}
+
+
+Rule: DrehDurch
+Priority: 30
+(
+({Token.lemma =="drehen"}):drehen
+({Token})*
+({Token.string=="durch"}):durch
+)
+-->
+:drehen {
+	Annotation drehen =
+	(Annotation)drehenAnnots.iterator().next(); 
+	drehen.getFeatures().put("polarity", "negative");
+},
+:durch {
+	Annotation durch =
+	(Annotation)durchAnnots.iterator().next(); 
+	durch.getFeatures().put("polarity", "negative");
+}
+
+Rule: Mann
+Priority: 30
+(
+({Token.string ==~"[Mm]ann"}):mann1
+({Token.string==~"[Mm]ann"}):mann2
+)
+-->
+:mann1 {
+	Annotation mann1 =
+	(Annotation)mann1Annots.iterator().next(); 
+	mann1.getFeatures().put("polarity", "negative");
+},
+:mann2 {
+	Annotation mann2 =
+	(Annotation)mann2Annots.iterator().next(); 
+	mann2.getFeatures().put("polarity", "negative");
+}
+
+
+Rule: AufDenSack
+Priority: 30
+(
+({Token.string =="auf"}):auf
+({Token.string=="den"}):den
+({Token.string=="Sack"}):Sack
+)
+-->
+:auf {
+	Annotation auf =
+	(Annotation)aufAnnots.iterator().next(); 
+	auf.getFeatures().put("polarity", "neutral");
+},
+:den {
+	Annotation den =
+	(Annotation)denAnnots.iterator().next(); 
+	den.getFeatures().put("polarity", "negative");
+},
+:Sack {
+	Annotation Sack =
+	(Annotation)SackAnnots.iterator().next(); 
+	Sack.getFeatures().put("polarity", "negative");
+}
+
+Rule: Ding
+Priority: 30
+(
+({Token.string ==~"mein|dein|sein|ihr"})
+({Token.string=="Ding"}):ding
+)
+-->
+:ding {
+	Annotation ding =
+	(Annotation)dingAnnots.iterator().next(); 
+	ding.getFeatures().put("polarity", "positive");
+	ding.getFeatures().put("majorType", "polarity");
+	ding.getFeatures().put("minorType", "positive"); 
+
+}
+
+
+
+Rule: SchonWieder
+Priority: 30
+(
+({Token.string=="schon"})
+({Token.string=="wieder"}):wieder
+)
+-->
+:wieder {
+	Annotation wieder =
+	(Annotation)wiederAnnots.iterator().next(); 
+	wieder.getFeatures().put("polarity", "negative");
+}
+
+
+
+Rule: KeinMehrPos
+Priority: 30
+(
+({Token.string =~"kein"}):kein
+({Token.minorType=="positive"}):NN
+({Token.string=="mehr"}):mehr
+)
+-->
+:NN {
+	Annotation NN =
+	(Annotation)NNAnnots.iterator().next(); 
+	NN.getFeatures().put("polarity", "negative");
+},
+:kein {
+	Annotation kein =
+	(Annotation)keinAnnots.iterator().next(); 
+	kein.getFeatures().put("polarity", "neutral");
+},
+:mehr {
+	Annotation mehr =
+	(Annotation)mehrAnnots.iterator().next(); 
+	mehr.getFeatures().put("polarity", "negative");
+}
+
+
+Rule: GarNichtPos
+Priority: 30
+(
+({Token.string =~"gar"}):gar
+({Token.string=~"nicht"}):nicht
+({Token.polarity=="positive"}):adj
+
+)
+-->
+:adj {
+	Annotation adj =
+	(Annotation)adjAnnots.iterator().next(); 
+	adj.getFeatures().put("polarity", "negative");
+},
+:gar {
+	Annotation gar =
+	(Annotation)garAnnots.iterator().next(); 
+	gar.getFeatures().put("polarity", "negative");
+},
+:nicht {
+	Annotation nicht =
+	(Annotation)nichtAnnots.iterator().next(); 
+	nicht.getFeatures().put("polarity", "neutral");
+}
+
+Rule: GarNichtNeg
+Priority: 30
+(
+({Token.string =~"gar"}):gar
+({Token.string=~"nicht"}):nicht
+({Token.polarity=="negative"}):adj
+
+)
+-->
+:adj {
+	Annotation adj =
+	(Annotation)adjAnnots.iterator().next(); 
+	adj.getFeatures().put("polarity", "positive");
+},
+:gar {
+	Annotation gar =
+	(Annotation)garAnnots.iterator().next(); 
+	gar.getFeatures().put("polarity", "positive");
+},
+:nicht {
+	Annotation nicht =
+	(Annotation)nichtAnnots.iterator().next(); 
+	nicht.getFeatures().put("polarity", "neutral");
+}
+
+
+
+
+
+Rule: KeinMehrNeg
+Priority: 30
+(
+({Token.string =~"kein"}):kein
+({Token.minorType=="negative"}):NN
+({Token.string=="mehr"}):mehr
+)
+-->
+:NN {
+	Annotation NN =
+	(Annotation)NNAnnots.iterator().next(); 
+	NN.getFeatures().put("polarity", "positive");
+},
+:kein {
+	Annotation kein =
+	(Annotation)keinAnnots.iterator().next(); 
+	kein.getFeatures().put("polarity", "neutral");
+},
+:mehr {
+	Annotation mehr =
+	(Annotation)mehrAnnots.iterator().next(); 
+	mehr.getFeatures().put("polarity", "positive");
+}
+
+Rule: ZuAdj
+Priority: 30
+(
+({Token.string =="viel"}):viel
+({Token.string =="zu"}):zu
+({Token.POS=="AD"}):Adj
+)
+-->
+:viel{
+	Annotation viel =
+	(Annotation)vielAnnots.iterator().next(); 
+	viel.getFeatures().put("polarity","neutral");
+},
+:zu{
+	Annotation zu =
+	(Annotation)zuAnnots.iterator().next(); 
+	zu.getFeatures().put("polarity","negative");
+},
+:Adj {
+	Annotation Adj =
+	(Annotation)AdjAnnots.iterator().next();
+	Adj.getFeatures().put("polarity","negative");
+}
+
+
+
+
+Rule: ZuVielVV
+Priority: 30
+(
+({Token.string =="zu"}):zu
+({Token.string =="viel"}):viel
+({Token.category=~"VV"}):VV
+)
+-->
+:viel{
+	Annotation viel =
+	(Annotation)vielAnnots.iterator().next(); 
+	viel.getFeatures().put("polarity","neutral");
+},
+:zu{
+	Annotation zu =
+	(Annotation)zuAnnots.iterator().next(); 
+	zu.getFeatures().put("polarity","neutral");
+},
+:VV {
+	Annotation VV =
+	(Annotation)VVAnnots.iterator().next();
+	VV.getFeatures().put("polarity","negative");
+}
+

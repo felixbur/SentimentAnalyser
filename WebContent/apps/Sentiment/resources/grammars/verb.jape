@@ -1,0 +1,44 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+// ex : es geht nicht
+Rule: VerbNegationPos
+Priority: 20
+(
+({Token.category!=~"AD",Token.polarity== "positive"}):verbe // ou autre?
+({Lookup.minorType == "negation"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation token = (Annotation)tokens.iterator().next(); 
+   	token.getFeatures().put("polarity", "neutral");
+   }
+
+
+//ex : es schadet nicht
+Rule: VerbNegationNeg
+Priority: 20
+(
+({!Token.category=~"AD", Token.polarity== "negative"}):verbe // ou autre?
+({Lookup.minorType == "negation"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation token = (Annotation)tokens.iterator().next(); 
+	token.getFeatures().put("polarity", "neutral");
+   }

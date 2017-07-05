@@ -1,0 +1,49 @@
+Phase: Phase                                 
+Input: Token                               
+Options: control = brill
+
+
+Rule: PrefixePos
+Priority: 20
+(
+({Token.string ==~"[sS]uper[a-zäïöëü]+"}):super
+)
+-->
+:super {
+   Annotation ann =
+   (Annotation)superAnnots.iterator().next(); 
+   String str= (String) ann.getFeatures().get("string");
+   String substr=str.substring(5); // man sucht diese Polarität
+   ann.getFeatures().put("string",substr);
+}
+
+
+Rule: Schlecht
+Priority: 20
+(                                                
+({Token.string =~ "[Mm]ist|[Tt]od|[Ss]au|[Kk]ack|[Ss]chei[ß|s]|[Dd]umm|[Dd]reck|[Ss]chmuddel|Witz",!Token.polarity=="positive",!Token.polarity=="negative"}):ann
+)                                        
+-->                                              
+:ann {
+	Annotation ann =
+	(Annotation)annAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+	ann.getFeatures().put("majorType", "polarity");
+	ann.getFeatures().put("minorType", "negative");
+}
+
+Rule: Lieblings
+Priority: 20
+(                                                
+({Token.string =~ "[Ll]iebling|[Qq]ualität|[Bb]este|haha|[Ss]pa[ßs]|Feier",!Token.polarity=="positive",!Token.polarity=="negative"}):ann
+)                                        
+-->                                              
+:ann {
+	Annotation ann =
+	(Annotation)annAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+	ann.getFeatures().put("majorType", "polarity");
+	ann.getFeatures().put("minorType", "positive");
+}
+
+

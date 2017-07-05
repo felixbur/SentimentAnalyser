@@ -7,6 +7,7 @@ configDir=WEB-INF/config/
 
 gate_home=/home/felix/bin/gate-8.4
 gateAppPath=/home/felix/workspace/SentimentAnalyser/WebContent/apps/Sentiment/Sentiment.gapp
+# gateAppPath=/home/felix/tmp/Alexandra_Sentiment/Sentiment/application.xgapp
 
 sentimentGazetteerFile=apps/Sentiment/resources/gazetteers/polarityLists.gazbin
 

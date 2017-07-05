@@ -1,0 +1,130 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+
+/*
+*
+*
+* ganz am Ende, wenn nichts getan wurde, vb(pos/neg) + 2 + neg ist vb(neg/pos)
+*
+*
+*/
+
+// ex : heute funktioniert das Ding nicht
+Rule: VerbNeg2
+(
+({Token.minorType=="positive", Token.polarity== "positive", Token.POS=="VV"}):verbe
+({Token.polarity!="negative"}):pol1
+({Token.polarity!="negative"}):pol2
+({Lookup.minorType=="negation",Token.polarity== "negative"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next(); 
+	firstToken.getFeatures().put("polarity", "neutral");
+   },
+:pol1 {
+ 	Annotation ann =
+	(Annotation)pol1Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:pol2 {
+ 	Annotation ann =
+	(Annotation)pol2Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+}
+
+
+// ex : heute geht es mir überhaupt nicht
+Rule: VerbNeg3
+(
+({Token.minorType=="positive",Token.polarity== "positive", Token.POS=="VV"}):verbe
+({Token.polarity!="negative"}):pol1
+({Token.polarity!="negative"}):pol2
+({Token.polarity!="negative"}):pol3
+({Lookup.minorType=="negation",Token.minorType=="negative",Token.polarity== "negative"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next(); 
+	firstToken.getFeatures().put("polarity", "neutral");
+   }
+
+
+// ex : nicht mal so gut
+Rule: VerbNeg2
+(
+({Lookup.minorType=="negation",Token.minorType=="negative",Token.polarity== "negative"}):negPol
+({Token}):pol1
+({Token}):pol2
+({Token.minorType=="positive",Token.polarity== "positive", Token.category=="ADJD"}):adj
+)
+:ann
+-->
+:adj {
+ 	Annotation ann =
+	(Annotation)adjAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next(); 
+	firstToken.getFeatures().put("polarity", "neutral");
+   },
+:pol1 {
+ 	Annotation ann =
+	(Annotation)pol1Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:pol2 {
+ 	Annotation ann =
+	(Annotation)pol2Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+}
+
+
+// ex : nicht mal so schlecht
+Rule: VerbNeg2
+(
+({Lookup.minorType=="negation",Token.minorType=="negative",Token.polarity== "negative"}):negPol
+({Token}):pol1
+({Token}):pol2
+({Token.minorType=="negative",Token.polarity== "negative", Token.category=="ADJD"}):adj
+)
+:ann
+-->
+:adj {
+ 	Annotation ann =
+	(Annotation)adjAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next(); 
+	firstToken.getFeatures().put("polarity", "neutral");
+   },
+:pol1 {
+ 	Annotation ann =
+	(Annotation)pol1Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:pol2 {
+ 	Annotation ann =
+	(Annotation)pol2Annots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+}

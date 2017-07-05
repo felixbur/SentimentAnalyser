@@ -1,0 +1,168 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+
+// ex : nicht sehr schön = negativ
+Rule: NegationHandlerPos
+(
+  ({Lookup.minorType == "negation"}):negPol
+  ({Token.polarity!="negative",Token.category!=~"VV"}):midPol
+  ({Token.polarity=="positive",Token.minorType=="positive"}):lastPol
+)
+:ann
+-->
+:negPol {
+	Annotation ann =
+	(Annotation)negPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:midPol {
+	Annotation ann =
+	(Annotation)midPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:lastPol {
+	Annotation ann =
+	(Annotation)lastPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+}
+
+
+//ex : nicht so schlecht = positif
+Rule: NegationHandlerNeg
+(
+  ({Lookup.minorType == "negation"}):negPol
+  ({!Token.polarity=="negative",!Token.minorType=="negative", Token.category!~"VV"}):midPol
+  ({Token.polarity=="negative",Token.minorType=="negative"}):lastPol
+)
+:ann
+-->
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next(); 	     firstToken.getFeatures().put("polarity", "neutral");
+},
+:midPol {
+	Annotation ann =
+	(Annotation)midPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:lastPol {
+	Annotation ann =
+	(Annotation)lastPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+}
+
+
+/* mit Verben  */
+
+
+
+// ex : geht wieder nicht  = negativ
+Rule: NegationHandlerPosVerb
+Priority: 10
+(
+  ({Token.polarity == "positive",Token.minorType=="positive", Token.POS=="VV"}):verbe
+  ({!Lookup.minorType=="strengthener"}):midPol
+  ({Lookup.minorType=="negation"}):lastPol
+)
+:ann
+-->
+:verbe {
+	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:midPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, midPolAnnots, "Token");
+	Annotation ann = (Annotation)tokens.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+},
+:lastPol {
+	Annotation ann =
+	(Annotation)lastPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+}
+
+
+
+// ex : das passt wirklich nicht
+Rule: NegationHandlerPosVerbStr
+Priority: 30
+(
+  ({Token.polarity == "positive",Token.minorType=="positive",Token.POS=="VV"}):negPol
+  ({Lookup.minorType == "strengthener"}):midPol
+  ({Lookup.minorType=="negation"}):lastPol
+)
+:ann
+-->
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "negative");
+},
+:midPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, midPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "negative");
+},
+:lastPol {
+	Annotation ann =
+	(Annotation)lastPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+}
+
+
+// ex : das schadet wirklich nicht
+Rule: NegationHandlerPosVerbStr
+Priority: 30
+(
+  ({Token.polarity == "negative",Token.minorType=="negative",Token.POS=="VV"}):negPol
+  ({Lookup.minorType == "strengthener", !Token.polarity== "negative"}):midPol
+  ({Lookup.minorType=="negation"}):lastPol
+)
+:ann
+-->
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "positive");
+},
+:midPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, midPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "positive");
+},
+:lastPol {
+	Annotation ann =
+	(Annotation)lastPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "neutral");
+}
+
+
+//ex : überhaupt nicht geärgert
+// überhaupt nicht funktioniert ok
+Rule: NegationStr
+Priority: 30
+(
+  ({Lookup.minorType == "strengthener"}):str
+  ({Lookup.minorType=="negation"}):neg
+  ({Token.polarity == "negative",Token.minorType=="negative",Token.POS=="VV"}):negPol
+)
+:ann
+-->
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "positive");
+},
+:str {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, strAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "neutral");
+},
+:neg {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();
+	firstToken.getFeatures().put("polarity", "positive");
+}

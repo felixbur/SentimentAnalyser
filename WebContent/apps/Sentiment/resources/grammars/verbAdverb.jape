@@ -1,0 +1,349 @@
+Phase: Phase
+Input: Token Lookup
+Options: control = appelt
+
+/*
+*
+*
+* VERBE ZUERST
+*
+*
+*/
+
+
+// ex : es geht schlecht
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="positive", Token.polarity== "positive", Token.POS=="VV"}):verbe
+({Token.polarity== "negative",Token.minorType=="negative",Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+
+
+
+
+// ex : es funktioniert gut
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="positive", Token.polarity== "positive", Token.POS=="VV"}):verbe // ou autre?
+({!Lookup.minorType=="strengthener",Token.minorType=="positive",Token.polarity== "positive" ,Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+/*
+//ex : es stört wenig
+Rule: VerbNegationNeg
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="negative", Token.polarity== "negative", Token.POS=="VV"}):verbe
+({Token.polarity== "negative",Token.minorType=="negative",Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+*/
+
+
+
+
+//ex : es stört gut
+Rule: VerbNegationPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="negative", Token.polarity== "negative", Token.category=~"VV"}):verbe
+({Token.polarity== "positive",Token.minorType=="positive",Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+
+
+
+/*
+*
+*
+*  VERBE DANACH
+*
+*
+*
+*/
+
+
+
+// ex : es hat schlecht funktioniert
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.polarity== "negative",Token.minorType=="negative",Token.category=~"AD"}):negPol
+({Token.majorType == "polarity",Token.minorType=="positive", Token.polarity== "positive", Token.category=~"VV"}):verbe // ou autre?
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+
+
+
+/*
+//ex : es hat wenig gestört
+Rule: AdvVerbNeg
+Priority: 20
+(
+({Token.polarity== "negative",Token.category=~"AD"}):negPol
+({Token.majorType == "polarity",Token.minorType=="negative", Token.polarity== "negative", Token.category=~"VV"}):verbe // ou autre?
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+*/
+
+
+
+
+// ex : es hat gut funktioniert
+Rule: VerbAdvPos
+Priority: 20
+(
+({!Lookup.minorType!="strengthener",Token.minorType=="positive",Token.polarity== "positive",Token.category=~"AD"}):negPol
+({Token.majorType == "polarity", Token.minorType=="positive", Token.polarity== "positive", Token.category=~"VV"}):verbe // ou autre?
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+// ex : es hat total funktioniert
+Rule: VerbAdvPos
+Priority: 20
+(
+({Lookup.minorType=="strengthener",Token.category=="ADJD"}):negPol
+({Token.majorType == "polarity", Token.minorType=="positive", Token.polarity== "positive", Token.category=~"VV"}):verbe // ou autre?
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "positive");
+   }
+
+
+
+//ex : es hat gut gestört
+Rule: AdvVerbNeg
+Priority: 20
+(
+({Token.minorType=="positive", Token.polarity== "positive",Token.category=~"AD"}):negPol
+({Token.majorType == "polarity",Token.minorType=="negative", Token.polarity== "negative", Token.category=~"VV"}):verbe // ou autre?
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+
+/*
+*
+*
+*
+* Verbes X Adv
+*
+*
+*/
+
+// ex : es geht mir schlecht
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="positive", Token.polarity== "positive", Token.category=~"VV"}):verbe // ou autre?
+({!Token.polarity=="negative"})
+({Token.polarity== "negative",Token.minorType=="negative",Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+
+
+
+// ex : es geht mir gut
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="positive", Token.polarity== "positive", Token.category=~"VV"}):verbe // ou autre?
+({!Token.polarity=="negative"})
+({Lookup.minorType!="strengthener",Token.minorType=="positive", Token.polarity== "positive",Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+   Annotation token =
+   (Annotation)negPolAnnots.iterator().next(); 
+   token.getFeatures().put("polarity", "neutral");
+   }
+
+/*
+// ex : das mag ich total
+Rule: VerbAdvPosStr
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="positive", Token.polarity== "positive", Token.category=~"VV"}):verbe // ou autre?
+({!Token.polarity=="negative"})
+({Lookup.minorType=="strengthener"}):posPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:posPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, posPolAnnots, "Token");
+	Annotation token = (Annotation)tokens.iterator().next(); 
+
+   token.getFeatures().put("polarity", "positive");
+   }
+*/
+
+
+// ex : es schadet mir nicht
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="negative", Token.polarity== "negative", Token.category=~"VV"}):verbe // ou autre?
+({Token})
+({Lookup.minorType=="negation"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation token = (Annotation)tokens.iterator().next();
+        token.getFeatures().put("polarity", "neutral");
+   }
+
+
+
+
+// ex : es schadet mir gut
+Rule: VerbAdvPos
+Priority: 20
+(
+({Token.majorType == "polarity",Token.minorType=="negative", Token.polarity== "negative", Token.category=~"VV"}):verbe // ou autre?
+({Token})
+({Lookup.minorType!="strengthener", Token.polarity== "positive",Token.category=~"AD"}):negPol
+)
+:ann
+-->
+:verbe {
+ 	Annotation ann =
+	(Annotation)verbeAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+},
+:negPol {
+	AnnotationSet tokens = gate.Utils.getContainedAnnotations(inputAS, negPolAnnots, "Token");
+	Annotation firstToken = (Annotation)tokens.iterator().next();        firstToken.getFeatures().put("polarity", "neutral");
+   }

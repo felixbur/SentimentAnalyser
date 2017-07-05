@@ -1,0 +1,35 @@
+Phase: Phase                                 
+Input: Token Lookup                                
+Options: control = brill
+
+// ex: "nichts besseres"
+Rule: NichtsPosEs
+Priority: 20
+(                                                
+({Token.string =~ "nicht|niemand|nix|kein" }):nichtsPol 
+({Token.string ==~ "[a-zA-Zäëïöü]+ere[snm]", Token.polarity=="positive"})
+)
+:ann                                         
+-->                                              
+:nichtsPol {
+	Annotation ann =
+	(Annotation)nichtsPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "positive");
+	ann.getFeatures().put("minorType", "neutral");
+}
+
+// ex: "nichts schlimmeres"
+Rule: NichtsNegEs
+Priority: 20
+(                                                
+({Token.string =~ "nicht|niemand|nix" }):nichtsPol 
+({Token.string ==~ "[a-zA-Zäëïöü]+ere[snm]", Token.polarity=="negative"})
+)
+:ann                                         
+-->                                              
+:nichtsPol {
+	Annotation ann =
+	(Annotation)nichtsPolAnnots.iterator().next(); 
+	ann.getFeatures().put("polarity", "negative");
+	ann.getFeatures().put("minorType", "neutral");
+}
