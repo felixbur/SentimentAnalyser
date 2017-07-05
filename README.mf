@@ -1,3 +1,3 @@
 SentimentAnalyser
-A project for a web-server runnable under tomcat to  supply a sentiment value (positive, negative or neurtral) together with the the words that triggered this sentiment and a probability for a given text.
+Two projects, one in Gate (General Architecture of Text Engineering, that actually does the sentiment analysis), and one in Java (that provides for a REST interface runnable under tomcat) to  supply a sentiment value (positive, negative or neurtral) together with the the words that triggered this sentiment and a probability for a given text.
 The sentiment analysis is based on a Gate application.
