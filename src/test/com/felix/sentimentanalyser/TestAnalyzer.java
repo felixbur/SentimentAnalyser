@@ -41,7 +41,7 @@ public class TestAnalyzer {
 	String result_real;
 	final String logConfigFile = "WebContent/WEB-INF/config/logConfig.xml";
 	final String keyValueSeparator = "=";
-	static File testqueries_file_de = new File("WebContent/data/texts_test_AS");
+	static File testqueries_file_de = new File("WebContent/data/texts_train");
 	KeyValue[] _queriesAndAnswers;
 	String _query, _expectedResult;
 
@@ -83,13 +83,13 @@ public class TestAnalyzer {
 	@Test
 	public void testIt() {
 		String test = URLEncoder.encode(_query);
-		String serverurl = SERVER + test;
-		String result = HTTPConnection.getStringFromURL(serverurl, new SystemOutLogger(), 2000);
+		String serverutl = SERVER + test;
+		String result = HTTPConnection.getStringFromURL(serverutl, new SystemOutLogger(), 2000);
 		String shortA = TestAnalyzer.extractPolarity(result);
 		String log = "result; " + _query + "; " + _expectedResult + "; " + shortA;
 		try {
 			if (_expectedResult.toLowerCase().compareTo(shortA.trim().toLowerCase()) != 0)
-				FileUtil.appendFileContent(new File("wrongTestResults.txt"), log+"\n", "UTF-8");
+				FileUtil.appendFileContent(new File("myOut2.txt"), log+"\n", "UTF-8");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
